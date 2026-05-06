@@ -1,0 +1,952 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语五年级下册",
+        "approvalInfo": "教育部审定2013",
+        "publisher": "人民教育出版社",
+        "order": 6,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2014年10月第1版",
+        "isbn": "978-7-107-29086-2",
+        "coreUnitCount": 6,
+        "fullModuleList": ["Unit 1 My day", "Unit 2 My favourite season", "Unit 3 My school calendar", "Recycle 1", "Unit 4 When is the art show?", "Unit 5 Whose dog is it?", "Unit 6 Work quietly!", "Recycle 2"]
+    },
+    "unitVocabulary": {
+        "Unit 1": [
+            {
+                "word": "eat breakfast",
+                "phonetic": "",
+                "meaning": "吃早饭",
+                "page": "p.5"
+            },
+            {
+                "word": "have … class",
+                "phonetic": "",
+                "meaning": "上……课",
+                "page": "p.5"
+            },
+            {
+                "word": "play sports",
+                "phonetic": "",
+                "meaning": "进行体育运动",
+                "page": "p.5"
+            },
+            {
+                "word": "exercise",
+                "phonetic": "/ˈeksəsaɪz/",
+                "meaning": "活动;运动",
+                "page": "p.5"
+            },
+            {
+                "word": "do morning exercises",
+                "phonetic": "",
+                "meaning": "做早操",
+                "page": "p.5"
+            },
+            {
+                "word": "eat dinner",
+                "phonetic": "",
+                "meaning": "吃晚饭",
+                "page": "p.5"
+            },
+            {
+                "word": "clean my room",
+                "phonetic": "",
+                "meaning": "打扫我的房间",
+                "page": "p.8"
+            },
+            {
+                "word": "go for a walk",
+                "phonetic": "",
+                "meaning": "散步",
+                "page": "p.8"
+            },
+            {
+                "word": "go shopping",
+                "phonetic": "",
+                "meaning": "去买东西;购物",
+                "page": "p.8"
+            },
+            {
+                "word": "take",
+                "phonetic": "/teɪk/",
+                "meaning": "学习;上(课)",
+                "page": "p.8"
+            },
+            {
+                "word": "dancing",
+                "phonetic": "/ˈdɑːnsɪŋ/",
+                "meaning": "跳舞;舞蹈",
+                "page": "p.8"
+            },
+            {
+                "word": "take a dancing class",
+                "phonetic": "",
+                "meaning": "上舞蹈课",
+                "page": "p.8"
+            },
+            {
+                "word": "when",
+                "phonetic": "/wen/",
+                "meaning": "什么时候;何时",
+                "page": "p.4"
+            },
+            {
+                "word": "after",
+                "phonetic": "/ˈɑːftə(r)/",
+                "meaning": "在(时间)后",
+                "page": "p.4"
+            },
+            {
+                "word": "start",
+                "phonetic": "/stɑːt/",
+                "meaning": "开始",
+                "page": "p.4"
+            },
+            {
+                "word": "usually",
+                "phonetic": "/ˈjuːʒuəli/",
+                "meaning": "通常地;惯常地",
+                "page": "p.4"
+            },
+            {
+                "word": "Spain",
+                "phonetic": "/speɪn/",
+                "meaning": "西班牙",
+                "page": "p.4"
+            },
+            {
+                "word": "late",
+                "phonetic": "/leɪt/",
+                "meaning": "晚;迟",
+                "page": "p.4"
+            },
+            {
+                "word": "a.m.",
+                "phonetic": "/ˌeɪˈem/",
+                "meaning": "午前;上午",
+                "page": "p.5"
+            },
+            {
+                "word": "p.m.",
+                "phonetic": "/ˌpiːˈem/",
+                "meaning": "午后;下午",
+                "page": "p.5"
+            },
+            {
+                "word": "why",
+                "phonetic": "/waɪ/",
+                "meaning": "为什么",
+                "page": "p.7"
+            },
+            {
+                "word": "shop",
+                "phonetic": "",
+                "meaning": "去买东西;购物",
+                "page": "p.7"
+            },
+            {
+                "word": "work",
+                "phonetic": "/wɜːk/",
+                "meaning": "工作",
+                "page": "p.7"
+            },
+            {
+                "word": "last",
+                "phonetic": "/lɑːst/",
+                "meaning": "上一个的;刚过去的",
+                "page": "p.7"
+            },
+            {
+                "word": "sound",
+                "phonetic": "/saʊnd/",
+                "meaning": "听起来好像",
+                "page": "p.7"
+            },
+            {
+                "word": "also",
+                "phonetic": "/ˈɔːlsəʊ/",
+                "meaning": "还;也",
+                "page": "p.7"
+            },
+            {
+                "word": "busy",
+                "phonetic": "/ˈbɪzi/",
+                "meaning": "忙的",
+                "page": "p.7"
+            },
+            {
+                "word": "need",
+                "phonetic": "/niːd/",
+                "meaning": "需要",
+                "page": "p.7"
+            },
+            {
+                "word": "play",
+                "phonetic": "/pleɪ/",
+                "meaning": "戏剧;剧本",
+                "page": "p.9"
+            },
+            {
+                "word": "letter",
+                "phonetic": "/ˈletə(r)/",
+                "meaning": "信",
+                "page": "p.9"
+            },
+            {
+                "word": "live",
+                "phonetic": "/lɪv/",
+                "meaning": "居住",
+                "page": "p.9"
+            },
+            {
+                "word": "island",
+                "phonetic": "/ˈaɪlənd/",
+                "meaning": "岛",
+                "page": "p.9"
+            },
+            {
+                "word": "always",
+                "phonetic": "/ˈɔːlweɪz/",
+                "meaning": "总是;一直",
+                "page": "p.9"
+            },
+            {
+                "word": "cave",
+                "phonetic": "/keɪv/",
+                "meaning": "山洞;洞穴",
+                "page": "p.9"
+            },
+            {
+                "word": "go swimming",
+                "phonetic": "",
+                "meaning": "去游泳",
+                "page": "p.9"
+            },
+            {
+                "word": "win",
+                "phonetic": "/wɪn/",
+                "meaning": "获胜",
+                "page": "p.9"
+            }
+        ],
+        "Unit 2": [
+            {
+                "word": "spring",
+                "phonetic": "/sprɪŋ/",
+                "meaning": "春天",
+                "page": "p.15"
+            },
+            {
+                "word": "summer",
+                "phonetic": "/ˈsʌmə(r)/",
+                "meaning": "夏天",
+                "page": "p.15"
+            },
+            {
+                "word": "autumn",
+                "phonetic": "/ˈɔːtəm/",
+                "meaning": "秋天",
+                "page": "p.15"
+            },
+            {
+                "word": "winter",
+                "phonetic": "/ˈwɪntə(r)/",
+                "meaning": "冬天",
+                "page": "p.15"
+            },
+            {
+                "word": "season",
+                "phonetic": "/ˈsiːzn/",
+                "meaning": "季节",
+                "page": "p.15"
+            },
+            {
+                "word": "picnic",
+                "phonetic": "/ˈpɪknɪk/",
+                "meaning": "野餐",
+                "page": "p.18"
+            },
+            {
+                "word": "go on a picnic",
+                "phonetic": "",
+                "meaning": "去野餐",
+                "page": "p.18"
+            },
+            {
+                "word": "pick",
+                "phonetic": "/pɪk/",
+                "meaning": "摘;采集",
+                "page": "p.18"
+            },
+            {
+                "word": "pick apples",
+                "phonetic": "",
+                "meaning": "摘苹果",
+                "page": "p.18"
+            },
+            {
+                "word": "snowman",
+                "phonetic": "/ˈsnəʊmæn/",
+                "meaning": "雪人",
+                "page": "p.18"
+            },
+            {
+                "word": "make a snowman",
+                "phonetic": "",
+                "meaning": "堆雪人",
+                "page": "p.18"
+            },
+            {
+                "word": "go swimming",
+                "phonetic": "",
+                "meaning": "去游泳",
+                "page": "p.18"
+            },
+            {
+                "word": "which",
+                "phonetic": "/wɪtʃ/",
+                "meaning": "哪一个",
+                "page": "p.14"
+            },
+            {
+                "word": "best",
+                "phonetic": "/best/",
+                "meaning": "最;最高程度地",
+                "page": "p.14"
+            },
+            {
+                "word": "snow",
+                "phonetic": "/snəʊ/",
+                "meaning": "雪",
+                "page": "p.14"
+            },
+            {
+                "word": "good job",
+                "phonetic": "",
+                "meaning": "做得好",
+                "page": "p.17"
+            },
+            {
+                "word": "because",
+                "phonetic": "/bɪˈkɒz/",
+                "meaning": "因为",
+                "page": "p.17"
+            },
+            {
+                "word": "vacation",
+                "phonetic": "/veɪˈkeɪʃn/",
+                "meaning": "假期",
+                "page": "p.17"
+            },
+            {
+                "word": "all",
+                "phonetic": "/ɔːl/",
+                "meaning": "全;完全",
+                "page": "p.19"
+            },
+            {
+                "word": "pink",
+                "phonetic": "/pɪŋk/",
+                "meaning": "粉色;粉色的",
+                "page": "p.19"
+            },
+            {
+                "word": "lovely",
+                "phonetic": "/ˈlʌvli/",
+                "meaning": "可爱的;美丽的",
+                "page": "p.19"
+            },
+            {
+                "word": "leaf",
+                "phonetic": "/liːf/",
+                "meaning": "叶子(复数 leaves /liːvz/)",
+                "page": "p.19"
+            },
+            {
+                "word": "fall",
+                "phonetic": "/fɔːl/",
+                "meaning": "落下;【美】秋天",
+                "page": "p.19"
+            },
+            {
+                "word": "paint",
+                "phonetic": "/peɪnt/",
+                "meaning": "用颜料绘画",
+                "page": "p.19"
+            }
+        ],
+        "Unit 3": [
+            {
+                "word": "January",
+                "phonetic": "/ˈdʒænjuəri/",
+                "meaning": "一月",
+                "page": "p.25"
+            },
+            {
+                "word": "February",
+                "phonetic": "/ˈfebruəri/",
+                "meaning": "二月",
+                "page": "p.25"
+            },
+            {
+                "word": "March",
+                "phonetic": "/mɑːtʃ/",
+                "meaning": "三月",
+                "page": "p.25"
+            },
+            {
+                "word": "April",
+                "phonetic": "/ˈeɪprəl/",
+                "meaning": "四月",
+                "page": "p.25"
+            },
+            {
+                "word": "May",
+                "phonetic": "/meɪ/",
+                "meaning": "五月",
+                "page": "p.25"
+            },
+            {
+                "word": "June",
+                "phonetic": "/dʒuːn/",
+                "meaning": "六月",
+                "page": "p.25"
+            },
+            {
+                "word": "July",
+                "phonetic": "/dʒuˈlaɪ/",
+                "meaning": "七月",
+                "page": "p.28"
+            },
+            {
+                "word": "August",
+                "phonetic": "/ˈɔːɡəst/",
+                "meaning": "八月",
+                "page": "p.28"
+            },
+            {
+                "word": "September",
+                "phonetic": "/sepˈtembə(r)/",
+                "meaning": "九月",
+                "page": "p.28"
+            },
+            {
+                "word": "October",
+                "phonetic": "/ɒkˈtəʊbə(r)/",
+                "meaning": "十月",
+                "page": "p.28"
+            },
+            {
+                "word": "November",
+                "phonetic": "/nəʊˈvembə(r)/",
+                "meaning": "十一月",
+                "page": "p.28"
+            },
+            {
+                "word": "December",
+                "phonetic": "/dɪˈsembə(r)/",
+                "meaning": "十二月",
+                "page": "p.28"
+            },
+            {
+                "word": "few",
+                "phonetic": "/fjuː/",
+                "meaning": "不多;很少",
+                "page": "p.24"
+            },
+            {
+                "word": "a few",
+                "phonetic": "",
+                "meaning": "一些",
+                "page": "p.24"
+            },
+            {
+                "word": "thing",
+                "phonetic": "/θɪŋ/",
+                "meaning": "事情",
+                "page": "p.24"
+            },
+            {
+                "word": "meet",
+                "phonetic": "/miːt/",
+                "meaning": "集会;开会",
+                "page": "p.24"
+            },
+            {
+                "word": "sports meet",
+                "phonetic": "",
+                "meaning": "运动会",
+                "page": "p.24"
+            },
+            {
+                "word": "trip",
+                "phonetic": "/trɪp/",
+                "meaning": "旅行",
+                "page": "p.24"
+            },
+            {
+                "word": "year",
+                "phonetic": "/jɪə(r)/",
+                "meaning": "年",
+                "page": "p.25"
+            },
+            {
+                "word": "plant",
+                "phonetic": "/plɑːnt/",
+                "meaning": "种植",
+                "page": "p.25"
+            },
+            {
+                "word": "contest",
+                "phonetic": "/ˈkɒntest/",
+                "meaning": "比赛;竞赛",
+                "page": "p.25"
+            },
+            {
+                "word": "the Great Wall",
+                "phonetic": "",
+                "meaning": "长城",
+                "page": "p.27"
+            },
+            {
+                "word": "national",
+                "phonetic": "/ˈnæʃnəl/",
+                "meaning": "国家的",
+                "page": "p.28"
+            },
+            {
+                "word": "National Day",
+                "phonetic": "",
+                "meaning": "国庆日",
+                "page": "p.28"
+            },
+            {
+                "word": "American",
+                "phonetic": "/əˈmerɪkən/",
+                "meaning": "美国的",
+                "page": "p.28"
+            },
+            {
+                "word": "Thanksgiving",
+                "phonetic": "/ˌθæŋksˈɡɪvɪŋ/",
+                "meaning": "感恩节",
+                "page": "p.28"
+            },
+            {
+                "word": "Christmas",
+                "phonetic": "/ˈkrɪsməs/",
+                "meaning": "圣诞节",
+                "page": "p.28"
+            },
+            {
+                "word": "game",
+                "phonetic": "/ɡeɪm/",
+                "meaning": "游戏",
+                "page": "p.29"
+            },
+            {
+                "word": "riddle",
+                "phonetic": "/ˈrɪdl/",
+                "meaning": "谜;谜语",
+                "page": "p.29"
+            },
+            {
+                "word": "act",
+                "phonetic": "/ækt/",
+                "meaning": "扮演",
+                "page": "p.29"
+            },
+            {
+                "word": "act out",
+                "phonetic": "",
+                "meaning": "把……表演出来",
+                "page": "p.29"
+            },
+            {
+                "word": "RSVP",
+                "phonetic": "",
+                "meaning": "(尤用于请柬)请赐复",
+                "page": "p.29"
+            },
+            {
+                "word": "by",
+                "phonetic": "/baɪ/",
+                "meaning": "在……之前",
+                "page": "p.29"
+            }
+        ],
+        "Unit 4": [
+            {
+                "word": "first (1st)",
+                "phonetic": "/fɜːst/",
+                "meaning": "第一(的)",
+                "page": "p.39"
+            },
+            {
+                "word": "second (2nd)",
+                "phonetic": "/ˈsekənd/",
+                "meaning": "第二(的)",
+                "page": "p.39"
+            },
+            {
+                "word": "third (3rd)",
+                "phonetic": "/θɜːd/",
+                "meaning": "第三(的)",
+                "page": "p.39"
+            },
+            {
+                "word": "fourth (4th)",
+                "phonetic": "/fɔːθ/",
+                "meaning": "第四(的)",
+                "page": "p.39"
+            },
+            {
+                "word": "fifth (5th)",
+                "phonetic": "/fɪfθ/",
+                "meaning": "第五(的)",
+                "page": "p.39"
+            },
+            {
+                "word": "twelfth (12th)",
+                "phonetic": "/twelfθ/",
+                "meaning": "第十二(的)",
+                "page": "p.42"
+            },
+            {
+                "word": "twentieth (20th)",
+                "phonetic": "/ˈtwentiəθ/",
+                "meaning": "第二十(的)",
+                "page": "p.42"
+            },
+            {
+                "word": "twenty-first (21st)",
+                "phonetic": "/ˌtwentiˈfɜːst/",
+                "meaning": "第二十一(的)",
+                "page": "p.42"
+            },
+            {
+                "word": "twenty-third (23rd)",
+                "phonetic": "/ˌtwentiˈθɜːd/",
+                "meaning": "第二十三(的)",
+                "page": "p.42"
+            },
+            {
+                "word": "thirtieth (30th)",
+                "phonetic": "/ˈθɜːtiəθ/",
+                "meaning": "第三十(的)",
+                "page": "p.42"
+            },
+            {
+                "word": "other",
+                "phonetic": "/ˈʌðə(r)/",
+                "meaning": "其他",
+                "page": "p.38"
+            },
+            {
+                "word": "special",
+                "phonetic": "/ˈspeʃl/",
+                "meaning": "特殊的;特别的",
+                "page": "p.38"
+            },
+            {
+                "word": "show",
+                "phonetic": "/ʃəʊ/",
+                "meaning": "展览",
+                "page": "p.38"
+            },
+            {
+                "word": "festival",
+                "phonetic": "/ˈfestɪvl/",
+                "meaning": "节日",
+                "page": "p.38"
+            },
+            {
+                "word": "kitten",
+                "phonetic": "/ˈkɪtn/",
+                "meaning": "小猫",
+                "page": "p.43"
+            },
+            {
+                "word": "diary",
+                "phonetic": "/ˈdaɪəri/",
+                "meaning": "日记",
+                "page": "p.43"
+            },
+            {
+                "word": "still",
+                "phonetic": "/stɪl/",
+                "meaning": "仍然;依旧;还是",
+                "page": "p.43"
+            },
+            {
+                "word": "noise",
+                "phonetic": "/nɔɪz/",
+                "meaning": "声音;响声;噪音",
+                "page": "p.43"
+            },
+            {
+                "word": "fur",
+                "phonetic": "/fɜː(r)/",
+                "meaning": "(某些动物的)浓密的软毛",
+                "page": "p.43"
+            },
+            {
+                "word": "open",
+                "phonetic": "/ˈəʊpən/",
+                "meaning": "开着的",
+                "page": "p.43"
+            },
+            {
+                "word": "walk",
+                "phonetic": "/wɔːk/",
+                "meaning": "行走",
+                "page": "p.43"
+            }
+        ],
+        "Unit 5": [
+            {
+                "word": "mine",
+                "phonetic": "/maɪn/",
+                "meaning": "我的",
+                "page": "p.49"
+            },
+            {
+                "word": "yours",
+                "phonetic": "/jɔːz/",
+                "meaning": "你(们)的",
+                "page": "p.49"
+            },
+            {
+                "word": "his",
+                "phonetic": "/hɪz/",
+                "meaning": "他的",
+                "page": "p.49"
+            },
+            {
+                "word": "hers",
+                "phonetic": "/hɜːz/",
+                "meaning": "她的",
+                "page": "p.49"
+            },
+            {
+                "word": "theirs",
+                "phonetic": "/ðeəz/",
+                "meaning": "他们的;她们的;它们的",
+                "page": "p.49"
+            },
+            {
+                "word": "ours",
+                "phonetic": "/aʊz; ˈaʊəz/",
+                "meaning": "我们的",
+                "page": "p.49"
+            },
+            {
+                "word": "climbing",
+                "phonetic": "/ˈklaɪmɪŋ/",
+                "meaning": "(climb的-ing形式)(正在)攀登;攀爬",
+                "page": "p.52"
+            },
+            {
+                "word": "eating",
+                "phonetic": "/ˈiːtɪŋ/",
+                "meaning": "(eat的-ing形式)(正在)吃",
+                "page": "p.52"
+            },
+            {
+                "word": "playing",
+                "phonetic": "/ˈpleɪɪŋ/",
+                "meaning": "(play的-ing形式)(正在)玩耍",
+                "page": "p.52"
+            },
+            {
+                "word": "jumping",
+                "phonetic": "/ˈdʒʌmpɪŋ/",
+                "meaning": "(jump的-ing形式)(正在)跳",
+                "page": "p.52"
+            },
+            {
+                "word": "drinking",
+                "phonetic": "/ˈdrɪŋkɪŋ/",
+                "meaning": "(drink的-ing形式)(正在)喝(水)",
+                "page": "p.52"
+            },
+            {
+                "word": "sleeping",
+                "phonetic": "/ˈsliːpɪŋ/",
+                "meaning": "(sleep的-ing形式)(正在)睡觉",
+                "page": "p.52"
+            },
+            {
+                "word": "each",
+                "phonetic": "/iːtʃ/",
+                "meaning": "每一;各个",
+                "page": "p.52"
+            },
+            {
+                "word": "each other",
+                "phonetic": "",
+                "meaning": "相互",
+                "page": "p.52"
+            },
+            {
+                "word": "excited",
+                "phonetic": "/ɪkˈsaɪtɪd/",
+                "meaning": "兴奋的;激动的",
+                "page": "p.53"
+            },
+            {
+                "word": "like",
+                "phonetic": "/laɪk/",
+                "meaning": "像……那样",
+                "page": "p.53"
+            }
+        ],
+        "Unit 6": [
+            {
+                "word": "doing morning exercises",
+                "phonetic": "",
+                "meaning": "(正在)做早操",
+                "page": "p.59"
+            },
+            {
+                "word": "having … class",
+                "phonetic": "",
+                "meaning": "(正在)上……课",
+                "page": "p.59"
+            },
+            {
+                "word": "eating lunch",
+                "phonetic": "",
+                "meaning": "(正在)吃午饭",
+                "page": "p.59"
+            },
+            {
+                "word": "reading a book",
+                "phonetic": "",
+                "meaning": "(正在)看书",
+                "page": "p.59"
+            },
+            {
+                "word": "listening to music",
+                "phonetic": "",
+                "meaning": "(正在)听音乐",
+                "page": "p.59"
+            },
+            {
+                "word": "keep",
+                "phonetic": "/kiːp/",
+                "meaning": "保持某种状态",
+                "page": "p.62"
+            },
+            {
+                "word": "keep to the right",
+                "phonetic": "",
+                "meaning": "靠右",
+                "page": "p.62"
+            },
+            {
+                "word": "keep your desk clean",
+                "phonetic": "",
+                "meaning": "保持你的课桌干净",
+                "page": "p.62"
+            },
+            {
+                "word": "talk quietly",
+                "phonetic": "",
+                "meaning": "小声讲话",
+                "page": "p.62"
+            },
+            {
+                "word": "turn",
+                "phonetic": "/tɜːn/",
+                "meaning": "顺序",
+                "page": "p.62"
+            },
+            {
+                "word": "take turns",
+                "phonetic": "",
+                "meaning": "按顺序来",
+                "page": "p.62"
+            },
+            {
+                "word": "bamboo",
+                "phonetic": "/ˌbæmˈbuː/",
+                "meaning": "竹子",
+                "page": "p.58"
+            },
+            {
+                "word": "its",
+                "phonetic": "/ɪts/",
+                "meaning": "(指事物、动物或幼儿)它的;他的;她的",
+                "page": "p.58"
+            },
+            {
+                "word": "show",
+                "phonetic": "/ʃəʊ/",
+                "meaning": "给人看",
+                "page": "p.61"
+            },
+            {
+                "word": "anything",
+                "phonetic": "/ˈeniθɪŋ/",
+                "meaning": "任何事物",
+                "page": "p.61"
+            },
+            {
+                "word": "else",
+                "phonetic": "/els/",
+                "meaning": "另外;其他",
+                "page": "p.61"
+            },
+            {
+                "word": "exhibition",
+                "phonetic": "/ˌeksɪˈbɪʃn/",
+                "meaning": "展览",
+                "page": "p.63"
+            },
+            {
+                "word": "say",
+                "phonetic": "/seɪ/",
+                "meaning": "说;讲",
+                "page": "p.63"
+            },
+            {
+                "word": "have a look",
+                "phonetic": "",
+                "meaning": "看一看",
+                "page": "p.63"
+            },
+            {
+                "word": "sushi",
+                "phonetic": "/ˈsuːʃi/",
+                "meaning": "寿司",
+                "page": "p.63"
+            },
+            {
+                "word": "teach",
+                "phonetic": "/tiːtʃ/",
+                "meaning": "教",
+                "page": "p.63"
+            },
+            {
+                "word": "sure",
+                "phonetic": "/ʃʊə(r)/",
+                "meaning": "(表示同意)当然",
+                "page": "p.63"
+            },
+            {
+                "word": "Canadian",
+                "phonetic": "/kəˈneɪdiən/",
+                "meaning": "加拿大的",
+                "page": "p.63"
+            },
+            {
+                "word": "Spanish",
+                "phonetic": "/ˈspænɪʃ/",
+                "meaning": "西班牙的",
+                "page": "p.63"
+            }
+        ]
+    }
+}

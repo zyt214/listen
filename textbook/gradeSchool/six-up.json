@@ -1,0 +1,911 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语六年级上册",
+        "approvalInfo": "教育部审定2013",
+        "award": "全国优秀教材二等奖",
+        "publisher": "人民教育出版社",
+        "order": 7,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2014年10月第1版",
+        "isbn": "978-7-107-29086-2",
+        "coreUnitCount": 6,
+        "fullModuleList": ["Unit 1 How can I get there?", "Unit 2 Ways to go to school", "Unit 3 My weekend plan", "Recycle 1", "Unit 4 I have a pen pal", "Unit 5 What does he do?", "Unit 6 How do you feel?", "Recycle 2"]
+    },
+    "unitVocabulary": {
+        "Unit 1": [
+            {
+                "word": "science",
+                "phonetic": "/ˈsaɪəns/",
+                "meaning": "科学",
+                "page": "p.5"
+            },
+            {
+                "word": "museum",
+                "phonetic": "/mjuˈziːəm/",
+                "meaning": "博物馆",
+                "page": "p.5"
+            },
+            {
+                "word": "post office",
+                "phonetic": "/ˈpəʊst ˈɒfɪs/",
+                "meaning": "邮局",
+                "page": "p.5"
+            },
+            {
+                "word": "bookstore",
+                "phonetic": "/ˈbʊkstɔː(r)/",
+                "meaning": "书店",
+                "page": "p.5"
+            },
+            {
+                "word": "cinema",
+                "phonetic": "/ˈsɪnəmə/",
+                "meaning": "电影院",
+                "page": "p.5"
+            },
+            {
+                "word": "hospital",
+                "phonetic": "/ˈhɒspɪtl/",
+                "meaning": "医院",
+                "page": "p.5"
+            },
+            {
+                "word": "crossing",
+                "phonetic": "/ˈkrɒsɪŋ/",
+                "meaning": "十字路口",
+                "page": "p.7"
+            },
+            {
+                "word": "turn",
+                "phonetic": "/tɜːn/",
+                "meaning": "转弯",
+                "page": "p.7"
+            },
+            {
+                "word": "left",
+                "phonetic": "/left/",
+                "meaning": "左",
+                "page": "p.7"
+            },
+            {
+                "word": "straight",
+                "phonetic": "/streɪt/",
+                "meaning": "笔直地",
+                "page": "p.7"
+            },
+            {
+                "word": "right",
+                "phonetic": "/raɪt/",
+                "meaning": "右",
+                "page": "p.7"
+            },
+            {
+                "word": "ask",
+                "phonetic": "/ɑːsk/",
+                "meaning": "问",
+                "page": "p.4"
+            },
+            {
+                "word": "sir",
+                "phonetic": "/sɜː(r)/",
+                "meaning": "(对男子的礼貌称呼)先生",
+                "page": "p.4"
+            },
+            {
+                "word": "interesting",
+                "phonetic": "/ˈɪntrəstɪŋ/",
+                "meaning": "有趣的",
+                "page": "p.6"
+            },
+            {
+                "word": "Italian",
+                "phonetic": "/ɪˈtæliən/",
+                "meaning": "意大利的",
+                "page": "p.6"
+            },
+            {
+                "word": "restaurant",
+                "phonetic": "/ˈrestrɒnt/",
+                "meaning": "餐馆",
+                "page": "p.6"
+            },
+            {
+                "word": "pizza",
+                "phonetic": "/ˈpiːtsə/",
+                "meaning": "比萨饼",
+                "page": "p.6"
+            },
+            {
+                "word": "street",
+                "phonetic": "/striːt/",
+                "meaning": "大街;街道",
+                "page": "p.6"
+            },
+            {
+                "word": "get",
+                "phonetic": "/ɡet/",
+                "meaning": "到达",
+                "page": "p.6"
+            },
+            {
+                "word": "BDS",
+                "phonetic": "",
+                "meaning": "北斗卫星导航系统",
+                "page": "p.8"
+            },
+            {
+                "word": "gave",
+                "phonetic": "/ɡeɪv/",
+                "meaning": "(give 的过去式)提供;交给",
+                "page": "p.8"
+            },
+            {
+                "word": "feature",
+                "phonetic": "/ˈfiːtʃə(r)/",
+                "meaning": "特点",
+                "page": "p.8"
+            },
+            {
+                "word": "follow",
+                "phonetic": "/ˈfɒləʊ/",
+                "meaning": "跟着",
+                "page": "p.8"
+            },
+            {
+                "word": "far",
+                "phonetic": "/fɑː(r)/",
+                "meaning": "远的",
+                "page": "p.8"
+            },
+            {
+                "word": "tell",
+                "phonetic": "/tel/",
+                "meaning": "告诉",
+                "page": "p.8"
+            }
+        ],
+        "Unit 2": [
+            {
+                "word": "on foot",
+                "phonetic": "",
+                "meaning": "步行",
+                "page": "p.15"
+            },
+            {
+                "word": "by",
+                "phonetic": "/baɪ/",
+                "meaning": "(表示方式)乘",
+                "page": "p.15"
+            },
+            {
+                "word": "bus",
+                "phonetic": "/bʌs/",
+                "meaning": "公共汽车",
+                "page": "p.15"
+            },
+            {
+                "word": "plane",
+                "phonetic": "/pleɪn/",
+                "meaning": "飞机",
+                "page": "p.15"
+            },
+            {
+                "word": "taxi",
+                "phonetic": "/ˈtæksi/",
+                "meaning": "出租汽车",
+                "page": "p.15"
+            },
+            {
+                "word": "ship",
+                "phonetic": "/ʃɪp/",
+                "meaning": "(大)船",
+                "page": "p.15"
+            },
+            {
+                "word": "subway",
+                "phonetic": "/ˈsʌbweɪ/",
+                "meaning": "地铁",
+                "page": "p.15"
+            },
+            {
+                "word": "train",
+                "phonetic": "/treɪn/",
+                "meaning": "火车",
+                "page": "p.15"
+            },
+            {
+                "word": "slow",
+                "phonetic": "/sləʊ/",
+                "meaning": "(使)放慢速度;慢的",
+                "page": "p.17"
+            },
+            {
+                "word": "down",
+                "phonetic": "/daʊn/",
+                "meaning": "减少;降低",
+                "page": "p.17"
+            },
+            {
+                "word": "slow down",
+                "phonetic": "",
+                "meaning": "慢下来",
+                "page": "p.17"
+            },
+            {
+                "word": "stop",
+                "phonetic": "/stɒp/",
+                "meaning": "停下",
+                "page": "p.17"
+            },
+            {
+                "word": "Mrs",
+                "phonetic": "/ˈmɪsɪz/",
+                "meaning": "夫人",
+                "page": "p.14"
+            },
+            {
+                "word": "early",
+                "phonetic": "/ˈɜːli/",
+                "meaning": "早到的",
+                "page": "p.14"
+            },
+            {
+                "word": "helmet",
+                "phonetic": "/ˈhelmɪt/",
+                "meaning": "头盔",
+                "page": "p.16"
+            },
+            {
+                "word": "must",
+                "phonetic": "/mʌst; məst/",
+                "meaning": "必须",
+                "page": "p.16"
+            },
+            {
+                "word": "wear",
+                "phonetic": "/weə(r)/",
+                "meaning": "戴",
+                "page": "p.16"
+            },
+            {
+                "word": "attention",
+                "phonetic": "/əˈtenʃn/",
+                "meaning": "注意",
+                "page": "p.16"
+            },
+            {
+                "word": "pay attention to",
+                "phonetic": "",
+                "meaning": "注意",
+                "page": "p.16"
+            },
+            {
+                "word": "traffic",
+                "phonetic": "/ˈtræfɪk/",
+                "meaning": "交通",
+                "page": "p.16"
+            },
+            {
+                "word": "traffic lights",
+                "phonetic": "",
+                "meaning": "交通信号灯",
+                "page": "p.16"
+            },
+            {
+                "word": "Munich",
+                "phonetic": "/ˈmjuːnɪk/",
+                "meaning": "慕尼黑(德国城市)",
+                "page": "p.18"
+            },
+            {
+                "word": "Germany",
+                "phonetic": "/ˈdʒɜːməni/",
+                "meaning": "德国",
+                "page": "p.18"
+            },
+            {
+                "word": "Alaska",
+                "phonetic": "/əˈlæskə/",
+                "meaning": "阿拉斯加州(美国州名)",
+                "page": "p.18"
+            },
+            {
+                "word": "sled",
+                "phonetic": "/sled/",
+                "meaning": "雪橇",
+                "page": "p.18"
+            },
+            {
+                "word": "fast",
+                "phonetic": "/fɑːst/",
+                "meaning": "快",
+                "page": "p.18"
+            },
+            {
+                "word": "ferry",
+                "phonetic": "/ˈferi/",
+                "meaning": "轮渡",
+                "page": "p.18"
+            },
+            {
+                "word": "Papa Westray",
+                "phonetic": "/ˌpɑːpə ˈwestreɪ/",
+                "meaning": "帕帕韦斯特雷岛",
+                "page": "p.18"
+            },
+            {
+                "word": "Scotland",
+                "phonetic": "/ˈskɒtlənd/",
+                "meaning": "苏格兰",
+                "page": "p.18"
+            }
+        ],
+        "Unit 3": [
+            {
+                "word": "visit",
+                "phonetic": "/ˈvɪzɪt/",
+                "meaning": "拜访",
+                "page": "p.25"
+            },
+            {
+                "word": "film",
+                "phonetic": "/fɪlm/",
+                "meaning": "电影",
+                "page": "p.25"
+            },
+            {
+                "word": "see a film",
+                "phonetic": "",
+                "meaning": "看电影",
+                "page": "p.25"
+            },
+            {
+                "word": "trip",
+                "phonetic": "/trɪp/",
+                "meaning": "旅行",
+                "page": "p.25"
+            },
+            {
+                "word": "take a trip",
+                "phonetic": "",
+                "meaning": "去旅行",
+                "page": "p.25"
+            },
+            {
+                "word": "supermarket",
+                "phonetic": "/ˈsuːpəmɑːkɪt/",
+                "meaning": "超市",
+                "page": "p.25"
+            },
+            {
+                "word": "evening",
+                "phonetic": "/ˈiːvnɪŋ/",
+                "meaning": "晚上;傍晚",
+                "page": "p.25"
+            },
+            {
+                "word": "tonight",
+                "phonetic": "/təˈnaɪt/",
+                "meaning": "在今晚",
+                "page": "p.25"
+            },
+            {
+                "word": "tomorrow",
+                "phonetic": "/təˈmɒrəʊ/",
+                "meaning": "明天",
+                "page": "p.25"
+            },
+            {
+                "word": "next week",
+                "phonetic": "",
+                "meaning": "下周",
+                "page": "p.25"
+            },
+            {
+                "word": "dictionary",
+                "phonetic": "/ˈdɪkʃənri/",
+                "meaning": "词典",
+                "page": "p.27"
+            },
+            {
+                "word": "comic",
+                "phonetic": "/ˈkɒmɪk/",
+                "meaning": "滑稽的",
+                "page": "p.27"
+            },
+            {
+                "word": "comic book",
+                "phonetic": "",
+                "meaning": "(儿童的)连环画册",
+                "page": "p.27"
+            },
+            {
+                "word": "word",
+                "phonetic": "/wɜːd/",
+                "meaning": "单词",
+                "page": "p.27"
+            },
+            {
+                "word": "word book",
+                "phonetic": "",
+                "meaning": "单词书",
+                "page": "p.27"
+            },
+            {
+                "word": "postcard",
+                "phonetic": "/ˈpəʊstkɑːd/",
+                "meaning": "明信片",
+                "page": "p.27"
+            },
+            {
+                "word": "lesson",
+                "phonetic": "/ˈlesn/",
+                "meaning": "课",
+                "page": "p.24"
+            },
+            {
+                "word": "space",
+                "phonetic": "/speɪs/",
+                "meaning": "太空",
+                "page": "p.26"
+            },
+            {
+                "word": "travel",
+                "phonetic": "/ˈtrævl/",
+                "meaning": "(尤指长途)旅行",
+                "page": "p.26"
+            },
+            {
+                "word": "half",
+                "phonetic": "/hɑːf/",
+                "meaning": "一半",
+                "page": "p.26"
+            },
+            {
+                "word": "price",
+                "phonetic": "/praɪs/",
+                "meaning": "价格",
+                "page": "p.26"
+            },
+            {
+                "word": "Mid-Autumn Festival",
+                "phonetic": "/ˈmɪd ˈɔːtəm ˈfestɪvl/",
+                "meaning": "中秋节",
+                "page": "p.28"
+            },
+            {
+                "word": "together",
+                "phonetic": "/təˈɡeðə(r)/",
+                "meaning": "一起",
+                "page": "p.28"
+            },
+            {
+                "word": "get together",
+                "phonetic": "",
+                "meaning": "聚会",
+                "page": "p.28"
+            },
+            {
+                "word": "mooncake",
+                "phonetic": "",
+                "meaning": "月饼",
+                "page": "p.28"
+            },
+            {
+                "word": "poem",
+                "phonetic": "/ˈpəʊɪm/",
+                "meaning": "诗",
+                "page": "p.28"
+            },
+            {
+                "word": "moon",
+                "phonetic": "/muːn/",
+                "meaning": "月亮",
+                "page": "p.28"
+            }
+        ],
+        "Unit 4": [
+            {
+                "word": "studies",
+                "phonetic": "/ˈstʌdɪz/",
+                "meaning": "(study 的第三人称单数形式)学习",
+                "page": "p.41"
+            },
+            {
+                "word": "puzzle",
+                "phonetic": "/ˈpʌzl/",
+                "meaning": "谜",
+                "page": "p.41"
+            },
+            {
+                "word": "hiking",
+                "phonetic": "/ˈhaɪkɪŋ/",
+                "meaning": "远足",
+                "page": "p.41"
+            },
+            {
+                "word": "pen pal",
+                "phonetic": "/ˈpen pæl/",
+                "meaning": "笔友",
+                "page": "p.38"
+            },
+            {
+                "word": "hobby",
+                "phonetic": "/ˈhɒbi/",
+                "meaning": "业余爱好",
+                "page": "p.38"
+            },
+            {
+                "word": "jasmine",
+                "phonetic": "/ˈdʒæzmɪn/",
+                "meaning": "茉莉",
+                "page": "p.38"
+            },
+            {
+                "word": "idea",
+                "phonetic": "/aɪˈdɪə/",
+                "meaning": "想法;主意",
+                "page": "p.38"
+            },
+            {
+                "word": "Canberra",
+                "phonetic": "/ˈkænbərə/",
+                "meaning": "堪培拉(澳大利亚首都)",
+                "page": "p.40"
+            },
+            {
+                "word": "amazing",
+                "phonetic": "/əˈmeɪzɪŋ/",
+                "meaning": "令人惊奇的",
+                "page": "p.40"
+            },
+            {
+                "word": "shall",
+                "phonetic": "/ʃəl; ʃæl/",
+                "meaning": "表示征求意见",
+                "page": "p.42"
+            },
+            {
+                "word": "goal",
+                "phonetic": "/ɡəʊl/",
+                "meaning": "射门",
+                "page": "p.42"
+            },
+            {
+                "word": "join",
+                "phonetic": "/dʒɔɪn/",
+                "meaning": "加入",
+                "page": "p.42"
+            },
+            {
+                "word": "club",
+                "phonetic": "/klʌb/",
+                "meaning": "俱乐部",
+                "page": "p.42"
+            },
+            {
+                "word": "share",
+                "phonetic": "/ʃeə(r)/",
+                "meaning": "分享",
+                "page": "p.42"
+            }
+        ],
+        "Unit 5": [
+            {
+                "word": "factory",
+                "phonetic": "/ˈfæktri/",
+                "meaning": "工厂",
+                "page": "p.49"
+            },
+            {
+                "word": "worker",
+                "phonetic": "/ˈwɜːkə(r)/",
+                "meaning": "工人",
+                "page": "p.49"
+            },
+            {
+                "word": "postman",
+                "phonetic": "/ˈpəʊstmən/",
+                "meaning": "邮递员",
+                "page": "p.49"
+            },
+            {
+                "word": "businessman",
+                "phonetic": "/ˈbɪznəsmæn/",
+                "meaning": "商人;企业家",
+                "page": "p.49"
+            },
+            {
+                "word": "police officer",
+                "phonetic": "/pəˈliːs ˈɒfɪsə(r)/",
+                "meaning": "警察",
+                "page": "p.49"
+            },
+            {
+                "word": "fisherman",
+                "phonetic": "/ˈfɪʃəmən/",
+                "meaning": "渔民",
+                "page": "p.51"
+            },
+            {
+                "word": "scientist",
+                "phonetic": "/ˈsaɪəntɪst/",
+                "meaning": "科学家",
+                "page": "p.51"
+            },
+            {
+                "word": "pilot",
+                "phonetic": "/ˈpaɪlət/",
+                "meaning": "飞行员",
+                "page": "p.51"
+            },
+            {
+                "word": "coach",
+                "phonetic": "/kəʊtʃ/",
+                "meaning": "教练",
+                "page": "p.51"
+            },
+            {
+                "word": "country",
+                "phonetic": "/ˈkʌntri/",
+                "meaning": "国家",
+                "page": "p.48"
+            },
+            {
+                "word": "head teacher",
+                "phonetic": "",
+                "meaning": "校长",
+                "page": "p.48"
+            },
+            {
+                "word": "sea",
+                "phonetic": "/siː/",
+                "meaning": "大海",
+                "page": "p.50"
+            },
+            {
+                "word": "stay",
+                "phonetic": "/steɪ/",
+                "meaning": "保持",
+                "page": "p.50"
+            },
+            {
+                "word": "university",
+                "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+                "meaning": "大学",
+                "page": "p.51"
+            },
+            {
+                "word": "gym",
+                "phonetic": "/dʒɪm/",
+                "meaning": "体育馆",
+                "page": "p.52"
+            },
+            {
+                "word": "if",
+                "phonetic": "/ɪf/",
+                "meaning": "如果",
+                "page": "p.52"
+            },
+            {
+                "word": "reporter",
+                "phonetic": "/rɪˈpɔːtə(r)/",
+                "meaning": "记者",
+                "page": "p.52"
+            },
+            {
+                "word": "use",
+                "phonetic": "/juːz/",
+                "meaning": "使用",
+                "page": "p.52"
+            },
+            {
+                "word": "type",
+                "phonetic": "/taɪp/",
+                "meaning": "打字",
+                "page": "p.52"
+            },
+            {
+                "word": "quickly",
+                "phonetic": "/ˈkwɪkli/",
+                "meaning": "迅速地",
+                "page": "p.52"
+            },
+            {
+                "word": "secretary",
+                "phonetic": "/ˈsekrətri/",
+                "meaning": "秘书",
+                "page": "p.52"
+            }
+        ],
+        "Unit 6": [
+            {
+                "word": "angry",
+                "phonetic": "/ˈæŋɡri/",
+                "meaning": "生气的",
+                "page": "p.59"
+            },
+            {
+                "word": "afraid",
+                "phonetic": "/əˈfreɪd/",
+                "meaning": "害怕",
+                "page": "p.59"
+            },
+            {
+                "word": "sad",
+                "phonetic": "/sæd/",
+                "meaning": "难过的",
+                "page": "p.59"
+            },
+            {
+                "word": "worried",
+                "phonetic": "/ˈwʌrid/",
+                "meaning": "担心的;发愁的",
+                "page": "p.59"
+            },
+            {
+                "word": "happy",
+                "phonetic": "/ˈhæpi/",
+                "meaning": "高兴的",
+                "page": "p.59"
+            },
+            {
+                "word": "see a doctor",
+                "phonetic": "",
+                "meaning": "看病",
+                "page": "p.61"
+            },
+            {
+                "word": "wear",
+                "phonetic": "/weə(r)/",
+                "meaning": "穿",
+                "page": "p.61"
+            },
+            {
+                "word": "more",
+                "phonetic": "/mɔː(r)/",
+                "meaning": "更多的",
+                "page": "p.61"
+            },
+            {
+                "word": "deep",
+                "phonetic": "/diːp/",
+                "meaning": "深的",
+                "page": "p.61"
+            },
+            {
+                "word": "breath",
+                "phonetic": "/breθ/",
+                "meaning": "呼吸",
+                "page": "p.61"
+            },
+            {
+                "word": "take a deep breath",
+                "phonetic": "",
+                "meaning": "深深吸一口气",
+                "page": "p.61"
+            },
+            {
+                "word": "count",
+                "phonetic": "/kaʊnt/",
+                "meaning": "数数",
+                "page": "p.61"
+            },
+            {
+                "word": "count to ten",
+                "phonetic": "",
+                "meaning": "数到十",
+                "page": "p.61"
+            },
+            {
+                "word": "chase",
+                "phonetic": "/tʃeɪs/",
+                "meaning": "追赶",
+                "page": "p.58"
+            },
+            {
+                "word": "mice",
+                "phonetic": "/maɪs/",
+                "meaning": "(mouse 的复数)老鼠",
+                "page": "p.58"
+            },
+            {
+                "word": "bad",
+                "phonetic": "/bæd/",
+                "meaning": "邪恶的;坏的",
+                "page": "p.58"
+            },
+            {
+                "word": "hurt",
+                "phonetic": "/hɜːt/",
+                "meaning": "(使)受伤",
+                "page": "p.58"
+            },
+            {
+                "word": "ill",
+                "phonetic": "/ɪl/",
+                "meaning": "有病;不舒服",
+                "page": "p.59"
+            },
+            {
+                "word": "wrong",
+                "phonetic": "/rɒŋ/",
+                "meaning": "有毛病",
+                "page": "p.60"
+            },
+            {
+                "word": "should",
+                "phonetic": "/ʃəd; ʃʊd/",
+                "meaning": "应该",
+                "page": "p.60"
+            },
+            {
+                "word": "feel",
+                "phonetic": "/fiːl/",
+                "meaning": "觉得;感到",
+                "page": "p.60"
+            },
+            {
+                "word": "well",
+                "phonetic": "/wel/",
+                "meaning": "健康;身体好",
+                "page": "p.60"
+            },
+            {
+                "word": "sit",
+                "phonetic": "/sɪt/",
+                "meaning": "坐",
+                "page": "p.62"
+            },
+            {
+                "word": "grass",
+                "phonetic": "/ɡrɑːs/",
+                "meaning": "草坪",
+                "page": "p.62"
+            },
+            {
+                "word": "hear",
+                "phonetic": "/hɪə(r)/",
+                "meaning": "听见",
+                "page": "p.62"
+            },
+            {
+                "word": "ant",
+                "phonetic": "/ænt/",
+                "meaning": "蚂蚁",
+                "page": "p.62"
+            },
+            {
+                "word": "worry",
+                "phonetic": "/ˈwʌri/",
+                "meaning": "担心;担忧",
+                "page": "p.62"
+            },
+            {
+                "word": "stuck",
+                "phonetic": "/stʌk/",
+                "meaning": "陷住;无法移动",
+                "page": "p.62"
+            },
+            {
+                "word": "mud",
+                "phonetic": "/mʌd/",
+                "meaning": "泥",
+                "page": "p.62"
+            },
+            {
+                "word": "pull",
+                "phonetic": "/pʊl/",
+                "meaning": "拉;拽",
+                "page": "p.62"
+            },
+            {
+                "word": "everyone",
+                "phonetic": "/ˈevriwʌn/",
+                "meaning": "每人",
+                "page": "p.62"
+            }
+        ]
+    }
+}

@@ -1,0 +1,653 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语四年级下册",
+        "approvalInfo": "教育部审定2013",
+        "award": "全国优秀教材二等奖",
+        "publisher": "人民教育出版社",
+        "order": 4,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2013年10月第1版",
+        "isbn": "978-7-107-27387-2",
+        "coreUnitCount": 6,
+        "fullModuleList": ["Unit 1 My school", "Unit 2 What time is it?", "Unit 3 Weather", "Recycle 1", "Unit 4 At the farm", "Unit 5 My clothes", "Unit 6 Shopping", "Recycle 2"]
+    },
+    "unitVocabulary": {
+        "Unit 1": [
+            {
+                "word": "first floor",
+                "phonetic": "/fɜːst flɔː(r)/",
+                "meaning": "一楼",
+                "page": "p.5"
+            },
+            {
+                "word": "second floor",
+                "phonetic": "/ˈsekənd flɔː(r)/",
+                "meaning": "二楼",
+                "page": "p.5"
+            },
+            {
+                "word": "teachers' office",
+                "phonetic": "/ˈtiːtʃəz ˈɒfɪs/",
+                "meaning": "教师办公室",
+                "page": "p.5"
+            },
+            {
+                "word": "library",
+                "phonetic": "/ˈlaɪbrəri/",
+                "meaning": "图书馆",
+                "page": "p.5"
+            },
+            {
+                "word": "playground",
+                "phonetic": "/ˈpleɪɡraʊnd/",
+                "meaning": "操场",
+                "page": "p.8"
+            },
+            {
+                "word": "computer room",
+                "phonetic": "/kəmˈpjuːtə(r) ruːm/",
+                "meaning": "计算机房",
+                "page": "p.8"
+            },
+            {
+                "word": "art room",
+                "phonetic": "/ɑːt ruːm/",
+                "meaning": "美术教室",
+                "page": "p.8"
+            },
+            {
+                "word": "music room",
+                "phonetic": "/ˈmjuːzɪk ruːm/",
+                "meaning": "音乐教室",
+                "page": "p.8"
+            },
+            {
+                "word": "next to",
+                "phonetic": "/ˈnekst tu; ˈnekst tə/",
+                "meaning": "紧邻;在……近旁",
+                "page": "p.4"
+            },
+            {
+                "word": "homework",
+                "phonetic": "/ˈhəʊmwɜːk/",
+                "meaning": "作业",
+                "page": "p.4"
+            },
+            {
+                "word": "class",
+                "phonetic": "/klɑːs/",
+                "meaning": "班;班级",
+                "page": "p.7"
+            },
+            {
+                "word": "forty",
+                "phonetic": "/ˈfɔːti/",
+                "meaning": "四十",
+                "page": "p.7"
+            },
+            {
+                "word": "way",
+                "phonetic": "/weɪ/",
+                "meaning": "方向",
+                "page": "p.7"
+            }
+        ],
+        "Unit 2": [
+            {
+                "word": "breakfast",
+                "phonetic": "/ˈbrekfəst/",
+                "meaning": "早餐;早饭",
+                "page": "p.15"
+            },
+            {
+                "word": "English class",
+                "phonetic": "/ˈɪŋɡlɪʃ klɑːs/",
+                "meaning": "英语课",
+                "page": "p.15"
+            },
+            {
+                "word": "lunch",
+                "phonetic": "/lʌntʃ/",
+                "meaning": "午餐;午饭",
+                "page": "p.15"
+            },
+            {
+                "word": "music class",
+                "phonetic": "/ˈmjuːzɪk klɑːs/",
+                "meaning": "音乐课",
+                "page": "p.15"
+            },
+            {
+                "word": "PE class",
+                "phonetic": "/ˌpiː ˈiː klɑːs/",
+                "meaning": "体育课",
+                "page": "p.15"
+            },
+            {
+                "word": "dinner",
+                "phonetic": "/ˈdɪnə(r)/",
+                "meaning": "(中午或晚上吃的)正餐",
+                "page": "p.15"
+            },
+            {
+                "word": "get up",
+                "phonetic": "/ˈɡet ʌp/",
+                "meaning": "起床",
+                "page": "p.18"
+            },
+            {
+                "word": "go to school",
+                "phonetic": "/ɡəʊ tu skuːl/",
+                "meaning": "去上学",
+                "page": "p.18"
+            },
+            {
+                "word": "go home",
+                "phonetic": "/ɡəʊ həʊm/",
+                "meaning": "回家",
+                "page": "p.18"
+            },
+            {
+                "word": "go to bed",
+                "phonetic": "/ɡəʊ tu bed/",
+                "meaning": "上床睡觉",
+                "page": "p.18"
+            },
+            {
+                "word": "over",
+                "phonetic": "/ˈəʊvə(r)/",
+                "meaning": "结束",
+                "page": "p.14"
+            },
+            {
+                "word": "now",
+                "phonetic": "/naʊ/",
+                "meaning": "现在;目前",
+                "page": "p.14"
+            },
+            {
+                "word": "o'clock",
+                "phonetic": "/əˈklɒk/",
+                "meaning": "(表示整点)……点钟",
+                "page": "p.14"
+            },
+            {
+                "word": "kid",
+                "phonetic": "/kɪd/",
+                "meaning": "小孩",
+                "page": "p.14"
+            },
+            {
+                "word": "thirty",
+                "phonetic": "/ˈθɜːti/",
+                "meaning": "三十",
+                "page": "p.17"
+            },
+            {
+                "word": "hurry up",
+                "phonetic": "/ˈhʌri ʌp/",
+                "meaning": "快点",
+                "page": "p.17"
+            },
+            {
+                "word": "come on",
+                "phonetic": "/kʌm ɒn/",
+                "meaning": "快;加油",
+                "page": "p.19"
+            },
+            {
+                "word": "just a minute",
+                "phonetic": "/dʒʌst ə ˈmɪnɪt/",
+                "meaning": "稍等一会儿",
+                "page": "p.19"
+            }
+        ],
+        "Unit 3": [
+            {
+                "word": "cold",
+                "phonetic": "/kəʊld/",
+                "meaning": "寒冷的;冷的",
+                "page": "p.25"
+            },
+            {
+                "word": "cool",
+                "phonetic": "/kuːl/",
+                "meaning": "凉的;凉爽的",
+                "page": "p.25"
+            },
+            {
+                "word": "warm",
+                "phonetic": "/wɔːm/",
+                "meaning": "温暖的;暖和的",
+                "page": "p.25"
+            },
+            {
+                "word": "hot",
+                "phonetic": "/hɒt/",
+                "meaning": "热的;烫的",
+                "page": "p.25"
+            },
+            {
+                "word": "sunny",
+                "phonetic": "/ˈsʌni/",
+                "meaning": "阳光充足的",
+                "page": "p.28"
+            },
+            {
+                "word": "windy",
+                "phonetic": "/ˈwɪndi/",
+                "meaning": "多风的;风大的",
+                "page": "p.28"
+            },
+            {
+                "word": "cloudy",
+                "phonetic": "/ˈklaʊdi/",
+                "meaning": "阴天的;多云的",
+                "page": "p.28"
+            },
+            {
+                "word": "snowy",
+                "phonetic": "/ˈsnəʊi/",
+                "meaning": "下雪(多)的",
+                "page": "p.28"
+            },
+            {
+                "word": "rainy",
+                "phonetic": "/ˈreɪni/",
+                "meaning": "阴雨的;多雨的",
+                "page": "p.28"
+            },
+            {
+                "word": "outside",
+                "phonetic": "/ˌaʊtˈsaɪd/",
+                "meaning": "在户外",
+                "page": "p.24"
+            },
+            {
+                "word": "be careful",
+                "phonetic": "/bi ˈkeəfl/",
+                "meaning": "小心",
+                "page": "p.24"
+            },
+            {
+                "word": "weather",
+                "phonetic": "/ˈweðə(r)/",
+                "meaning": "天气",
+                "page": "p.25"
+            },
+            {
+                "word": "New York",
+                "phonetic": "/njuː ˈjɔːk/",
+                "meaning": "纽约",
+                "page": "p.27"
+            },
+            {
+                "word": "how about …",
+                "phonetic": "/ˈhaʊ əˈbaʊt/",
+                "meaning": "……怎么样?……情况如何?",
+                "page": "p.27"
+            },
+            {
+                "word": "degree",
+                "phonetic": "/dɪˈɡriː/",
+                "meaning": "度;度数",
+                "page": "p.27"
+            },
+            {
+                "word": "world",
+                "phonetic": "/wɜːld/",
+                "meaning": "世界",
+                "page": "p.28"
+            },
+            {
+                "word": "London",
+                "phonetic": "/ˈlʌndən/",
+                "meaning": "伦敦",
+                "page": "p.28"
+            },
+            {
+                "word": "Moscow",
+                "phonetic": "/ˈmɒskəʊ/",
+                "meaning": "莫斯科",
+                "page": "p.28"
+            },
+            {
+                "word": "Singapore",
+                "phonetic": "/ˌsɪŋəˈpɔː(r)/",
+                "meaning": "新加坡(市)",
+                "page": "p.28"
+            },
+            {
+                "word": "Sydney",
+                "phonetic": "/ˈsɪdni/",
+                "meaning": "悉尼",
+                "page": "p.28"
+            },
+            {
+                "word": "fly",
+                "phonetic": "/flaɪ/",
+                "meaning": "放(风筝等)",
+                "page": "p.29"
+            },
+            {
+                "word": "love",
+                "phonetic": "/lʌv/",
+                "meaning": "(写信结尾的热情问候语)爱你的",
+                "page": "p.29"
+            }
+        ],
+        "Unit 4": [
+            {
+                "word": "tomato",
+                "phonetic": "/təˈmɑːtəʊ/",
+                "meaning": "西红柿",
+                "page": "p.39"
+            },
+            {
+                "word": "potato",
+                "phonetic": "/pəˈteɪtəʊ/",
+                "meaning": "马铃薯;土豆",
+                "page": "p.39"
+            },
+            {
+                "word": "carrot",
+                "phonetic": "/ˈkærət/",
+                "meaning": "胡萝卜",
+                "page": "p.39"
+            },
+            {
+                "word": "green beans",
+                "phonetic": "/ɡriːn biːnz/",
+                "meaning": "豆角;四季豆",
+                "page": "p.39"
+            },
+            {
+                "word": "horse",
+                "phonetic": "/hɔːs/",
+                "meaning": "马",
+                "page": "p.42"
+            },
+            {
+                "word": "cow",
+                "phonetic": "/kaʊ/",
+                "meaning": "母牛;奶牛",
+                "page": "p.42"
+            },
+            {
+                "word": "sheep",
+                "phonetic": "/ʃiːp/",
+                "meaning": "羊;绵羊",
+                "page": "p.42"
+            },
+            {
+                "word": "hen",
+                "phonetic": "/hen/",
+                "meaning": "母鸡",
+                "page": "p.42"
+            },
+            {
+                "word": "these",
+                "phonetic": "/ðiːz/",
+                "meaning": "(this 的复数形式)这些",
+                "page": "p.38"
+            },
+            {
+                "word": "those",
+                "phonetic": "/ðəʊz/",
+                "meaning": "(that 的复数形式)那些",
+                "page": "p.41"
+            },
+            {
+                "word": "animal",
+                "phonetic": "/ˈænɪml/",
+                "meaning": "兽;动物",
+                "page": "p.41"
+            },
+            {
+                "word": "goat",
+                "phonetic": "/ɡəʊt/",
+                "meaning": "山羊",
+                "page": "p.43"
+            },
+            {
+                "word": "farm",
+                "phonetic": "/fɑːm/",
+                "meaning": "农场",
+                "page": "p.43"
+            },
+            {
+                "word": "eat",
+                "phonetic": "/iːt/",
+                "meaning": "吃",
+                "page": "p.43"
+            },
+            {
+                "word": "garden",
+                "phonetic": "/ˈɡɑːdn/",
+                "meaning": "花园;菜园",
+                "page": "p.43"
+            },
+            {
+                "word": "yum",
+                "phonetic": "/jʌm/",
+                "meaning": "(表示味道或气味非常好)",
+                "page": "p.38"
+            }
+        ],
+        "Unit 5": [
+            {
+                "word": "clothes",
+                "phonetic": "/kləʊðz/",
+                "meaning": "衣服;服装",
+                "page": "p.49"
+            },
+            {
+                "word": "hat",
+                "phonetic": "/hæt/",
+                "meaning": "(常指带檐的)帽子",
+                "page": "p.49"
+            },
+            {
+                "word": "dress",
+                "phonetic": "/dres/",
+                "meaning": "连衣裙",
+                "page": "p.49"
+            },
+            {
+                "word": "skirt",
+                "phonetic": "/skɜːt/",
+                "meaning": "女裙",
+                "page": "p.49"
+            },
+            {
+                "word": "pants",
+                "phonetic": "/pænts/",
+                "meaning": "裤子",
+                "page": "p.49"
+            },
+            {
+                "word": "coat",
+                "phonetic": "/kəʊt/",
+                "meaning": "外衣;大衣",
+                "page": "p.52"
+            },
+            {
+                "word": "sweater",
+                "phonetic": "/ˈswetə(r)/",
+                "meaning": "毛衣",
+                "page": "p.52"
+            },
+            {
+                "word": "sock",
+                "phonetic": "/sɒk/",
+                "meaning": "短袜",
+                "page": "p.52"
+            },
+            {
+                "word": "shorts",
+                "phonetic": "/ʃɔːts/",
+                "meaning": "短裤",
+                "page": "p.52"
+            },
+            {
+                "word": "jacket",
+                "phonetic": "/ˈdʒækɪt/",
+                "meaning": "夹克衫",
+                "page": "p.52"
+            },
+            {
+                "word": "shirt",
+                "phonetic": "/ʃɜːt/",
+                "meaning": "(尤指男士)衬衫",
+                "page": "p.52"
+            },
+            {
+                "word": "yours",
+                "phonetic": "/jɔːz/",
+                "meaning": "你的;你们的",
+                "page": "p.48"
+            },
+            {
+                "word": "whose",
+                "phonetic": "/huːz/",
+                "meaning": "谁的",
+                "page": "p.51"
+            },
+            {
+                "word": "mine",
+                "phonetic": "/maɪn/",
+                "meaning": "我的",
+                "page": "p.51"
+            },
+            {
+                "word": "pack",
+                "phonetic": "/pæk/",
+                "meaning": "收拾(行李)",
+                "page": "p.53"
+            },
+            {
+                "word": "wait",
+                "phonetic": "/weɪt/",
+                "meaning": "等待",
+                "page": "p.53"
+            }
+        ],
+        "Unit 6": [
+            {
+                "word": "glove",
+                "phonetic": "/ɡlʌv/",
+                "meaning": "(分手指的)手套",
+                "page": "p.59"
+            },
+            {
+                "word": "scarf",
+                "phonetic": "/skɑːf/",
+                "meaning": "围巾;披巾",
+                "page": "p.59"
+            },
+            {
+                "word": "umbrella",
+                "phonetic": "/ʌmˈbrelə/",
+                "meaning": "伞;雨伞",
+                "page": "p.59"
+            },
+            {
+                "word": "sunglasses",
+                "phonetic": "/ˈsʌnɡlɑːsɪz/",
+                "meaning": "太阳镜",
+                "page": "p.59"
+            },
+            {
+                "word": "pretty",
+                "phonetic": "/ˈprɪti/",
+                "meaning": "美观的;精致的",
+                "page": "p.62"
+            },
+            {
+                "word": "expensive",
+                "phonetic": "/ɪkˈspensɪv/",
+                "meaning": "昂贵的;花钱多的",
+                "page": "p.62"
+            },
+            {
+                "word": "cheap",
+                "phonetic": "/tʃiːp/",
+                "meaning": "花钱少的;便宜的",
+                "page": "p.62"
+            },
+            {
+                "word": "nice",
+                "phonetic": "/naɪs/",
+                "meaning": "好的",
+                "page": "p.62"
+            },
+            {
+                "word": "try on",
+                "phonetic": "/traɪ ɒn/",
+                "meaning": "试穿",
+                "page": "p.58"
+            },
+            {
+                "word": "size",
+                "phonetic": "/saɪz/",
+                "meaning": "尺码;号",
+                "page": "p.58"
+            },
+            {
+                "word": "of course",
+                "phonetic": "/əv ˈkɔːs/",
+                "meaning": "当然",
+                "page": "p.58"
+            },
+            {
+                "word": "too",
+                "phonetic": "/tuː/",
+                "meaning": "太;过于",
+                "page": "p.58"
+            },
+            {
+                "word": "just",
+                "phonetic": "/dʒʌst/",
+                "meaning": "正好;恰好",
+                "page": "p.58"
+            },
+            {
+                "word": "how much",
+                "phonetic": "/haʊ mʌtʃ/",
+                "meaning": "多少钱",
+                "page": "p.61"
+            },
+            {
+                "word": "eighty",
+                "phonetic": "/ˈeɪti/",
+                "meaning": "八十",
+                "page": "p.61"
+            },
+            {
+                "word": "dollar",
+                "phonetic": "/ˈdɒlə(r)/",
+                "meaning": "元(美国、加拿大等国的货币单位)",
+                "page": "p.61"
+            },
+            {
+                "word": "sale",
+                "phonetic": "/seɪl/",
+                "meaning": "特价销售;大减价",
+                "page": "p.63"
+            },
+            {
+                "word": "more",
+                "phonetic": "/mɔː(r)/",
+                "meaning": "更多的",
+                "page": "p.63"
+            },
+            {
+                "word": "us",
+                "phonetic": "/əs; ʌs/",
+                "meaning": "我们",
+                "page": "p.63"
+            }
+        ]
+    }
+}

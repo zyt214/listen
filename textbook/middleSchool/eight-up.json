@@ -1,0 +1,2842 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语八年级上册",
+        "approval": "教育部2013年审定",
+        "chiefEditors": ["刘道义", "郑旺全", "David Nunan"],
+        "deputyEditors": ["张献臣", "张雅君"],
+        "order": 11,
+        "publishTime": "2013年5月",
+        "totalUnits": 10,
+        "isbnRelated": "义务教育教科书英语八年级上册"
+    },
+    "unitVocabulary": {
+        "Unit1 Where did you go on vacation?": [
+            {
+                "word": "anyone",
+                "phonetic": "/ˈeniwʌn/",
+                "partOfSpeech": "pron.",
+                "meaning": "任何人"
+            },
+            {
+                "word": "anywhere",
+                "phonetic": "/ˈeniweə/, /ˈeniwer/",
+                "partOfSpeech": "adv.",
+                "meaning": "在任何地方"
+            },
+            {
+                "word": "wonderful",
+                "phonetic": "/ˈwʌndə(r)fl/",
+                "partOfSpeech": "adj.",
+                "meaning": "精彩的；绝妙的"
+            },
+            {
+                "word": "few",
+                "phonetic": "/fjuː/",
+                "partOfSpeech": "adj. & pron.",
+                "meaning": "不多；很少"
+            },
+            {
+                "word": "quite a few",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "相当多；不少"
+            },
+            {
+                "word": "most",
+                "phonetic": "/məʊst/",
+                "partOfSpeech": "adj., adv. & pron.",
+                "meaning": "最多；大多数"
+            },
+            {
+                "word": "something",
+                "phonetic": "/ˈsʌmθɪŋ/",
+                "partOfSpeech": "pron.",
+                "meaning": "某事；某物"
+            },
+            {
+                "word": "nothing",
+                "phonetic": "/ˈnʌθɪŋ/",
+                "partOfSpeech": "pron.",
+                "meaning": "没有什么；没有一件东西"
+            },
+            {
+                "word": "everyone",
+                "phonetic": "/ˈevriwʌn/",
+                "partOfSpeech": "pron.",
+                "meaning": "每人；人人；所有人"
+            },
+            {
+                "word": "of course",
+                "phonetic": "/ɒv kɔː(r)s/",
+                "partOfSpeech": "phrase",
+                "meaning": "当然；自然"
+            },
+            {
+                "word": "myself",
+                "phonetic": "/maɪˈself/",
+                "partOfSpeech": "pron.",
+                "meaning": "我自己；我本人"
+            },
+            {
+                "word": "yourself",
+                "phonetic": "/jɔː(r)ˈself/",
+                "partOfSpeech": "pron.",
+                "meaning": "你自己；您自己（复数形式yourselves /jɔː(r)ˈselvz/）"
+            },
+            {
+                "word": "hen",
+                "phonetic": "/hen/",
+                "partOfSpeech": "n.",
+                "meaning": "母鸡"
+            },
+            {
+                "word": "pig",
+                "phonetic": "/pɪɡ/",
+                "partOfSpeech": "n.",
+                "meaning": "猪"
+            },
+            {
+                "word": "seem",
+                "phonetic": "/siːm/",
+                "partOfSpeech": "v.",
+                "meaning": "好像；似乎；看来"
+            },
+            {
+                "word": "bored",
+                "phonetic": "/bɔː(r)d/",
+                "partOfSpeech": "adj.",
+                "meaning": "厌倦的；烦闷的"
+            },
+            {
+                "word": "someone",
+                "phonetic": "/ˈsʌmwʌn/",
+                "partOfSpeech": "pron.",
+                "meaning": "某人"
+            },
+            {
+                "word": "diary",
+                "phonetic": "/ˈdaɪəri/",
+                "partOfSpeech": "n.",
+                "meaning": "日记；记事簿"
+            },
+            {
+                "word": "enjoyable",
+                "phonetic": "/ɪnˈdʒɔɪəbl/",
+                "partOfSpeech": "adj.",
+                "meaning": "有乐趣的；令人愉快的"
+            },
+            {
+                "word": "activity",
+                "phonetic": "/ækˈtɪvəti/",
+                "partOfSpeech": "n.",
+                "meaning": "活动"
+            },
+            {
+                "word": "decide",
+                "phonetic": "/dɪˈsaɪd/",
+                "partOfSpeech": "v.",
+                "meaning": "决定；选定"
+            },
+            {
+                "word": "try",
+                "phonetic": "/traɪ/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "尝试；设法；努力"
+            },
+            {
+                "word": "paragliding",
+                "phonetic": "/ˈpærəɡlaɪdɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "滑翔伞运动"
+            },
+            {
+                "word": "feel like",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "给……的感觉；感受到"
+            },
+            {
+                "word": "bird",
+                "phonetic": "/bɜː(r)d/",
+                "partOfSpeech": "n.",
+                "meaning": "鸟"
+            },
+            {
+                "word": "bicycle",
+                "phonetic": "/ˈbaɪsɪkl/",
+                "partOfSpeech": "n.",
+                "meaning": "自行车；脚踏车"
+            },
+            {
+                "word": "building",
+                "phonetic": "/ˈbɪldɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "建筑物；房子"
+            },
+            {
+                "word": "trader",
+                "phonetic": "/ˈtreɪdə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "商人"
+            },
+            {
+                "word": "wonder",
+                "phonetic": "/ˈwʌndə(r)/",
+                "partOfSpeech": "v.",
+                "meaning": "想知道；琢磨"
+            },
+            {
+                "word": "difference",
+                "phonetic": "/ˈdɪfrəns/",
+                "partOfSpeech": "n.",
+                "meaning": "差别；差异"
+            },
+            {
+                "word": "top",
+                "phonetic": "/tɒp/, /tɑːp/",
+                "partOfSpeech": "n.",
+                "meaning": "顶部；表面"
+            },
+            {
+                "word": "wait",
+                "phonetic": "/weɪt/",
+                "partOfSpeech": "v.",
+                "meaning": "等待；等候"
+            },
+            {
+                "word": "umbrella",
+                "phonetic": "/ʌmˈbrelə/",
+                "partOfSpeech": "n.",
+                "meaning": "伞；雨伞"
+            },
+            {
+                "word": "wet",
+                "phonetic": "/wet/",
+                "partOfSpeech": "adj.",
+                "meaning": "湿的；潮湿的；下雨的"
+            },
+            {
+                "word": "because of",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "因为"
+            },
+            {
+                "word": "below",
+                "phonetic": "/bɪˈləʊ/",
+                "partOfSpeech": "prep. & adv.",
+                "meaning": "在……下面；到……下面"
+            },
+            {
+                "word": "enough",
+                "phonetic": "/ɪˈnʌf/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "足够的(地)；充足的(地)；充分的(地)"
+            },
+            {
+                "word": "hungry",
+                "phonetic": "/ˈhʌŋɡri/",
+                "partOfSpeech": "adj.",
+                "meaning": "饥饿的"
+            },
+            {
+                "word": "as",
+                "phonetic": "/æz; əz/",
+                "partOfSpeech": "adv. / conj.",
+                "meaning": "像……一样；如同 / 当……时；如同"
+            },
+            {
+                "word": "hill",
+                "phonetic": "/hɪl/",
+                "partOfSpeech": "n.",
+                "meaning": "小山；山丘"
+            },
+            {
+                "word": "duck",
+                "phonetic": "/dʌk/",
+                "partOfSpeech": "n.",
+                "meaning": "鸭"
+            },
+            {
+                "word": "dislike",
+                "phonetic": "/dɪsˈlaɪk/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "不喜爱(的事物)；厌恶(的事物)"
+            },
+            {
+                "word": "Central Park",
+                "phonetic": "",
+                "partOfSpeech": "proper noun",
+                "meaning": "中央公园(美国纽约)"
+            },
+            {
+                "word": "Huangguoshu Waterfall",
+                "phonetic": "/ˈwɔːtə(r)fɔːl/",
+                "partOfSpeech": "proper noun",
+                "meaning": "黄果树瀑布(贵州)"
+            },
+            {
+                "word": "Hong Kong",
+                "phonetic": "/ˈhɒŋ kɒŋ/, /ˈhɑːŋ kɑːŋ/",
+                "partOfSpeech": "proper noun",
+                "meaning": "香港(中华人民共和国特别行政区)"
+            },
+            {
+                "word": "Malaysia",
+                "phonetic": "/məˈleɪʒə/",
+                "partOfSpeech": "proper noun",
+                "meaning": "马来西亚"
+            },
+            {
+                "word": "Malaysian",
+                "phonetic": "/məˈleɪʒn/",
+                "partOfSpeech": "adj. / n.",
+                "meaning": "马来西亚的 / 马来西亚人"
+            },
+            {
+                "word": "Georgetown",
+                "phonetic": "/ˈdʒɔː(r)dʒtaʊn/",
+                "partOfSpeech": "proper noun",
+                "meaning": "乔治市(马来西亚)"
+            },
+            {
+                "word": "Weld Quay",
+                "phonetic": "/weld kiː/",
+                "partOfSpeech": "proper noun",
+                "meaning": "海墘街"
+            },
+            {
+                "word": "Penang Hill",
+                "phonetic": "/pɪˈnæŋ/",
+                "partOfSpeech": "proper noun",
+                "meaning": "槟城山(马来西亚)"
+            },
+            {
+                "word": "the Palace Museum",
+                "phonetic": "/ˈpæləs/",
+                "partOfSpeech": "proper noun",
+                "meaning": "故宫博物院"
+            },
+            {
+                "word": "Mark",
+                "phonetic": "/mɑː(r)k/",
+                "partOfSpeech": "name",
+                "meaning": "马克(男名)"
+            }
+        ],
+        "Unit2 How often do you exercise?": [
+            {
+                "word": "housework",
+                "phonetic": "/ˈhaʊswɜː(r)k/",
+                "partOfSpeech": "n.",
+                "meaning": "家务劳动；家务事"
+            },
+            {
+                "word": "hardly",
+                "phonetic": "/ˈhɑː(r)dli/",
+                "partOfSpeech": "adv.",
+                "meaning": "几乎不；几乎没有"
+            },
+            {
+                "word": "ever",
+                "phonetic": "/ˈevə(r)/",
+                "partOfSpeech": "adv.",
+                "meaning": "在任何时候；从来；曾经"
+            },
+            {
+                "word": "hardly ever",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "几乎从不"
+            },
+            {
+                "word": "once",
+                "phonetic": "/wʌns/",
+                "partOfSpeech": "adv.",
+                "meaning": "一次；曾经"
+            },
+            {
+                "word": "twice",
+                "phonetic": "/twaɪs/",
+                "partOfSpeech": "adv.",
+                "meaning": "两次；两倍"
+            },
+            {
+                "word": "Internet",
+                "phonetic": "/ˈɪntə(r)net/",
+                "partOfSpeech": "n.",
+                "meaning": "(国际)互联网；因特网"
+            },
+            {
+                "word": "program",
+                "phonetic": "/ˈprəʊɡræm/",
+                "partOfSpeech": "n.",
+                "meaning": "(=programme)节目"
+            },
+            {
+                "word": "full",
+                "phonetic": "/fʊl/",
+                "partOfSpeech": "adj.",
+                "meaning": "忙的；满的；充满的"
+            },
+            {
+                "word": "swing",
+                "phonetic": "/swɪŋ/",
+                "partOfSpeech": "n. / v.",
+                "meaning": "摆动；秋千 / (使)摆动；摇摆（过去式swung /swʌŋ/）"
+            },
+            {
+                "word": "swing dance",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "摇摆舞"
+            },
+            {
+                "word": "maybe",
+                "phonetic": "/ˈmeɪbi/",
+                "partOfSpeech": "adv.",
+                "meaning": "大概；或许；可能"
+            },
+            {
+                "word": "least",
+                "phonetic": "/liːst/",
+                "partOfSpeech": "adv. / adj. & pron.",
+                "meaning": "最小；最少 / 最小的；最少的"
+            },
+            {
+                "word": "at least",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "至少；不少于；起码"
+            },
+            {
+                "word": "junk",
+                "phonetic": "/dʒʌŋk/",
+                "partOfSpeech": "n.",
+                "meaning": "无用的东西；无价值的东西"
+            },
+            {
+                "word": "junk food",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "垃圾食品"
+            },
+            {
+                "word": "coffee",
+                "phonetic": "/ˈkɒfi/, /ˈkɔːfi/",
+                "partOfSpeech": "n.",
+                "meaning": "咖啡"
+            },
+            {
+                "word": "health",
+                "phonetic": "/helθ/",
+                "partOfSpeech": "n.",
+                "meaning": "健康；人的身体(或精神)状态"
+            },
+            {
+                "word": "result",
+                "phonetic": "/rɪˈzʌlt/",
+                "partOfSpeech": "n.",
+                "meaning": "结果；后果"
+            },
+            {
+                "word": "percent",
+                "phonetic": "/pə(r)ˈsent/",
+                "partOfSpeech": "n.",
+                "meaning": "(=per cent)百分之……"
+            },
+            {
+                "word": "online",
+                "phonetic": "/ˌɒnˈlaɪn/, /ˌɑːnˈlaɪn/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "在线(的)；联网(的)"
+            },
+            {
+                "word": "television",
+                "phonetic": "/ˈtelɪvɪʒn/",
+                "partOfSpeech": "n.",
+                "meaning": "电视节目；电视机"
+            },
+            {
+                "word": "although",
+                "phonetic": "/ɔːlˈðəʊ/",
+                "partOfSpeech": "conj.",
+                "meaning": "虽然；尽管；即使"
+            },
+            {
+                "word": "through",
+                "phonetic": "/θruː/",
+                "partOfSpeech": "prep.",
+                "meaning": "以；凭借；穿过"
+            },
+            {
+                "word": "mind",
+                "phonetic": "/maɪnd/",
+                "partOfSpeech": "n.",
+                "meaning": "头脑；心智"
+            },
+            {
+                "word": "body",
+                "phonetic": "/ˈbɒdi/, /ˈbɑːdi/",
+                "partOfSpeech": "n.",
+                "meaning": "身体"
+            },
+            {
+                "word": "such",
+                "phonetic": "/sʌtʃ/",
+                "partOfSpeech": "adj. & pron.",
+                "meaning": "这样的；那样的；类似的"
+            },
+            {
+                "word": "such as",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "例如；像……这样"
+            },
+            {
+                "word": "together",
+                "phonetic": "/təˈɡeðə(r)/",
+                "partOfSpeech": "adv.",
+                "meaning": "在一起；共同"
+            },
+            {
+                "word": "die",
+                "phonetic": "/daɪ/",
+                "partOfSpeech": "v.",
+                "meaning": "消失；灭亡；死亡"
+            },
+            {
+                "word": "writer",
+                "phonetic": "/ˈraɪtə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "作者；作家"
+            },
+            {
+                "word": "dentist",
+                "phonetic": "/ˈdentɪst/",
+                "partOfSpeech": "n.",
+                "meaning": "牙科医生"
+            },
+            {
+                "word": "magazine",
+                "phonetic": "/ˌmæɡəˈziːn/",
+                "partOfSpeech": "n.",
+                "meaning": "杂志；期刊"
+            },
+            {
+                "word": "however",
+                "phonetic": "/haʊˈevə(r)/",
+                "partOfSpeech": "adv.",
+                "meaning": "然而；不过"
+            },
+            {
+                "word": "than",
+                "phonetic": "/ðən; ðæn/",
+                "partOfSpeech": "prep. & conj.",
+                "meaning": "(用以引出比较的第二部分)比"
+            },
+            {
+                "word": "more than",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "多于"
+            },
+            {
+                "word": "almost",
+                "phonetic": "/ˈɔːlməʊst/",
+                "partOfSpeech": "adv.",
+                "meaning": "几乎；差不多"
+            },
+            {
+                "word": "none",
+                "phonetic": "/nʌn/",
+                "partOfSpeech": "pron.",
+                "meaning": "没有一个；毫无"
+            },
+            {
+                "word": "less",
+                "phonetic": "/les/",
+                "partOfSpeech": "adv. / adj. & pron.",
+                "meaning": "较少；较小 / 较少的；更少的"
+            },
+            {
+                "word": "less than",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "少于"
+            },
+            {
+                "word": "point",
+                "phonetic": "/pɔɪnt/",
+                "partOfSpeech": "n. / v.",
+                "meaning": "得分；点 / 指；指向"
+            },
+            {
+                "word": "Claire",
+                "phonetic": "/kleə/, /kler/",
+                "partOfSpeech": "name",
+                "meaning": "克莱尔(女名)"
+            },
+            {
+                "word": "Sue",
+                "phonetic": "/suː/",
+                "partOfSpeech": "name",
+                "meaning": "休(女名)"
+            },
+            {
+                "word": "American Teenager",
+                "phonetic": "/ˈtiːneɪdʒə(r)/",
+                "partOfSpeech": "proper noun",
+                "meaning": "《美国青少年》(文中为虚构的杂志名称)"
+            }
+        ],
+        "Unit3 I'm more outgoing than my sister.": [
+            {
+                "word": "outgoing",
+                "phonetic": "/ˈaʊtɡəʊɪŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "爱交际的；友好的；外向的"
+            },
+            {
+                "word": "both",
+                "phonetic": "/bəʊθ/",
+                "partOfSpeech": "adj. & pron.",
+                "meaning": "两个；两个都"
+            },
+            {
+                "word": "better",
+                "phonetic": "/ˈbetə(r)/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "(good和well的比较级)较好的(地)；更好的(地)"
+            },
+            {
+                "word": "loudly",
+                "phonetic": "/ˈlaʊdli/",
+                "partOfSpeech": "adv.",
+                "meaning": "喧闹地；大声地；响亮地"
+            },
+            {
+                "word": "quietly",
+                "phonetic": "/ˈkwaɪətli/",
+                "partOfSpeech": "adv.",
+                "meaning": "轻声地；轻柔地；安静地"
+            },
+            {
+                "word": "hard-working",
+                "phonetic": "/ˈhɑː(r)dˌwɜː(r)kɪŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "工作努力的；辛勤的"
+            },
+            {
+                "word": "competition",
+                "phonetic": "/ˌkɒmpəˈtɪʃn/, /ˌkɑːmpəˈtɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "比赛；竞赛；竞争"
+            },
+            {
+                "word": "fantastic",
+                "phonetic": "/fænˈtæstɪk/",
+                "partOfSpeech": "adj.",
+                "meaning": "极好的；了不起的"
+            },
+            {
+                "word": "which",
+                "phonetic": "/wɪtʃ/",
+                "partOfSpeech": "pron. & adj.",
+                "meaning": "哪一个；哪一些"
+            },
+            {
+                "word": "clearly",
+                "phonetic": "/ˈklɪəli/, /ˈklɪrli/",
+                "partOfSpeech": "adv.",
+                "meaning": "清楚地；清晰地；明白地"
+            },
+            {
+                "word": "win",
+                "phonetic": "/wɪn/",
+                "partOfSpeech": "v.",
+                "meaning": "获胜；赢；赢得（过去式won /wʌn/）"
+            },
+            {
+                "word": "though",
+                "phonetic": "/ðəʊ/",
+                "partOfSpeech": "adv. / conj.",
+                "meaning": "不过；可是；然而 / 虽然；尽管；不过"
+            },
+            {
+                "word": "talented",
+                "phonetic": "/ˈtæləntɪd/",
+                "partOfSpeech": "adj.",
+                "meaning": "有才能的；有才干的"
+            },
+            {
+                "word": "truly",
+                "phonetic": "/ˈtruːli/",
+                "partOfSpeech": "adv.",
+                "meaning": "真正；确实"
+            },
+            {
+                "word": "care",
+                "phonetic": "/keə/, /ker/",
+                "partOfSpeech": "v.",
+                "meaning": "在意；担忧；关心"
+            },
+            {
+                "word": "care about",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "关心；在意"
+            },
+            {
+                "word": "laugh",
+                "phonetic": "/lɑːf/, /læf/",
+                "partOfSpeech": "v. / n.",
+                "meaning": "笑；发笑 / 笑声"
+            },
+            {
+                "word": "serious",
+                "phonetic": "/ˈsɪəriəs/, /ˈsɪriəs/",
+                "partOfSpeech": "adj.",
+                "meaning": "严肃的；稳重的"
+            },
+            {
+                "word": "mirror",
+                "phonetic": "/ˈmɪrə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "镜子"
+            },
+            {
+                "word": "kid",
+                "phonetic": "/kɪd/",
+                "partOfSpeech": "n.",
+                "meaning": "小孩；年轻人"
+            },
+            {
+                "word": "as long as",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "只要；既然"
+            },
+            {
+                "word": "necessary",
+                "phonetic": "/ˈnesəsəri/, /ˈnesəseri/",
+                "partOfSpeech": "adj.",
+                "meaning": "必需的；必要的"
+            },
+            {
+                "word": "be different from",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "与……不同；与……有差异"
+            },
+            {
+                "word": "bring out",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "使显现；使表现出"
+            },
+            {
+                "word": "grade",
+                "phonetic": "/ɡreɪd/",
+                "partOfSpeech": "n.",
+                "meaning": "成绩等级；评分等级"
+            },
+            {
+                "word": "should",
+                "phonetic": "/ʃʊd; ʃəd/",
+                "partOfSpeech": "modal v.",
+                "meaning": "应该；应当；可以"
+            },
+            {
+                "word": "the same as",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "和……相同；与……一致"
+            },
+            {
+                "word": "saying",
+                "phonetic": "/ˈseɪɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "谚语；格言；警句"
+            },
+            {
+                "word": "reach",
+                "phonetic": "/riːtʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "伸手；到达；抵达"
+            },
+            {
+                "word": "hand",
+                "phonetic": "/hænd/",
+                "partOfSpeech": "n.",
+                "meaning": "手"
+            },
+            {
+                "word": "touch",
+                "phonetic": "/tʌtʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "感动；触摸"
+            },
+            {
+                "word": "heart",
+                "phonetic": "/hɑː(r)t/",
+                "partOfSpeech": "n.",
+                "meaning": "内心；心脏"
+            },
+            {
+                "word": "fact",
+                "phonetic": "/fækt/",
+                "partOfSpeech": "n.",
+                "meaning": "现实；事实"
+            },
+            {
+                "word": "in fact",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "确切地说；事实上；实际上"
+            },
+            {
+                "word": "break",
+                "phonetic": "/breɪk/",
+                "partOfSpeech": "v.",
+                "meaning": "(使)破；裂；碎；损坏（过去式broke /brəʊk/）"
+            },
+            {
+                "word": "arm",
+                "phonetic": "/ɑː(r)m/",
+                "partOfSpeech": "n.",
+                "meaning": "手臂；上肢"
+            },
+            {
+                "word": "share",
+                "phonetic": "/ʃeə/, /ʃer/",
+                "partOfSpeech": "v.",
+                "meaning": "分享；共享；共用；分摊"
+            },
+            {
+                "word": "loud",
+                "phonetic": "/laʊd/",
+                "partOfSpeech": "adj.",
+                "meaning": "响亮的；大声的"
+            },
+            {
+                "word": "similar",
+                "phonetic": "/ˈsɪmələr/",
+                "partOfSpeech": "adj.",
+                "meaning": "相像的；类似的"
+            },
+            {
+                "word": "be similar to",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "与……相像的、类似的"
+            },
+            {
+                "word": "primary",
+                "phonetic": "/ˈpraɪməri/, /ˈpraɪmeri/",
+                "partOfSpeech": "adj.",
+                "meaning": "最初的；最早的"
+            },
+            {
+                "word": "primary school",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "小学"
+            },
+            {
+                "word": "information",
+                "phonetic": "/ˌɪnfə(r)ˈmeɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "信息；消息"
+            },
+            {
+                "word": "Tara",
+                "phonetic": "/ˈtɑːrə/, /ˈtærə/",
+                "partOfSpeech": "name",
+                "meaning": "塔拉(女名)"
+            },
+            {
+                "word": "Sam",
+                "phonetic": "/sæm/",
+                "partOfSpeech": "name",
+                "meaning": "萨姆(男名)"
+            },
+            {
+                "word": "Nelly",
+                "phonetic": "/ˈneli/",
+                "partOfSpeech": "name",
+                "meaning": "内莉(女名)"
+            },
+            {
+                "word": "Larry",
+                "phonetic": "/ˈlæri/",
+                "partOfSpeech": "name",
+                "meaning": "拉里(男名)"
+            }
+        ],
+        "Unit4 What's the best movie theater?": [
+            {
+                "word": "theater",
+                "phonetic": "/ˈθɪətə/, /ˈθiːətər/",
+                "partOfSpeech": "n.",
+                "meaning": "(=theatre)戏院；剧场"
+            },
+            {
+                "word": "comfortable",
+                "phonetic": "/ˈkʌmfətəbl/",
+                "partOfSpeech": "adj.",
+                "meaning": "使人舒服的；舒适的"
+            },
+            {
+                "word": "seat",
+                "phonetic": "/siːt/",
+                "partOfSpeech": "n.",
+                "meaning": "座位；坐处(如椅子等)"
+            },
+            {
+                "word": "screen",
+                "phonetic": "/skriːn/",
+                "partOfSpeech": "n.",
+                "meaning": "银幕；屏幕"
+            },
+            {
+                "word": "close",
+                "phonetic": "/kləʊs/",
+                "partOfSpeech": "adj.",
+                "meaning": "(在空间、时间上)接近"
+            },
+            {
+                "word": "ticket",
+                "phonetic": "/ˈtɪkɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "票；入场券"
+            },
+            {
+                "word": "worst",
+                "phonetic": "/wɜː(r)st/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "(bad和badly的最高级)最差(的)；最坏(的)；最糟(的)"
+            },
+            {
+                "word": "cheaply",
+                "phonetic": "/ˈtʃiːpli/",
+                "partOfSpeech": "adv.",
+                "meaning": "便宜地；低廉地"
+            },
+            {
+                "word": "song",
+                "phonetic": "/sɒŋ/, /sɔːŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "歌；歌曲"
+            },
+            {
+                "word": "DJ",
+                "phonetic": "/ˌdiːˈdʒeɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "(电台、电视台、俱乐部的)音乐节目主持人"
+            },
+            {
+                "word": "choose",
+                "phonetic": "/tʃuːz/",
+                "partOfSpeech": "v.",
+                "meaning": "选择；挑选（过去式chose /tʃəʊz/）"
+            },
+            {
+                "word": "carefully",
+                "phonetic": "/ˈkeəfəli/, /ˈkerfəli/",
+                "partOfSpeech": "adv.",
+                "meaning": "细致地；小心地；谨慎地"
+            },
+            {
+                "word": "reporter",
+                "phonetic": "/rɪˈpɔː(r)tə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "记者"
+            },
+            {
+                "word": "so far",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "到目前为止；迄今为止"
+            },
+            {
+                "word": "fresh",
+                "phonetic": "/freʃ/",
+                "partOfSpeech": "adj.",
+                "meaning": "新鲜的；清新的"
+            },
+            {
+                "word": "comfortably",
+                "phonetic": "/ˈkʌmfətəbli/",
+                "partOfSpeech": "adv.",
+                "meaning": "舒服地；舒适地"
+            },
+            {
+                "word": "worse",
+                "phonetic": "/wɜː(r)s/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "(bad和badly的比较级)更差(的)；更坏(的)；更糟(的)"
+            },
+            {
+                "word": "service",
+                "phonetic": "/ˈsɜː(r)vɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "接待；服务"
+            },
+            {
+                "word": "pretty",
+                "phonetic": "/ˈprɪti/",
+                "partOfSpeech": "adv. / adj.",
+                "meaning": "相当；十分；很 / 漂亮的"
+            },
+            {
+                "word": "menu",
+                "phonetic": "/ˈmenjuː/",
+                "partOfSpeech": "n.",
+                "meaning": "菜单"
+            },
+            {
+                "word": "act",
+                "phonetic": "/ækt/",
+                "partOfSpeech": "v. / n.",
+                "meaning": "扮演 / 表演者"
+            },
+            {
+                "word": "meal",
+                "phonetic": "/miːl/",
+                "partOfSpeech": "n.",
+                "meaning": "早(或午、晚)餐；一餐所吃的食物"
+            },
+            {
+                "word": "creative",
+                "phonetic": "/kriˈeɪtɪv/",
+                "partOfSpeech": "adj.",
+                "meaning": "有创造力的；创造性的"
+            },
+            {
+                "word": "performer",
+                "phonetic": "/pə(r)ˈfɔː(r)mə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "表演者；演员"
+            },
+            {
+                "word": "talent",
+                "phonetic": "/ˈtælənt/",
+                "partOfSpeech": "n.",
+                "meaning": "天资；天赋"
+            },
+            {
+                "word": "have ... in common",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "有相同特征；(想法、兴趣等方面)相同"
+            },
+            {
+                "word": "magician",
+                "phonetic": "/məˈdʒɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "魔术师"
+            },
+            {
+                "word": "all kinds of",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "各种类型的；各种各样的"
+            },
+            {
+                "word": "beautifully",
+                "phonetic": "/ˈbjuːtɪfli/",
+                "partOfSpeech": "adv.",
+                "meaning": "美好地；漂亮地"
+            },
+            {
+                "word": "be up to",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "是……的职责；由……决定"
+            },
+            {
+                "word": "role",
+                "phonetic": "/rəʊl/",
+                "partOfSpeech": "n.",
+                "meaning": "作用；职能；角色"
+            },
+            {
+                "word": "play a role",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "发挥作用；有影响"
+            },
+            {
+                "word": "winner",
+                "phonetic": "/ˈwɪnə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "获胜者；优胜者"
+            },
+            {
+                "word": "prize",
+                "phonetic": "/praɪz/",
+                "partOfSpeech": "n.",
+                "meaning": "奖；奖品；奖金"
+            },
+            {
+                "word": "everybody",
+                "phonetic": "/ˈevribɒdi/, /ˈevribɑːdi/",
+                "partOfSpeech": "pron.",
+                "meaning": "每人；人人；所有人"
+            },
+            {
+                "word": "make up",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "编造(故事、谎言等)"
+            },
+            {
+                "word": "example",
+                "phonetic": "/ɪɡˈzɑːmpl/, /ɪɡˈzæmpl/",
+                "partOfSpeech": "n.",
+                "meaning": "实例；范例"
+            },
+            {
+                "word": "for example",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "例如"
+            },
+            {
+                "word": "poor",
+                "phonetic": "/pɔː(r), pʊə/, /pʊr/",
+                "partOfSpeech": "adj.",
+                "meaning": "贫穷的；清贫的"
+            },
+            {
+                "word": "seriously",
+                "phonetic": "/ˈsɪəriəsli/, /ˈsɪriəsli/",
+                "partOfSpeech": "adv.",
+                "meaning": "严重地；严肃地；认真地"
+            },
+            {
+                "word": "take ... seriously",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "认真对待……"
+            },
+            {
+                "word": "give",
+                "phonetic": "/ɡɪv/",
+                "partOfSpeech": "v.",
+                "meaning": "提供；给（过去式gave /ɡeɪv/）"
+            },
+            {
+                "word": "crowded",
+                "phonetic": "/ˈkraʊdɪd/",
+                "partOfSpeech": "adj.",
+                "meaning": "人多的；拥挤的；挤满的"
+            },
+            {
+                "word": "Greg",
+                "phonetic": "/ɡreɡ/",
+                "partOfSpeech": "name",
+                "meaning": "格雷格(男名)"
+            },
+            {
+                "word": "Danny",
+                "phonetic": "/ˈdæni/",
+                "partOfSpeech": "name",
+                "meaning": "丹尼(男名)"
+            },
+            {
+                "word": "Eliza",
+                "phonetic": "/ɪˈlaɪzə/",
+                "partOfSpeech": "name",
+                "meaning": "伊丽莎(女名)"
+            },
+            {
+                "word": "Vera",
+                "phonetic": "/ˈvɪərə/, /ˈvɪrə/",
+                "partOfSpeech": "name",
+                "meaning": "薇拉(女名)"
+            },
+            {
+                "word": "Dennis",
+                "phonetic": "/ˈdenɪs/",
+                "partOfSpeech": "name",
+                "meaning": "丹尼斯(男名)"
+            },
+            {
+                "word": "American Idol",
+                "phonetic": "/ˈaɪdl/",
+                "partOfSpeech": "proper noun",
+                "meaning": "美国偶像(文中为电视节目名称)"
+            },
+            {
+                "word": "America's Got Talent",
+                "phonetic": "",
+                "partOfSpeech": "proper noun",
+                "meaning": "美国达人秀(文中为电视节目名称)"
+            },
+            {
+                "word": "China's Got Talent",
+                "phonetic": "",
+                "partOfSpeech": "proper noun",
+                "meaning": "中国达人秀(文中为电视节目名称)"
+            }
+        ],
+        "Unit5 Do you want to watch a game show?": [
+            {
+                "word": "sitcom",
+                "phonetic": "/ˈsɪtkɒm/, /ˈsɪtkɑːm/",
+                "partOfSpeech": "n.",
+                "meaning": "(=situation comedy)情景喜剧"
+            },
+            {
+                "word": "news",
+                "phonetic": "/njuːz/, /nuːz/",
+                "partOfSpeech": "n.",
+                "meaning": "新闻节目；新闻"
+            },
+            {
+                "word": "soap opera",
+                "phonetic": "/səʊp ˈɒprə/, /səʊp ˈɑːprə/",
+                "partOfSpeech": "phrase",
+                "meaning": "肥皂剧"
+            },
+            {
+                "word": "mind",
+                "phonetic": "/maɪnd/",
+                "partOfSpeech": "v.",
+                "meaning": "介意；对(某事)烦恼"
+            },
+            {
+                "word": "stand",
+                "phonetic": "/stænd/",
+                "partOfSpeech": "v.",
+                "meaning": "忍受；站立（过去式stood /stʊd/）"
+            },
+            {
+                "word": "educational",
+                "phonetic": "/ˌedʒuˈkeɪʃənl/",
+                "partOfSpeech": "adj.",
+                "meaning": "教育的；有教育意义的"
+            },
+            {
+                "word": "plan",
+                "phonetic": "/plæn/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "打算；计划"
+            },
+            {
+                "word": "hope",
+                "phonetic": "/həʊp/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "希望"
+            },
+            {
+                "word": "find out",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "查明；弄清"
+            },
+            {
+                "word": "discussion",
+                "phonetic": "/dɪˈskʌʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "讨论；商量"
+            },
+            {
+                "word": "happen",
+                "phonetic": "/ˈhæpən/",
+                "partOfSpeech": "v.",
+                "meaning": "发生；出现"
+            },
+            {
+                "word": "expect",
+                "phonetic": "/ɪkˈspekt/",
+                "partOfSpeech": "v.",
+                "meaning": "预料；期待"
+            },
+            {
+                "word": "joke",
+                "phonetic": "/dʒəʊk/",
+                "partOfSpeech": "n.",
+                "meaning": "笑话；玩笑"
+            },
+            {
+                "word": "comedy",
+                "phonetic": "/ˈkɒmədi/, /ˈkɑːmədi/",
+                "partOfSpeech": "n.",
+                "meaning": "喜剧；喜剧片"
+            },
+            {
+                "word": "meaningless",
+                "phonetic": "/ˈmiːnɪŋləs/",
+                "partOfSpeech": "adj.",
+                "meaning": "毫无意义的；意思不明确的"
+            },
+            {
+                "word": "action",
+                "phonetic": "/ˈækʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "行动"
+            },
+            {
+                "word": "action movie",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "动作影片"
+            },
+            {
+                "word": "cartoon",
+                "phonetic": "/kɑː(r)ˈtuːn/",
+                "partOfSpeech": "n.",
+                "meaning": "动画片；卡通片"
+            },
+            {
+                "word": "culture",
+                "phonetic": "/ˈkʌltʃə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "文化；文明"
+            },
+            {
+                "word": "famous",
+                "phonetic": "/ˈfeɪməs/",
+                "partOfSpeech": "adj.",
+                "meaning": "著名的；出名的"
+            },
+            {
+                "word": "appear",
+                "phonetic": "/əˈpɪə/, /əˈpɪr/",
+                "partOfSpeech": "v.",
+                "meaning": "出现"
+            },
+            {
+                "word": "become",
+                "phonetic": "/bɪˈkʌm/",
+                "partOfSpeech": "v.",
+                "meaning": "开始变得；变成（过去式became /bɪˈkeɪm/）"
+            },
+            {
+                "word": "rich",
+                "phonetic": "/rɪtʃ/",
+                "partOfSpeech": "adj.",
+                "meaning": "富有的"
+            },
+            {
+                "word": "successful",
+                "phonetic": "/səkˈsesfl/",
+                "partOfSpeech": "adj.",
+                "meaning": "获得成功的；有成就的"
+            },
+            {
+                "word": "might",
+                "phonetic": "/maɪt/",
+                "partOfSpeech": "modal v.",
+                "meaning": "可能；可以"
+            },
+            {
+                "word": "main",
+                "phonetic": "/meɪn/",
+                "partOfSpeech": "adj.",
+                "meaning": "主要的；最重要的"
+            },
+            {
+                "word": "reason",
+                "phonetic": "/ˈriːzn/",
+                "partOfSpeech": "n.",
+                "meaning": "原因；理由"
+            },
+            {
+                "word": "common",
+                "phonetic": "/ˈkɒmən/, /ˈkɑːmən/",
+                "partOfSpeech": "adj.",
+                "meaning": "普通的；常见的"
+            },
+            {
+                "word": "film",
+                "phonetic": "/fɪlm/",
+                "partOfSpeech": "n.",
+                "meaning": "(= movie)电影"
+            },
+            {
+                "word": "unlucky",
+                "phonetic": "/ʌnˈlʌki/",
+                "partOfSpeech": "adj.",
+                "meaning": "不幸的；不吉利的"
+            },
+            {
+                "word": "lose",
+                "phonetic": "/luːz/",
+                "partOfSpeech": "v.",
+                "meaning": "失去；丢失（过去式lost /lɒst/, /lɔːst/）"
+            },
+            {
+                "word": "girlfriend",
+                "phonetic": "/ˈɡɜː(r)lfrend/",
+                "partOfSpeech": "n.",
+                "meaning": "女朋友"
+            },
+            {
+                "word": "ready",
+                "phonetic": "/ˈredi/",
+                "partOfSpeech": "adj.",
+                "meaning": "愿意的；准备好的"
+            },
+            {
+                "word": "be ready to",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "准备好(做某事)；愿意(做某事)"
+            },
+            {
+                "word": "character",
+                "phonetic": "/ˈkærəktə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "人物；角色"
+            },
+            {
+                "word": "simple",
+                "phonetic": "/ˈsɪmpl/",
+                "partOfSpeech": "adj.",
+                "meaning": "简单的；易做的"
+            },
+            {
+                "word": "dress up",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "装扮；乔装打扮"
+            },
+            {
+                "word": "take sb.'s place",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "代替；替换"
+            },
+            {
+                "word": "army",
+                "phonetic": "/ˈɑː(r)mi/",
+                "partOfSpeech": "n.",
+                "meaning": "陆军；陆军部队"
+            },
+            {
+                "word": "do a good job",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "干得好"
+            },
+            {
+                "word": "Sarah",
+                "phonetic": "/ˈseərə/, /ˈserə/",
+                "partOfSpeech": "name",
+                "meaning": "萨拉(女名)"
+            },
+            {
+                "word": "Walt Disney",
+                "phonetic": "/wɔːlt ˈdɪzni/",
+                "partOfSpeech": "name",
+                "meaning": "沃尔特·迪斯尼"
+            },
+            {
+                "word": "Minnie",
+                "phonetic": "/ˈmɪni/",
+                "partOfSpeech": "name",
+                "meaning": "明妮(女名)"
+            },
+            {
+                "word": "Mickey Mouse",
+                "phonetic": "/ˈmɪki maʊs/",
+                "partOfSpeech": "proper noun",
+                "meaning": "米老鼠"
+            },
+            {
+                "word": "Steamboat Willie",
+                "phonetic": "/ˈstiːmbəʊt ˈwɪli/",
+                "partOfSpeech": "proper noun",
+                "meaning": "迪斯尼公司制作的全球第一部有声动画片《威利号汽船》"
+            },
+            {
+                "word": "Hollywood",
+                "phonetic": "/ˈhɒliwʊd/, /ˈhɑːliwʊd/",
+                "partOfSpeech": "proper noun",
+                "meaning": "好莱坞；美国电影业"
+            },
+            {
+                "word": "the Hollywood Walk of Fame",
+                "phonetic": "/feɪm/",
+                "partOfSpeech": "proper noun",
+                "meaning": "好莱坞星光大道(美国)"
+            }
+        ],
+        "Unit6 I'm going to study computer science.": [
+            {
+                "word": "grow up",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "长大；成熟；成长"
+            },
+            {
+                "word": "computer programmer",
+                "phonetic": "/ˈprəʊɡræmə(r)/",
+                "partOfSpeech": "phrase",
+                "meaning": "计算机程序设计员；编程人员"
+            },
+            {
+                "word": "cook",
+                "phonetic": "/kʊk/",
+                "partOfSpeech": "n. / v.",
+                "meaning": "厨师 / 烹饪；煮"
+            },
+            {
+                "word": "doctor",
+                "phonetic": "/ˈdɒktə/, /ˈdɑːktər/",
+                "partOfSpeech": "n.",
+                "meaning": "医生"
+            },
+            {
+                "word": "engineer",
+                "phonetic": "/ˌendʒɪˈnɪə/, /ˌendʒɪˈnɪr/",
+                "partOfSpeech": "n.",
+                "meaning": "工程师"
+            },
+            {
+                "word": "violinist",
+                "phonetic": "/ˌvaɪəˈlɪnɪst/",
+                "partOfSpeech": "n.",
+                "meaning": "小提琴手"
+            },
+            {
+                "word": "driver",
+                "phonetic": "/ˈdraɪvə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "驾驶员；司机"
+            },
+            {
+                "word": "pilot",
+                "phonetic": "/ˈpaɪlət/",
+                "partOfSpeech": "n.",
+                "meaning": "飞行员"
+            },
+            {
+                "word": "pianist",
+                "phonetic": "/ˈpiːənɪst/",
+                "partOfSpeech": "n.",
+                "meaning": "钢琴家"
+            },
+            {
+                "word": "scientist",
+                "phonetic": "/ˈsaɪəntɪst/",
+                "partOfSpeech": "n.",
+                "meaning": "科学家"
+            },
+            {
+                "word": "be sure about",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "确信；对……有把握"
+            },
+            {
+                "word": "make sure",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "确保；查明"
+            },
+            {
+                "word": "college",
+                "phonetic": "/ˈkɒlɪdʒ/, /ˈkɑːlɪdʒ/",
+                "partOfSpeech": "n.",
+                "meaning": "学院；大学；高等专科学校"
+            },
+            {
+                "word": "education",
+                "phonetic": "/ˌedʒuˈkeɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "教育"
+            },
+            {
+                "word": "medicine",
+                "phonetic": "/ˈmedsn, ˈmedɪsn/",
+                "partOfSpeech": "n.",
+                "meaning": "药；医学"
+            },
+            {
+                "word": "university",
+                "phonetic": "/ˌjuːnɪˈvɜː(r)səti/",
+                "partOfSpeech": "n.",
+                "meaning": "(综合性)大学；高等学府"
+            },
+            {
+                "word": "London",
+                "phonetic": "/ˈlʌndən/",
+                "partOfSpeech": "proper noun",
+                "meaning": "伦敦"
+            },
+            {
+                "word": "article",
+                "phonetic": "/ˈɑː(r)tɪkl/",
+                "partOfSpeech": "n.",
+                "meaning": "文章；论文"
+            },
+            {
+                "word": "send",
+                "phonetic": "/send/",
+                "partOfSpeech": "v.",
+                "meaning": "邮寄；发送（过去式sent /sent/）"
+            },
+            {
+                "word": "resolution",
+                "phonetic": "/ˌrezəˈluːʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "决心；决定"
+            },
+            {
+                "word": "team",
+                "phonetic": "/tiːm/",
+                "partOfSpeech": "n.",
+                "meaning": "队；组"
+            },
+            {
+                "word": "make the soccer team",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "成为足球队的一员"
+            },
+            {
+                "word": "foreign",
+                "phonetic": "/ˈfɒrən/, /ˈfɔːrən/",
+                "partOfSpeech": "adj.",
+                "meaning": "外国的"
+            },
+            {
+                "word": "able",
+                "phonetic": "/ˈeɪbl/",
+                "partOfSpeech": "adj.",
+                "meaning": "能够"
+            },
+            {
+                "word": "be able to",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "能够做某事"
+            },
+            {
+                "word": "promise",
+                "phonetic": "/ˈprɒmɪs/, /ˈprɑːmɪs/",
+                "partOfSpeech": "n. / v.",
+                "meaning": "承诺；诺言 / 许诺；承诺"
+            },
+            {
+                "word": "beginning",
+                "phonetic": "/bɪˈɡɪnɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "开头；开端"
+            },
+            {
+                "word": "at the beginning of",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "在……开始"
+            },
+            {
+                "word": "improve",
+                "phonetic": "/ɪmˈpruːv/",
+                "partOfSpeech": "v.",
+                "meaning": "改进；改善"
+            },
+            {
+                "word": "write down",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "写下；记录下"
+            },
+            {
+                "word": "physical",
+                "phonetic": "/ˈfɪzɪkl/",
+                "partOfSpeech": "adj.",
+                "meaning": "身体的"
+            },
+            {
+                "word": "themselves",
+                "phonetic": "/ðəmˈselvz/",
+                "partOfSpeech": "pron.",
+                "meaning": "他(她、它)们自己"
+            },
+            {
+                "word": "have to do with",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "关于；与……有关系"
+            },
+            {
+                "word": "self-improvement",
+                "phonetic": "/ˈself ɪmˈpruːvmənt/",
+                "partOfSpeech": "n.",
+                "meaning": "自我改进；自我提高"
+            },
+            {
+                "word": "take up",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "(尤指为消遣)学着做；开始做"
+            },
+            {
+                "word": "hobby",
+                "phonetic": "/ˈhɒbi/, /ˈhɑːbi/",
+                "partOfSpeech": "n.",
+                "meaning": "业余爱好"
+            },
+            {
+                "word": "paint",
+                "phonetic": "/peɪnt/",
+                "partOfSpeech": "v.",
+                "meaning": "用颜料画；在……上刷油漆"
+            },
+            {
+                "word": "weekly",
+                "phonetic": "/ˈwiːkli/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "每周的(地)"
+            },
+            {
+                "word": "schoolwork",
+                "phonetic": "/ˈskuːlwɜː(r)k/",
+                "partOfSpeech": "n.",
+                "meaning": "学校作业；功课"
+            },
+            {
+                "word": "question",
+                "phonetic": "/ˈkwestʃən/",
+                "partOfSpeech": "v.",
+                "meaning": "表示疑问；怀疑；提问；质询"
+            },
+            {
+                "word": "meaning",
+                "phonetic": "/ˈmiːnɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "意义；意思"
+            },
+            {
+                "word": "discuss",
+                "phonetic": "/dɪˈskʌs/",
+                "partOfSpeech": "v.",
+                "meaning": "讨论；商量"
+            },
+            {
+                "word": "own",
+                "phonetic": "/əʊn/",
+                "partOfSpeech": "adj. & pron.",
+                "meaning": "自己的；本人的"
+            },
+            {
+                "word": "personal",
+                "phonetic": "/ˈpɜː(r)sənl/",
+                "partOfSpeech": "adj.",
+                "meaning": "个人的；私人的"
+            },
+            {
+                "word": "relationship",
+                "phonetic": "/rɪˈleɪʃnʃɪp/",
+                "partOfSpeech": "n.",
+                "meaning": "关系；联系"
+            },
+            {
+                "word": "Andy",
+                "phonetic": "/ˈændi/",
+                "partOfSpeech": "name",
+                "meaning": "安迪(男名)"
+            },
+            {
+                "word": "Ken",
+                "phonetic": "/ken/",
+                "partOfSpeech": "name",
+                "meaning": "肯(男名)"
+            },
+            {
+                "word": "Hemingway",
+                "phonetic": "/ˈhemɪŋweɪ/",
+                "partOfSpeech": "name",
+                "meaning": "海明威(姓)"
+            },
+            {
+                "word": "Kelly",
+                "phonetic": "/ˈkeli/",
+                "partOfSpeech": "name",
+                "meaning": "凯莉(女名)"
+            },
+            {
+                "word": "The Old Man and the Sea",
+                "phonetic": "",
+                "partOfSpeech": "proper noun",
+                "meaning": "《老人与海》(美国作家海明威的小说)"
+            }
+        ],
+        "Unit7 Will people have robots?": [
+            {
+                "word": "paper",
+                "phonetic": "/ˈpeɪpə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "纸；纸张"
+            },
+            {
+                "word": "pollution",
+                "phonetic": "/pəˈluːʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "污染；污染物"
+            },
+            {
+                "word": "prediction",
+                "phonetic": "/prɪˈdɪkʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "预言；预测"
+            },
+            {
+                "word": "future",
+                "phonetic": "/ˈfjuːtʃə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "将来；未来"
+            },
+            {
+                "word": "pollute",
+                "phonetic": "/pəˈluːt/",
+                "partOfSpeech": "v.",
+                "meaning": "污染"
+            },
+            {
+                "word": "environment",
+                "phonetic": "/ɪnˈvaɪrənmənt/",
+                "partOfSpeech": "n.",
+                "meaning": "环境"
+            },
+            {
+                "word": "planet",
+                "phonetic": "/ˈplænɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "行星"
+            },
+            {
+                "word": "earth",
+                "phonetic": "/ɜː(r)θ/",
+                "partOfSpeech": "n.",
+                "meaning": "地球；世界"
+            },
+            {
+                "word": "plant",
+                "phonetic": "/plɑːnt/, /plænt/",
+                "partOfSpeech": "v. / n.",
+                "meaning": "种植 / 植物"
+            },
+            {
+                "word": "part",
+                "phonetic": "/pɑː(r)t/",
+                "partOfSpeech": "n.",
+                "meaning": "部分"
+            },
+            {
+                "word": "play a part",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "参与；发挥作用"
+            },
+            {
+                "word": "peace",
+                "phonetic": "/piːs/",
+                "partOfSpeech": "n.",
+                "meaning": "和平"
+            },
+            {
+                "word": "sea",
+                "phonetic": "/siː/",
+                "partOfSpeech": "n.",
+                "meaning": "海；海洋"
+            },
+            {
+                "word": "build",
+                "phonetic": "/bɪld/",
+                "partOfSpeech": "v.",
+                "meaning": "建筑；建造（过去式built /bɪlt/）"
+            },
+            {
+                "word": "sky",
+                "phonetic": "/skaɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "天空"
+            },
+            {
+                "word": "astronaut",
+                "phonetic": "/ˈæstrənɔːt/",
+                "partOfSpeech": "n.",
+                "meaning": "宇航员；航天员"
+            },
+            {
+                "word": "apartment",
+                "phonetic": "/əˈpɑː(r)tmənt/",
+                "partOfSpeech": "n.",
+                "meaning": "公寓套房"
+            },
+            {
+                "word": "rocket",
+                "phonetic": "/ˈrɒkɪt/, /ˈrɑːkɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "火箭"
+            },
+            {
+                "word": "space",
+                "phonetic": "/speɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "太空；空间"
+            },
+            {
+                "word": "space station",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "太空站；宇宙空间站"
+            },
+            {
+                "word": "human",
+                "phonetic": "/ˈhjuːmən/",
+                "partOfSpeech": "adj. / n.",
+                "meaning": "人的 / 人"
+            },
+            {
+                "word": "servant",
+                "phonetic": "/ˈsɜː(r)vənt/",
+                "partOfSpeech": "n.",
+                "meaning": "仆人"
+            },
+            {
+                "word": "dangerous",
+                "phonetic": "/ˈdeɪndʒərəs/",
+                "partOfSpeech": "adj.",
+                "meaning": "有危险的；不安全的"
+            },
+            {
+                "word": "already",
+                "phonetic": "/ɔːlˈredi/",
+                "partOfSpeech": "adv.",
+                "meaning": "已经；早已"
+            },
+            {
+                "word": "factory",
+                "phonetic": "/ˈfæktri, ˈfæktəri/",
+                "partOfSpeech": "n.",
+                "meaning": "工厂"
+            },
+            {
+                "word": "over and over again",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "多次；反复地"
+            },
+            {
+                "word": "Japan",
+                "phonetic": "/dʒəˈpæn/",
+                "partOfSpeech": "proper noun",
+                "meaning": "日本"
+            },
+            {
+                "word": "believe",
+                "phonetic": "/bɪˈliːv/",
+                "partOfSpeech": "v.",
+                "meaning": "相信；认为有可能"
+            },
+            {
+                "word": "disagree",
+                "phonetic": "/ˌdɪsəˈɡriː/",
+                "partOfSpeech": "v.",
+                "meaning": "不同意；持不同意见；有分歧"
+            },
+            {
+                "word": "even",
+                "phonetic": "/ˈiːvn/",
+                "partOfSpeech": "adv.",
+                "meaning": "甚至；连；愈加"
+            },
+            {
+                "word": "agree",
+                "phonetic": "/əˈɡriː/",
+                "partOfSpeech": "v.",
+                "meaning": "同意；赞成；应允"
+            },
+            {
+                "word": "hundreds of",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "许多；大量"
+            },
+            {
+                "word": "shape",
+                "phonetic": "/ʃeɪp/",
+                "partOfSpeech": "n.",
+                "meaning": "形状；外形"
+            },
+            {
+                "word": "fall",
+                "phonetic": "/fɔːl/",
+                "partOfSpeech": "v. / n.",
+                "meaning": "倒塌；跌倒；掉落 / (美式)秋天（过去式fell /fel/）"
+            },
+            {
+                "word": "fall down",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "突然倒下；跌倒；倒塌"
+            },
+            {
+                "word": "inside",
+                "phonetic": "/ɪnˈsaɪd/",
+                "partOfSpeech": "adv. & prep.",
+                "meaning": "在……里面"
+            },
+            {
+                "word": "look for",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "寻找；寻求"
+            },
+            {
+                "word": "possible",
+                "phonetic": "/ˈpɒsəbl/, /ˈpɑːsəbl/",
+                "partOfSpeech": "adj.",
+                "meaning": "可能存在或发生的；可能的"
+            },
+            {
+                "word": "impossible",
+                "phonetic": "/ɪmˈpɒsəbl/, /ɪmˈpɑːsəbl/",
+                "partOfSpeech": "adj.",
+                "meaning": "不可能存在或发生的；不可能的"
+            },
+            {
+                "word": "side",
+                "phonetic": "/saɪd/",
+                "partOfSpeech": "n.",
+                "meaning": "一方(的意见、态度、立场)"
+            },
+            {
+                "word": "probably",
+                "phonetic": "/ˈprɒbəbli/, /ˈprɑːbəbli/",
+                "partOfSpeech": "adv.",
+                "meaning": "很可能；大概"
+            },
+            {
+                "word": "during",
+                "phonetic": "/ˈdjʊərɪŋ/, /ˈdʊrɪŋ/",
+                "partOfSpeech": "prep.",
+                "meaning": "在……期间"
+            },
+            {
+                "word": "holiday",
+                "phonetic": "/ˈhɒlədeɪ/, /ˈhɑːlədeɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "假期；假日"
+            },
+            {
+                "word": "word",
+                "phonetic": "/wɜː(r)d/",
+                "partOfSpeech": "n.",
+                "meaning": "单词；词"
+            },
+            {
+                "word": "Nick",
+                "phonetic": "/nɪk/",
+                "partOfSpeech": "name",
+                "meaning": "尼克(男名)"
+            },
+            {
+                "word": "James",
+                "phonetic": "/dʒeɪmz/",
+                "partOfSpeech": "name",
+                "meaning": "詹姆斯(男名)"
+            },
+            {
+                "word": "White",
+                "phonetic": "/waɪt/",
+                "partOfSpeech": "name",
+                "meaning": "怀特(姓)"
+            }
+        ],
+        "Unit8 How do you make a banana milk shake?": [
+            {
+                "word": "shake",
+                "phonetic": "/ʃeɪk/",
+                "partOfSpeech": "n. & v.",
+                "meaning": "摇动；抖动（过去式shook /ʃʊk/）"
+            },
+            {
+                "word": "milk shake",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "奶昔"
+            },
+            {
+                "word": "blender",
+                "phonetic": "/ˈblendə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "食物搅拌器"
+            },
+            {
+                "word": "turn on",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "接通(电流、煤气、水等)；打开"
+            },
+            {
+                "word": "peel",
+                "phonetic": "/piːl/",
+                "partOfSpeech": "v.",
+                "meaning": "剥皮；去皮"
+            },
+            {
+                "word": "pour",
+                "phonetic": "/pɔː(r)/",
+                "partOfSpeech": "v.",
+                "meaning": "倒出；倾倒"
+            },
+            {
+                "word": "yogurt",
+                "phonetic": "/ˈjɒɡət/, /ˈjoʊɡərt/",
+                "partOfSpeech": "n.",
+                "meaning": "(=yoghurt)酸奶"
+            },
+            {
+                "word": "honey",
+                "phonetic": "/ˈhʌni/",
+                "partOfSpeech": "n.",
+                "meaning": "蜂蜜"
+            },
+            {
+                "word": "watermelon",
+                "phonetic": "/ˈwɔːtə(r)melən/",
+                "partOfSpeech": "n.",
+                "meaning": "西瓜"
+            },
+            {
+                "word": "spoon",
+                "phonetic": "/spuːn/",
+                "partOfSpeech": "n.",
+                "meaning": "勺；调羹"
+            },
+            {
+                "word": "pot",
+                "phonetic": "/pɒt/, /pɑːt/",
+                "partOfSpeech": "n.",
+                "meaning": "锅"
+            },
+            {
+                "word": "add",
+                "phonetic": "/æd/",
+                "partOfSpeech": "v.",
+                "meaning": "增加；添加"
+            },
+            {
+                "word": "finally",
+                "phonetic": "/ˈfaɪnəli/",
+                "partOfSpeech": "adv.",
+                "meaning": "最后；最终"
+            },
+            {
+                "word": "salt",
+                "phonetic": "/sɔːlt/",
+                "partOfSpeech": "n.",
+                "meaning": "食盐"
+            },
+            {
+                "word": "sugar",
+                "phonetic": "/ˈʃʊɡə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "食糖"
+            },
+            {
+                "word": "cheese",
+                "phonetic": "/tʃiːz/",
+                "partOfSpeech": "n.",
+                "meaning": "干酪；奶酪"
+            },
+            {
+                "word": "popcorn",
+                "phonetic": "/ˈpɒpkɔːn/, /ˈpɑːpkɔːrn/",
+                "partOfSpeech": "n.",
+                "meaning": "爆米花"
+            },
+            {
+                "word": "corn",
+                "phonetic": "/kɔː(r)n/",
+                "partOfSpeech": "n.",
+                "meaning": "玉米；谷物"
+            },
+            {
+                "word": "machine",
+                "phonetic": "/məˈʃiːn/",
+                "partOfSpeech": "n.",
+                "meaning": "机器；机械装置"
+            },
+            {
+                "word": "dig",
+                "phonetic": "/dɪɡ/",
+                "partOfSpeech": "v.",
+                "meaning": "掘(地)；凿(洞)；挖(土)（过去式dug /dʌɡ/）"
+            },
+            {
+                "word": "hole",
+                "phonetic": "/həʊl/",
+                "partOfSpeech": "n.",
+                "meaning": "洞；孔；坑"
+            },
+            {
+                "word": "sandwich",
+                "phonetic": "/ˈsænwɪtʃ, ˈsænwɪdʒ/",
+                "partOfSpeech": "n.",
+                "meaning": "夹心面包片；三明治"
+            },
+            {
+                "word": "butter",
+                "phonetic": "/ˈbʌtə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "黄油；奶油"
+            },
+            {
+                "word": "turkey",
+                "phonetic": "/ˈtɜː(r)ki/",
+                "partOfSpeech": "n.",
+                "meaning": "火鸡"
+            },
+            {
+                "word": "lettuce",
+                "phonetic": "/ˈletɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "莴苣；生菜"
+            },
+            {
+                "word": "piece",
+                "phonetic": "/piːs/",
+                "partOfSpeech": "n.",
+                "meaning": "片；块；段"
+            },
+            {
+                "word": "Thanksgiving",
+                "phonetic": "/ˈθæŋksɡɪvɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "感恩节"
+            },
+            {
+                "word": "traditional",
+                "phonetic": "/trəˈdɪʃənl/",
+                "partOfSpeech": "adj.",
+                "meaning": "传统的；惯例的"
+            },
+            {
+                "word": "autumn",
+                "phonetic": "/ˈɔːtəm/",
+                "partOfSpeech": "n.",
+                "meaning": "秋天；秋季"
+            },
+            {
+                "word": "celebrate",
+                "phonetic": "/ˈselɪbreɪt/",
+                "partOfSpeech": "v.",
+                "meaning": "庆祝；庆贺"
+            },
+            {
+                "word": "prepare",
+                "phonetic": "/prɪˈpeə/, /prɪˈper/",
+                "partOfSpeech": "v.",
+                "meaning": "使做好准备；把……准备好"
+            },
+            {
+                "word": "gravy",
+                "phonetic": "/ˈɡreɪvi/",
+                "partOfSpeech": "n.",
+                "meaning": "(调味)肉汁"
+            },
+            {
+                "word": "mashed",
+                "phonetic": "/mæʃt/",
+                "partOfSpeech": "adj.",
+                "meaning": "捣烂的"
+            },
+            {
+                "word": "pumpkin",
+                "phonetic": "/ˈpʌmpkɪn/",
+                "partOfSpeech": "n.",
+                "meaning": "南瓜"
+            },
+            {
+                "word": "pie",
+                "phonetic": "/paɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "果馅饼；果馅派"
+            },
+            {
+                "word": "mix",
+                "phonetic": "/mɪks/",
+                "partOfSpeech": "n. / v.",
+                "meaning": "混合配料 / (使)混合；融合"
+            },
+            {
+                "word": "pepper",
+                "phonetic": "/ˈpepə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "胡椒粉；柿子椒"
+            },
+            {
+                "word": "fill",
+                "phonetic": "/fɪl/",
+                "partOfSpeech": "v.",
+                "meaning": "(使)充满；装满"
+            },
+            {
+                "word": "oven",
+                "phonetic": "/ˈʌvn/",
+                "partOfSpeech": "n.",
+                "meaning": "烤箱；烤炉"
+            },
+            {
+                "word": "plate",
+                "phonetic": "/pleɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "盘子；碟子"
+            },
+            {
+                "word": "cover",
+                "phonetic": "/ˈkʌvə(r)/",
+                "partOfSpeech": "v. / n.",
+                "meaning": "遮盖；覆盖 / 覆盖物；盖子"
+            },
+            {
+                "word": "serve",
+                "phonetic": "/sɜː(r)v/",
+                "partOfSpeech": "v.",
+                "meaning": "接待；服务；提供"
+            },
+            {
+                "word": "temperature",
+                "phonetic": "/ˈtemprətʃə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "温度；气温；体温"
+            }
+        ],
+        "Unit9 Can you come to my party?": [
+            {
+                "word": "prepare for",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "为……做准备"
+            },
+            {
+                "word": "exam",
+                "phonetic": "/ɪɡˈzæm/",
+                "partOfSpeech": "n.",
+                "meaning": "(=examination)考试"
+            },
+            {
+                "word": "go to the/a doctor",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "去看医生"
+            },
+            {
+                "word": "flu",
+                "phonetic": "/fluː/",
+                "partOfSpeech": "n.",
+                "meaning": "流行性感冒；流感"
+            },
+            {
+                "word": "available",
+                "phonetic": "/əˈveɪləbl/",
+                "partOfSpeech": "adj.",
+                "meaning": "有空的；可获得的"
+            },
+            {
+                "word": "another time",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "其他时间；别的时间"
+            },
+            {
+                "word": "until",
+                "phonetic": "/ənˈtɪl/",
+                "partOfSpeech": "conj. & prep.",
+                "meaning": "到……时；直到……为止"
+            },
+            {
+                "word": "hang",
+                "phonetic": "/hæŋ/",
+                "partOfSpeech": "v.",
+                "meaning": "悬挂；垂下（过去式hung /hʌŋ/）"
+            },
+            {
+                "word": "hang out",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "闲逛；常去某处"
+            },
+            {
+                "word": "catch",
+                "phonetic": "/kætʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "及时赶上；接住；抓住（过去式caught /kɔːt/）"
+            },
+            {
+                "word": "invite",
+                "phonetic": "/ɪnˈvaɪt/",
+                "partOfSpeech": "v.",
+                "meaning": "邀请"
+            },
+            {
+                "word": "accept",
+                "phonetic": "/əkˈsept/",
+                "partOfSpeech": "v.",
+                "meaning": "接受"
+            },
+            {
+                "word": "refuse",
+                "phonetic": "/rɪˈfjuːz/",
+                "partOfSpeech": "v.",
+                "meaning": "拒绝"
+            },
+            {
+                "word": "the day before yesterday",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "前天"
+            },
+            {
+                "word": "the day after tomorrow",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "后天"
+            },
+            {
+                "word": "weekday",
+                "phonetic": "/ˈwiːkdeɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "工作日(星期一至星期五的任何一天)"
+            },
+            {
+                "word": "look after",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "照料；照顾"
+            },
+            {
+                "word": "invitation",
+                "phonetic": "/ˌɪnvɪˈteɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "邀请；请柬"
+            },
+            {
+                "word": "turn down",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "拒绝"
+            },
+            {
+                "word": "reply",
+                "phonetic": "/rɪˈplaɪ/",
+                "partOfSpeech": "v.",
+                "meaning": "回答；答复"
+            },
+            {
+                "word": "forward",
+                "phonetic": "/ˈfɔː(r)wərd/",
+                "partOfSpeech": "v. / adv.",
+                "meaning": "转寄；发送 / 向前；前进"
+            },
+            {
+                "word": "delete",
+                "phonetic": "/dɪˈliːt/",
+                "partOfSpeech": "v.",
+                "meaning": "删除"
+            },
+            {
+                "word": "print",
+                "phonetic": "/prɪnt/",
+                "partOfSpeech": "v.",
+                "meaning": "打印；印刷"
+            },
+            {
+                "word": "sad",
+                "phonetic": "/sæd/",
+                "partOfSpeech": "adj.",
+                "meaning": "(令人)悲哀的；(令人)难过的"
+            },
+            {
+                "word": "goodbye",
+                "phonetic": "/ˌɡʊdˈbaɪ/",
+                "partOfSpeech": "interj. & n.",
+                "meaning": "再见"
+            },
+            {
+                "word": "take a trip",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "去旅行"
+            },
+            {
+                "word": "glad",
+                "phonetic": "/ɡlæd/",
+                "partOfSpeech": "adj.",
+                "meaning": "高兴；愿意"
+            },
+            {
+                "word": "help out",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "(帮助……)分担工作、解决难题"
+            },
+            {
+                "word": "preparation",
+                "phonetic": "/ˌprepəˈreɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "准备；准备工作"
+            },
+            {
+                "word": "glue",
+                "phonetic": "/ɡluː/",
+                "partOfSpeech": "n.",
+                "meaning": "胶水"
+            },
+            {
+                "word": "without",
+                "phonetic": "/wɪˈðaʊt/",
+                "partOfSpeech": "prep.",
+                "meaning": "没有；不(做某事)"
+            },
+            {
+                "word": "surprised",
+                "phonetic": "/sə(r)ˈpraɪzd/",
+                "partOfSpeech": "adj.",
+                "meaning": "惊奇的；感觉意外的"
+            },
+            {
+                "word": "look forward to",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "盼望；期待"
+            },
+            {
+                "word": "hear from",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "接到(某人的)信、电话等"
+            },
+            {
+                "word": "housewarming",
+                "phonetic": "/ˈhaʊswɔː(r)mɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "乔迁聚会"
+            },
+            {
+                "word": "opening",
+                "phonetic": "/ˈəʊpnɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "开幕式；落成典礼"
+            },
+            {
+                "word": "concert",
+                "phonetic": "/ˈkɒnsət/, /ˈkɑːnsərt/",
+                "partOfSpeech": "n.",
+                "meaning": "音乐会；演奏会"
+            },
+            {
+                "word": "headmaster",
+                "phonetic": "/ˈhedmɑːstə/, /ˈhedmæstər/",
+                "partOfSpeech": "n.",
+                "meaning": "校长"
+            },
+            {
+                "word": "event",
+                "phonetic": "/ɪˈvent/",
+                "partOfSpeech": "n.",
+                "meaning": "大事；公开活动；比赛项目"
+            },
+            {
+                "word": "guest",
+                "phonetic": "/ɡest/",
+                "partOfSpeech": "n.",
+                "meaning": "客人；宾客"
+            },
+            {
+                "word": "calendar",
+                "phonetic": "/ˈkælɪndə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "日历；日程表"
+            },
+            {
+                "word": "daytime",
+                "phonetic": "/ˈdeɪtaɪm/",
+                "partOfSpeech": "n.",
+                "meaning": "白天；日间"
+            },
+            {
+                "word": "Ted",
+                "phonetic": "/ted/",
+                "partOfSpeech": "name",
+                "meaning": "特德(男名)"
+            },
+            {
+                "word": "May",
+                "phonetic": "/meɪ/",
+                "partOfSpeech": "name",
+                "meaning": "梅(女名)"
+            },
+            {
+                "word": "Vince",
+                "phonetic": "/vɪns/",
+                "partOfSpeech": "name",
+                "meaning": "文斯(男名)"
+            },
+            {
+                "word": "Steen",
+                "phonetic": "/stiːn/",
+                "partOfSpeech": "name",
+                "meaning": "斯蒂恩(姓)"
+            },
+            {
+                "word": "Jake",
+                "phonetic": "/dʒeɪk/",
+                "partOfSpeech": "name",
+                "meaning": "杰克(男名)"
+            },
+            {
+                "word": "Susan",
+                "phonetic": "/ˈsuːzn/",
+                "partOfSpeech": "name",
+                "meaning": "苏珊(女名)"
+            }
+        ],
+        "Unit10 If you go to the party, you'll have a great time!": [
+            {
+                "word": "meeting",
+                "phonetic": "/ˈmiːtɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "会议；集会；会面"
+            },
+            {
+                "word": "video",
+                "phonetic": "/ˈvɪdiəʊ/",
+                "partOfSpeech": "n.",
+                "meaning": "录像带；录像"
+            },
+            {
+                "word": "organize",
+                "phonetic": "/ˈɔː(r)ɡənaɪz/",
+                "partOfSpeech": "v.",
+                "meaning": "(= organise)组织；筹备"
+            },
+            {
+                "word": "potato chips",
+                "phonetic": "/tʃɪps/",
+                "partOfSpeech": "phrase",
+                "meaning": "炸土豆片；炸薯条"
+            },
+            {
+                "word": "chocolate",
+                "phonetic": "/ˈtʃɒklət/, /ˈtʃɑːklət/",
+                "partOfSpeech": "n.",
+                "meaning": "巧克力"
+            },
+            {
+                "word": "upset",
+                "phonetic": "/ʌpˈset/",
+                "partOfSpeech": "adj.",
+                "meaning": "难过；失望；沮丧"
+            },
+            {
+                "word": "taxi",
+                "phonetic": "/ˈtæksi/",
+                "partOfSpeech": "n.",
+                "meaning": "出租汽车；的士"
+            },
+            {
+                "word": "advice",
+                "phonetic": "/ədˈvaɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "劝告；建议"
+            },
+            {
+                "word": "travel",
+                "phonetic": "/ˈtrævl/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "旅行；游历"
+            },
+            {
+                "word": "agent",
+                "phonetic": "/ˈeɪdʒənt/",
+                "partOfSpeech": "n.",
+                "meaning": "代理人；经纪人"
+            },
+            {
+                "word": "expert",
+                "phonetic": "/ˈekspɜː(r)t/",
+                "partOfSpeech": "n.",
+                "meaning": "专家"
+            },
+            {
+                "word": "keep ... to oneself",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "保守秘密"
+            },
+            {
+                "word": "teenager",
+                "phonetic": "/ˈtiːneɪdʒə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "(13~19岁的)青少年"
+            },
+            {
+                "word": "normal",
+                "phonetic": "/ˈnɔː(r)ml/",
+                "partOfSpeech": "adj.",
+                "meaning": "正常的；一般的"
+            },
+            {
+                "word": "unless",
+                "phonetic": "/ənˈles/",
+                "partOfSpeech": "conj.",
+                "meaning": "除非；如果不"
+            },
+            {
+                "word": "certainly",
+                "phonetic": "/ˈsɜː(r)tnli/",
+                "partOfSpeech": "adv.",
+                "meaning": "无疑；肯定；当然；行"
+            },
+            {
+                "word": "wallet",
+                "phonetic": "/ˈwɒlɪt/, /ˈwɑːlɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "钱包"
+            },
+            {
+                "word": "mile",
+                "phonetic": "/maɪl/",
+                "partOfSpeech": "n.",
+                "meaning": "英里"
+            },
+            {
+                "word": "angry",
+                "phonetic": "/ˈæŋɡri/",
+                "partOfSpeech": "adj.",
+                "meaning": "发怒的；生气的"
+            },
+            {
+                "word": "understanding",
+                "phonetic": "/ˌʌndəˈstændɪŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "善解人意的；体谅人的"
+            },
+            {
+                "word": "careless",
+                "phonetic": "/ˈkeələs/, /ˈkerləs/",
+                "partOfSpeech": "adj.",
+                "meaning": "粗心的；不小心的"
+            },
+            {
+                "word": "mistake",
+                "phonetic": "/mɪˈsteɪk/",
+                "partOfSpeech": "n.",
+                "meaning": "错误；失误"
+            },
+            {
+                "word": "himself",
+                "phonetic": "/hɪmˈself/",
+                "partOfSpeech": "pron.",
+                "meaning": "他自己"
+            },
+            {
+                "word": "careful",
+                "phonetic": "/ˈkeəfl/, /ˈkerfl/",
+                "partOfSpeech": "adj.",
+                "meaning": "小心的；细致的；精心的；慎重的"
+            },
+            {
+                "word": "advise",
+                "phonetic": "/ədˈvaɪz/",
+                "partOfSpeech": "v.",
+                "meaning": "劝告；建议"
+            },
+            {
+                "word": "solve",
+                "phonetic": "/sɒlv/, /sɑːlv/",
+                "partOfSpeech": "v.",
+                "meaning": "解决；解答"
+            },
+            {
+                "word": "step",
+                "phonetic": "/step/",
+                "partOfSpeech": "n.",
+                "meaning": "步；步骤"
+            },
+            {
+                "word": "trust",
+                "phonetic": "/trʌst/",
+                "partOfSpeech": "v.",
+                "meaning": "相信；信任"
+            },
+            {
+                "word": "experience",
+                "phonetic": "/ɪkˈspɪəriəns/, /ɪkˈspɪriəns/",
+                "partOfSpeech": "n.",
+                "meaning": "经验；经历"
+            },
+            {
+                "word": "in half",
+                "phonetic": "",
+                "partOfSpeech": "phrase",
+                "meaning": "分成两半"
+            },
+            {
+                "word": "halfway",
+                "phonetic": "/ˈhɑːfweɪ/, /ˈhæfweɪ/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "在中途；部分地做(或达到)"
+            },
+            {
+                "word": "else",
+                "phonetic": "/els/",
+                "partOfSpeech": "adv.",
+                "meaning": "别的；其他的"
+            },
+            {
+                "word": "Karen",
+                "phonetic": "/ˈkærən, ˈkɑːrən/",
+                "partOfSpeech": "name",
+                "meaning": "卡伦(女名)"
+            },
+            {
+                "word": "Ben",
+                "phonetic": "/ben/",
+                "partOfSpeech": "name",
+                "meaning": "本(男名)"
+            },
+            {
+                "word": "Michael",
+                "phonetic": "/ˈmaɪkl/",
+                "partOfSpeech": "name",
+                "meaning": "迈克尔(男名)"
+            },
+            {
+                "word": "Laura",
+                "phonetic": "/ˈlɔːrə/",
+                "partOfSpeech": "name",
+                "meaning": "劳拉(女名)"
+            },
+            {
+                "word": "Mills",
+                "phonetic": "/mɪlz/",
+                "partOfSpeech": "name",
+                "meaning": "米尔斯(姓)"
+            },
+            {
+                "word": "Robert",
+                "phonetic": "/ˈrɒbət/, /ˈrɑːbərt/",
+                "partOfSpeech": "name",
+                "meaning": "罗伯特(男名)"
+            },
+            {
+                "word": "Hunt",
+                "phonetic": "/hʌnt/",
+                "partOfSpeech": "name",
+                "meaning": "亨特(姓)"
+            }
+        ]
+    }
+}

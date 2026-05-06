@@ -1,0 +1,533 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语三年级下册",
+        "approvalInfo": "教育部2012年审订",
+        "publisher": "人民教育出版社",
+        "order": 2,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2014年10月第1版",
+        "isbn": "978-7-107-29086-2",
+        "coreUnitCount": 5,
+        "fullModuleList": ["Unit1 Welcome back to school!", "Unit2 My family", "Unit3 At the zoo", "Unit4 Where is my car?", "Unit5 Do you like pears?", "Unit6 How many?"]
+    },
+    "unitVocabulary": {
+        "Unit1 Welcome back to school!": [
+            {
+                "word": "UK",
+                "phonetic": "/ˌjuː ˈkeɪ/",
+                "meaning": "英国",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "Canada",
+                "phonetic": "/ˈkænədə/",
+                "meaning": "加拿大",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "USA",
+                "phonetic": "/ˌjuː es ˈeɪ/",
+                "meaning": "美国",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "China",
+                "phonetic": "/ˈtʃaɪnə/",
+                "meaning": "中国",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "she",
+                "phonetic": "/ʃiː/",
+                "meaning": "她",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "student",
+                "phonetic": "/ˈstjuːdnt/",
+                "meaning": "学生",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "pupil",
+                "phonetic": "/ˈpjuːpl/",
+                "meaning": "学生；(尤指)小学生",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "he",
+                "phonetic": "/hiː/",
+                "meaning": "他",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "teacher",
+                "phonetic": "/ˈtiːtʃə(r)/",
+                "meaning": "教师",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "boy",
+                "phonetic": "/bɔɪ/",
+                "meaning": "男孩",
+                "page": 4,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "and",
+                "phonetic": "/ənd/",
+                "meaning": "和；与",
+                "page": 4,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "girl",
+                "phonetic": "/ɡɜːl/",
+                "meaning": "女孩",
+                "page": 4,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "new",
+                "phonetic": "/njuː/",
+                "meaning": "新的",
+                "page": 4,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "friend",
+                "phonetic": "/frend/",
+                "meaning": "朋友",
+                "page": 4,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "today",
+                "phonetic": "/təˈdeɪ/",
+                "meaning": "今天",
+                "page": 4,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit2 My family": [
+            {
+                "word": "father",
+                "phonetic": "/ˈfɑːðə(r)/",
+                "meaning": "父亲；爸爸",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "dad",
+                "phonetic": "/dæd/",
+                "meaning": "(口语)爸爸；爹爹",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "man",
+                "phonetic": "/mæn/",
+                "meaning": "男人",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "woman",
+                "phonetic": "/ˈwʊmən/",
+                "meaning": "女人",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "mother",
+                "phonetic": "/ˈmʌðə(r)/",
+                "meaning": "母亲；妈妈",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "sister",
+                "phonetic": "/ˈsɪstə(r)/",
+                "meaning": "姐；妹",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "brother",
+                "phonetic": "/ˈbrʌðə(r)/",
+                "meaning": "兄；弟",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "grandmother",
+                "phonetic": "/ˈɡrænmʌðə(r)/",
+                "meaning": "(外)祖母",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "grandma",
+                "phonetic": "/ˈɡrænmɑː/",
+                "meaning": "(口语)(外)祖母",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "grandfather",
+                "phonetic": "/ˈɡrænfɑːðə(r)/",
+                "meaning": "(外)祖父",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "grandpa",
+                "phonetic": "/ˈɡrænpɑː/",
+                "meaning": "(口语)(外)祖父",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "family",
+                "phonetic": "/ˈfæməli/",
+                "meaning": "家；家庭",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            }
+        ],
+        "Unit3 At the zoo": [
+            {
+                "word": "thin",
+                "phonetic": "/θɪn/",
+                "meaning": "瘦的",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "fat",
+                "phonetic": "/fæt/",
+                "meaning": "胖的；肥的",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "tall",
+                "phonetic": "/tɔːl/",
+                "meaning": "高的",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "short",
+                "phonetic": "/ʃɔːt/",
+                "meaning": "矮的；短的",
+                "page": "25,28",
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "long",
+                "phonetic": "/lɒŋ/",
+                "meaning": "长的",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "small",
+                "phonetic": "/smɔːl/",
+                "meaning": "小的",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "big",
+                "phonetic": "/bɪɡ/",
+                "meaning": "大的",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "giraffe",
+                "phonetic": "/dʒəˈrɑːf/",
+                "meaning": "长颈鹿",
+                "page": 24,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "so",
+                "phonetic": "/səʊ/",
+                "meaning": "这么；那么",
+                "page": 24,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "children",
+                "phonetic": "/ˈtʃɪldrən/",
+                "meaning": "(child的复数)儿童",
+                "page": 27,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "tail",
+                "phonetic": "/teɪl/",
+                "meaning": "尾巴",
+                "page": 27,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit4 Where is my car?": [
+            {
+                "word": "in",
+                "phonetic": "/ɪn/",
+                "meaning": "在……里",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "on",
+                "phonetic": "/ɒn/",
+                "meaning": "在……上",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "under",
+                "phonetic": "/ˈʌndə(r)/",
+                "meaning": "在……下面",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "chair",
+                "phonetic": "/tʃeə(r)/",
+                "meaning": "椅子",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "desk",
+                "phonetic": "/desk/",
+                "meaning": "书桌",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "cap",
+                "phonetic": "/kæp/",
+                "meaning": "帽子",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "ball",
+                "phonetic": "/bɔːl/",
+                "meaning": "球",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "car",
+                "phonetic": "/kɑː(r)/",
+                "meaning": "小汽车",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "boat",
+                "phonetic": "/bəʊt/",
+                "meaning": "小船",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "map",
+                "phonetic": "/mæp/",
+                "meaning": "地图",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "toy",
+                "phonetic": "/tɔɪ/",
+                "meaning": "玩具",
+                "page": 41,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "box",
+                "phonetic": "/bɒks/",
+                "meaning": "盒；箱",
+                "page": 41,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit5 Do you like pears?": [
+            {
+                "word": "pear",
+                "phonetic": "/peə(r)/",
+                "meaning": "梨",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "apple",
+                "phonetic": "/ˈæpl/",
+                "meaning": "苹果",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "orange",
+                "phonetic": "/ˈɒrɪndʒ/",
+                "meaning": "橙子；柑橘",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "banana",
+                "phonetic": "/bəˈnɑːnə/",
+                "meaning": "香蕉",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "watermelon",
+                "phonetic": "/ˈwɔːtəmelən/",
+                "meaning": "西瓜",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "strawberry",
+                "phonetic": "/ˈstrɔːbəri/",
+                "meaning": "草莓",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "grape",
+                "phonetic": "/ɡreɪp/",
+                "meaning": "葡萄",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "fruit",
+                "phonetic": "/fruːt/",
+                "meaning": "水果",
+                "page": 48,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "buy",
+                "phonetic": "/baɪ/",
+                "meaning": "买",
+                "page": 48,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit6 How many?": [
+            {
+                "word": "eleven",
+                "phonetic": "/ɪˈlevn/",
+                "meaning": "十一",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "twelve",
+                "phonetic": "/twelv/",
+                "meaning": "十二",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "thirteen",
+                "phonetic": "/ˌθɜːˈtiːn/",
+                "meaning": "十三",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "fourteen",
+                "phonetic": "/ˌfɔːˈtiːn/",
+                "meaning": "十四",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "fifteen",
+                "phonetic": "/ˌfɪfˈtiːn/",
+                "meaning": "十五",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "sixteen",
+                "phonetic": "/ˌsɪksˈtiːn/",
+                "meaning": "十六",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "seventeen",
+                "phonetic": "/ˌsevnˈtiːn/",
+                "meaning": "十七",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "eighteen",
+                "phonetic": "/ˌeɪˈtiːn/",
+                "meaning": "十八",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "nineteen",
+                "phonetic": "/ˌnaɪnˈtiːn/",
+                "meaning": "十九",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "twenty",
+                "phonetic": "/ˈtwenti/",
+                "meaning": "二十",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "kite",
+                "phonetic": "/kaɪt/",
+                "meaning": "风筝",
+                "page": 58,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "beautiful",
+                "phonetic": "/ˈbjuːtɪfl/",
+                "meaning": "美丽的",
+                "page": 58,
+                "requirement": "listen_speak"
+            }
+        ]
+    },
+    "commonExpressions": {
+        "Unit1": ["Welcome! 欢迎!", "Where are you from? 你是哪里人?", "I'm from the UK. 我是英国人。"],
+        "Unit2": ["Who's that man? 那位男士是谁呀?", "He's my father. 他是我爸爸。", "Who's that woman? 那位女士是谁呀?", "She's my mother. 她是我妈妈。", "Is she your mother? 她是你妈妈吗?", "Yes, she is. 是的,她是。", "Is he your father? 他是你爸爸吗?", "No, he isn't. 不,他不是。"],
+        "Unit3": ["It's so tall! 它好高啊!", "Come here, children! 到这里来,孩子们!", "It has a long nose. 它有长鼻子。", "It has small eyes and big ears. 它有小眼睛和大耳朵。"],
+        "Unit4": ["Let's go home! 我们回家吧!", "Where is my pencil box? 我的铅笔盒在哪儿?", "It's in your desk. 在你桌子里。", "Silly me! 我真傻!", "Is it in your bag? 在你的包里吗?", "No, it isn't. / Yes, it is. 不,不在。/ 是的,在。", "Have a good time! 玩开心点儿!"],
+        "Unit5": ["Honey, let's buy some fruit. 宝贝儿,我们买点水果吧。", "Do you like oranges? 你喜欢橙子吗?", "No, I don't. / Yes, I do. 不,我不喜欢。/ 是的,我喜欢。", "Sorry, I don't like grapes. 抱歉,我不喜欢葡萄。", "Me, neither. 我也不喜欢。"],
+        "Unit6": ["How many kites do you see? 你看见了多少个风筝呀?", "The black one is a bird! 黑色的那个是只鸟!", "How many crayons do you have? 你有多少支蜡笔?", "Open it and see! 打开看看!"]
+    }
+}

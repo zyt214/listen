@@ -1,0 +1,622 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语七年级上册",
+        "approval": "教育部2012年审订",
+        "press": "人民教育出版社",
+        "order": 9,
+        "vocabularyRule": "词汇标注包含单词、标准英式音标、词性、中文释义、对应页码；文档未收录完整词汇的单元已标注说明"
+    },
+    "unitVocabulary": {
+        "Starter Unit 1": [
+            {
+                "word": "good",
+                "phonetic": "/ɡʊd/",
+                "partOfSpeech": "adj.",
+                "meaning": "好的",
+                "page": "S1"
+            },
+            {
+                "word": "morning",
+                "phonetic": "/ˈmɔːnɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "早晨;上午",
+                "page": "S1"
+            },
+            {
+                "word": "Good morning!",
+                "phonetic": "/ɡʊd ˈmɔːnɪŋ/",
+                "partOfSpeech": "固定句型",
+                "meaning": "早上好!",
+                "page": "S1"
+            },
+            {
+                "word": "hi",
+                "phonetic": "/haɪ/",
+                "partOfSpeech": "interj.",
+                "meaning": "(用于打招呼)嗨;喂",
+                "page": "S1"
+            },
+            {
+                "word": "hello",
+                "phonetic": "/həˈləʊ/",
+                "partOfSpeech": "interj.",
+                "meaning": "你好;喂",
+                "page": "S1"
+            },
+            {
+                "word": "afternoon",
+                "phonetic": "/ˌɑːftəˈnuːn/",
+                "partOfSpeech": "n.",
+                "meaning": "下午",
+                "page": "S3"
+            },
+            {
+                "word": "Good afternoon!",
+                "phonetic": "/ɡʊd ˌɑːftəˈnuːn/",
+                "partOfSpeech": "固定句型",
+                "meaning": "下午好!",
+                "page": "S3"
+            },
+            {
+                "word": "evening",
+                "phonetic": "/ˈiːvnɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "晚上;傍晚",
+                "page": "S3"
+            },
+            {
+                "word": "Good evening!",
+                "phonetic": "/ɡʊd ˈiːvnɪŋ/",
+                "partOfSpeech": "固定句型",
+                "meaning": "晚上好!",
+                "page": "S3"
+            },
+            {
+                "word": "how",
+                "phonetic": "/haʊ/",
+                "partOfSpeech": "adv.",
+                "meaning": "怎样;如何",
+                "page": "S3"
+            },
+            {
+                "word": "are",
+                "phonetic": "/ɑː(r); ə(r)/",
+                "partOfSpeech": "v.",
+                "meaning": "是",
+                "page": "S3"
+            },
+            {
+                "word": "you",
+                "phonetic": "/juː/",
+                "partOfSpeech": "pron.",
+                "meaning": "你;你们",
+                "page": "S3"
+            },
+            {
+                "word": "How are you?",
+                "phonetic": "/haʊ ɑː(r) juː/",
+                "partOfSpeech": "固定句型",
+                "meaning": "你好吗?",
+                "page": "S3"
+            },
+            {
+                "word": "I",
+                "phonetic": "/aɪ/",
+                "partOfSpeech": "pron.",
+                "meaning": "我",
+                "page": "S3"
+            },
+            {
+                "word": "am",
+                "phonetic": "/æm/",
+                "partOfSpeech": "v.",
+                "meaning": "是",
+                "page": "S3"
+            },
+            {
+                "word": "fine",
+                "phonetic": "/faɪn/",
+                "partOfSpeech": "adj.",
+                "meaning": "健康的;美好的",
+                "page": "S3"
+            },
+            {
+                "word": "thanks",
+                "phonetic": "/θæŋks/",
+                "partOfSpeech": "interj. & n.",
+                "meaning": "感谢;谢谢",
+                "page": "S3"
+            },
+            {
+                "word": "OK",
+                "phonetic": "/əʊˈkeɪ/",
+                "partOfSpeech": "adj. & adv.",
+                "meaning": "安然无恙;好;行",
+                "page": "S3"
+            },
+            {
+                "word": "HB",
+                "phonetic": "/ˌeɪtʃ ˈbiː/",
+                "partOfSpeech": "缩写",
+                "meaning": "(铅笔芯)硬黑",
+                "page": "S2"
+            },
+            {
+                "word": "CD",
+                "phonetic": "/ˌsiː ˈdiː/",
+                "partOfSpeech": "缩写",
+                "meaning": "光盘;激光唱片",
+                "page": "S2"
+            },
+            {
+                "word": "BBC",
+                "phonetic": "/ˌbiː biː ˈsiː/",
+                "partOfSpeech": "缩写",
+                "meaning": "英国广播公司",
+                "page": "S2"
+            },
+            {
+                "word": "Alice",
+                "phonetic": "/ˈælɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "艾丽斯(女名)",
+                "page": "S1"
+            },
+            {
+                "word": "Bob",
+                "phonetic": "/bɒb/",
+                "partOfSpeech": "n.",
+                "meaning": "鲍勃(男名)",
+                "page": "S1"
+            },
+            {
+                "word": "Cindy",
+                "phonetic": "/ˈsɪndi/",
+                "partOfSpeech": "n.",
+                "meaning": "辛迪(女名)",
+                "page": "S1"
+            },
+            {
+                "word": "Dale",
+                "phonetic": "/deɪl/",
+                "partOfSpeech": "n.",
+                "meaning": "戴尔(男名)",
+                "page": "S1"
+            },
+            {
+                "word": "Eric",
+                "phonetic": "/ˈerɪk/",
+                "partOfSpeech": "n.",
+                "meaning": "埃里克(男名)",
+                "page": "S1"
+            },
+            {
+                "word": "Frank",
+                "phonetic": "/fræŋk/",
+                "partOfSpeech": "n.",
+                "meaning": "弗兰克(男名)",
+                "page": "S1"
+            },
+            {
+                "word": "Grace",
+                "phonetic": "/ɡreɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "格雷丝(女名)",
+                "page": "S1"
+            },
+            {
+                "word": "Helen",
+                "phonetic": "/ˈhelən/",
+                "partOfSpeech": "n.",
+                "meaning": "海伦(女名)",
+                "page": "S1"
+            }
+        ],
+        "Starter Unit 2": [
+            {
+                "word": "文档未收录本单元完整词汇表",
+                "meaning": "仅标注单元标题，无具体词汇内容"
+            }
+        ],
+        "Starter Unit 3": [
+            {
+                "word": "color",
+                "phonetic": "/ˈkʌlə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "(= colour)颜色",
+                "page": "S9"
+            },
+            {
+                "word": "red",
+                "phonetic": "/red/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "红色(的)",
+                "page": "S9"
+            },
+            {
+                "word": "yellow",
+                "phonetic": "/ˈjeləʊ/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "黄色(的)",
+                "page": "S9"
+            },
+            {
+                "word": "green",
+                "phonetic": "/ɡriːn/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "绿色(的)",
+                "page": "S9"
+            },
+            {
+                "word": "blue",
+                "phonetic": "/bluː/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "蓝色(的)",
+                "page": "S9"
+            },
+            {
+                "word": "black",
+                "phonetic": "/blæk/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "黑色(的)",
+                "page": "S9"
+            },
+            {
+                "word": "white",
+                "phonetic": "/waɪt/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "白色(的)",
+                "page": "S9"
+            },
+            {
+                "word": "purple",
+                "phonetic": "/ˈpɜːpl/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "紫色(的)",
+                "page": "S9"
+            }
+        ],
+        "Unit 1 My name’s Gina.": [
+            {
+                "word": "ID card",
+                "phonetic": "/ˌaɪˈdiː kɑːd/",
+                "partOfSpeech": "n.",
+                "meaning": "身份证;(个人身份)信息卡",
+                "page": "4"
+            }
+        ],
+        "Unit 2 This is my sister.": [
+            {
+                "word": "文档未收录本单元完整词汇表",
+                "meaning": "仅标注单元标题，无具体词汇内容"
+            }
+        ],
+        "Unit 3 Is this your pencil?": [
+            {
+                "word": "a set of",
+                "phonetic": "/ə set ɒv/",
+                "partOfSpeech": "固定短语",
+                "meaning": "一套;一副;一组",
+                "page": "18"
+            },
+            {
+                "word": "Anna",
+                "phonetic": "/ˈænə/",
+                "partOfSpeech": "n.",
+                "meaning": "安娜(女名)",
+                "page": "14"
+            },
+            {
+                "word": "John",
+                "phonetic": "/dʒɒn/",
+                "partOfSpeech": "n.",
+                "meaning": "约翰(男名)",
+                "page": "17"
+            },
+            {
+                "word": "David",
+                "phonetic": "/ˈdeɪvɪd/",
+                "partOfSpeech": "n.",
+                "meaning": "戴维(男名)",
+                "page": "18"
+            },
+            {
+                "word": "table",
+                "phonetic": "/ˈteɪbl/",
+                "partOfSpeech": "n.",
+                "meaning": "桌子",
+                "page": "19"
+            },
+            {
+                "word": "bookcase",
+                "phonetic": "/ˈbʊkkeɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "书架;书柜",
+                "page": "19"
+            },
+            {
+                "word": "chair",
+                "phonetic": "/tʃeə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "椅子",
+                "page": "19"
+            }
+        ],
+        "Unit 4 Where’s my schoolbag?": [
+            {
+                "word": "文档未收录本单元完整词汇表",
+                "meaning": "仅标注单元标题，无具体词汇内容"
+            }
+        ],
+        "Unit 5 Do you have a soccer ball?": [
+            {
+                "word": "do",
+                "phonetic": "/duː; də/",
+                "partOfSpeech": "aux v. & v.",
+                "meaning": "用于构成否定句和疑问句;做;干）",
+                "page": "25"
+            },
+            {
+                "word": "have",
+                "phonetic": "/hæv; həv/",
+                "partOfSpeech": "v.",
+                "meaning": "有",
+                "page": "25"
+            },
+            {
+                "word": "tennis",
+                "phonetic": "/ˈtenɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "网球",
+                "page": "25"
+            },
+            {
+                "word": "ball",
+                "phonetic": "/bɔːl/",
+                "partOfSpeech": "n.",
+                "meaning": "球",
+                "page": "25"
+            },
+            {
+                "word": "ping-pong",
+                "phonetic": "/ˈpɪŋpɒŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "乒乓球",
+                "page": "25"
+            },
+            {
+                "word": "bat",
+                "phonetic": "/bæt/",
+                "partOfSpeech": "n.",
+                "meaning": "球棒;球拍",
+                "page": "25"
+            },
+            {
+                "word": "soccer",
+                "phonetic": "/ˈsɒkə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "(英式)足球",
+                "page": "25"
+            },
+            {
+                "word": "soccer ball",
+                "phonetic": "/ˈsɒkə(r) bɔːl/",
+                "partOfSpeech": "n.",
+                "meaning": "(英式)足球",
+                "page": "25"
+            },
+            {
+                "word": "volleyball",
+                "phonetic": "/ˈvɒlibɔːl/",
+                "partOfSpeech": "n.",
+                "meaning": "排球",
+                "page": "25"
+            },
+            {
+                "word": "basketball",
+                "phonetic": "/ˈbɑːskɪtbɔːl/",
+                "partOfSpeech": "n.",
+                "meaning": "篮球",
+                "page": "25"
+            },
+            {
+                "word": "hey",
+                "phonetic": "/heɪ/",
+                "partOfSpeech": "interj.",
+                "meaning": "嘿;喂",
+                "page": "26"
+            },
+            {
+                "word": "let",
+                "phonetic": "/let/",
+                "partOfSpeech": "v.",
+                "meaning": "允许;让",
+                "page": "26"
+            },
+            {
+                "word": "us",
+                "phonetic": "/ʌs; əs/",
+                "partOfSpeech": "pron.",
+                "meaning": "我们",
+                "page": "26"
+            },
+            {
+                "word": "let’s",
+                "phonetic": "/lets/",
+                "partOfSpeech": "缩写",
+                "meaning": "让我们(一起)",
+                "page": "26"
+            },
+            {
+                "word": "play",
+                "phonetic": "/pleɪ/",
+                "partOfSpeech": "v.",
+                "meaning": "参加(比赛或运动);玩耍",
+                "page": "27"
+            },
+            {
+                "word": "interesting",
+                "phonetic": "/ˈɪntrəstɪŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "有趣的",
+                "page": "28"
+            },
+            {
+                "word": "boring",
+                "phonetic": "/ˈbɔːrɪŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "没趣的;令人厌倦的",
+                "page": "28"
+            },
+            {
+                "word": "fun",
+                "phonetic": "/fʌn/",
+                "partOfSpeech": "adj. & n.",
+                "meaning": "有趣的;使人快乐的;乐趣;快乐",
+                "page": "28"
+            },
+            {
+                "word": "difficult",
+                "phonetic": "/ˈdɪfɪkəlt/",
+                "partOfSpeech": "adj.",
+                "meaning": "困难的",
+                "page": "28"
+            },
+            {
+                "word": "watch",
+                "phonetic": "/wɒtʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "注视;观看",
+                "page": "28"
+            },
+            {
+                "word": "TV",
+                "phonetic": "/ˌtiː ˈviː/",
+                "partOfSpeech": "n.",
+                "meaning": "电视;电视机",
+                "page": "28"
+            },
+            {
+                "word": "love",
+                "phonetic": "/lʌv/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "爱;喜爱",
+                "page": "29"
+            },
+            {
+                "word": "with",
+                "phonetic": "/wɪð; wɪθ/",
+                "partOfSpeech": "prep.",
+                "meaning": "和……在一起;带有;使用",
+                "page": "29"
+            },
+            {
+                "word": "sport",
+                "phonetic": "/spɔːt/",
+                "partOfSpeech": "n.",
+                "meaning": "体育运动",
+                "page": "29"
+            },
+            {
+                "word": "them",
+                "phonetic": "/ðem; ðəm/",
+                "partOfSpeech": "pron.",
+                "meaning": "(they 的宾格)他(她、它)们",
+                "page": "29"
+            },
+            {
+                "word": "like",
+                "phonetic": "/laɪk/",
+                "partOfSpeech": "v.",
+                "meaning": "喜欢;喜爱",
+                "page": "29"
+            },
+            {
+                "word": "easy",
+                "phonetic": "/ˈiːzi/",
+                "partOfSpeech": "adj.",
+                "meaning": "容易的;不费力的",
+                "page": "29"
+            },
+            {
+                "word": "after",
+                "phonetic": "/ˈɑːftə(r)/",
+                "partOfSpeech": "prep. & conj.",
+                "meaning": "在……以后",
+                "page": "29"
+            },
+            {
+                "word": "class",
+                "phonetic": "/klɑːs/",
+                "partOfSpeech": "n.",
+                "meaning": "班级;课",
+                "page": "29"
+            }
+        ],
+        "Unit 6 Do you like bananas?": [
+            {
+                "word": "banana",
+                "phonetic": "/bəˈnɑːnə/",
+                "partOfSpeech": "n.",
+                "meaning": "香蕉",
+                "page": "31"
+            },
+            {
+                "word": "hamburger",
+                "phonetic": "/ˈhæmbɜːɡə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "汉堡包",
+                "page": "31"
+            },
+            {
+                "word": "tomato",
+                "phonetic": "/təˈmɑːtəʊ/",
+                "partOfSpeech": "n.",
+                "meaning": "西红柿",
+                "page": "31"
+            },
+            {
+                "word": "ice-cream",
+                "phonetic": "/ˈaɪs kriːm/",
+                "partOfSpeech": "n.",
+                "meaning": "冰激凌",
+                "page": "31"
+            },
+            {
+                "word": "salad",
+                "phonetic": "/ˈsæləd/",
+                "partOfSpeech": "n.",
+                "meaning": "沙拉",
+                "page": "31"
+            },
+            {
+                "word": "strawberry",
+                "phonetic": "/ˈstrɔːbəri/",
+                "partOfSpeech": "n.",
+                "meaning": "草莓",
+                "page": "31"
+            },
+            {
+                "word": "pear",
+                "phonetic": "/peə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "梨",
+                "page": "31"
+            },
+            {
+                "word": "milk",
+                "phonetic": "/mɪlk/",
+                "partOfSpeech": "n.",
+                "meaning": "牛奶",
+                "page": "31"
+            },
+            {
+                "word": "bread",
+                "phonetic": "/bred/",
+                "partOfSpeech": "n.",
+                "meaning": "面包",
+                "page": "31"
+            }
+        ]
+    }
+}

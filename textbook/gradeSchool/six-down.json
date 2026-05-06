@@ -1,0 +1,571 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语六年级下册",
+        "approvalInfo": "教育部审定2013",
+        "award": "全国优秀教材二等奖",
+        "publisher": "人民教育出版社",
+        "order": 8,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2014年10月第1版",
+        "isbn": "978-7-107-29071-8",
+        "coreUnitCount": 4,
+        "fullModuleList": ["Unit 1 How tall are you?", "Unit 2 Last weekend", "Unit 3 Where did you go?", "Unit 4 Then and now", "Recycle Mike’s happy days"]
+    },
+    "unitVocabulary": {
+        "Unit 1": [
+            {
+                "word": "younger",
+                "phonetic": "/ˈjʌŋɡə(r)/",
+                "meaning": "(young 的比较级)更年轻的",
+                "page": "p.5"
+            },
+            {
+                "word": "older",
+                "phonetic": "/ˈəʊldə(r)/",
+                "meaning": "(old 的比较级)更年长的",
+                "page": "p.5"
+            },
+            {
+                "word": "taller",
+                "phonetic": "/ˈtɔːlə(r)/",
+                "meaning": "(tall 的比较级)更高的",
+                "page": "p.5"
+            },
+            {
+                "word": "shorter",
+                "phonetic": "/ˈʃɔːtə(r)/",
+                "meaning": "(short 的比较级)更矮的;更短的",
+                "page": "p.5"
+            },
+            {
+                "word": "longer",
+                "phonetic": "/ˈlɒŋɡə(r)/",
+                "meaning": "(long 的比较级)更长的",
+                "page": "p.5"
+            },
+            {
+                "word": "thinner",
+                "phonetic": "/ˈθɪnə(r)/",
+                "meaning": "(thin 的比较级)更瘦的",
+                "page": "p.7"
+            },
+            {
+                "word": "heavier",
+                "phonetic": "/ˈheviə(r)/",
+                "meaning": "(heavy /ˈhevi/ 的比较级)更重的",
+                "page": "p.7"
+            },
+            {
+                "word": "bigger",
+                "phonetic": "/ˈbɪɡə(r)/",
+                "meaning": "(big 的比较级)更大的",
+                "page": "p.7"
+            },
+            {
+                "word": "smaller",
+                "phonetic": "/ˈsmɔːlə(r)/",
+                "meaning": "(small 的比较级)更小的",
+                "page": "p.7"
+            },
+            {
+                "word": "stronger",
+                "phonetic": "/ˈstrɒŋɡə(r)/",
+                "meaning": "(strong 的比较级)更强壮的",
+                "page": "p.7"
+            },
+            {
+                "word": "dinosaur",
+                "phonetic": "/ˈdaɪnəsɔː(r)/",
+                "meaning": "恐龙",
+                "page": "p.4"
+            },
+            {
+                "word": "hall",
+                "phonetic": "/hɔːl/",
+                "meaning": "大厅",
+                "page": "p.4"
+            },
+            {
+                "word": "metre",
+                "phonetic": "/ˈmiːtə(r)/",
+                "meaning": "米(美式英语:meter /ˈmiːtə(r)/)",
+                "page": "p.4"
+            },
+            {
+                "word": "than",
+                "phonetic": "/ðən; ðæn/",
+                "meaning": "比",
+                "page": "p.4"
+            },
+            {
+                "word": "both",
+                "phonetic": "/bəʊθ/",
+                "meaning": "两个都",
+                "page": "p.4"
+            },
+            {
+                "word": "kilogram",
+                "phonetic": "/ˈkɪləɡræm/",
+                "meaning": "千克;公斤",
+                "page": "p.6"
+            },
+            {
+                "word": "countryside",
+                "phonetic": "/ˈkʌntrisaɪd/",
+                "meaning": "乡村",
+                "page": "p.8"
+            },
+            {
+                "word": "lower",
+                "phonetic": "/ˈləʊə(r)/",
+                "meaning": "(low /ləʊ/ 的比较级)更低地",
+                "page": "p.8"
+            },
+            {
+                "word": "shadow",
+                "phonetic": "/ˈʃædəʊ/",
+                "meaning": "阴影;影子",
+                "page": "p.8"
+            },
+            {
+                "word": "smarter",
+                "phonetic": "/ˈsmɑːtə(r)/",
+                "meaning": "(smart /smɑːt/ 的比较级)更聪明的",
+                "page": "p.8"
+            },
+            {
+                "word": "become",
+                "phonetic": "/bɪˈkʌm/",
+                "meaning": "开始变得;变成",
+                "page": "p.8"
+            }
+        ],
+        "Unit 2": [
+            {
+                "word": "cleaned",
+                "phonetic": "/kliːnd/",
+                "meaning": "(clean 的过去式)打扫",
+                "page": "p.15"
+            },
+            {
+                "word": "stayed",
+                "phonetic": "/steɪd/",
+                "meaning": "(stay 的过去式)停留;待",
+                "page": "p.15"
+            },
+            {
+                "word": "washed",
+                "phonetic": "/wɒʃt/",
+                "meaning": "(wash 的过去式)洗",
+                "page": "p.15"
+            },
+            {
+                "word": "watched",
+                "phonetic": "/wɒtʃt/",
+                "meaning": "(watch 的过去式)看",
+                "page": "p.15"
+            },
+            {
+                "word": "had",
+                "phonetic": "/hæd/",
+                "meaning": "(have 的过去式)患病;得病",
+                "page": "p.17"
+            },
+            {
+                "word": "had a cold",
+                "phonetic": "",
+                "meaning": "感冒",
+                "page": "p.17"
+            },
+            {
+                "word": "slept",
+                "phonetic": "/slept/",
+                "meaning": "(sleep 的过去式)睡觉",
+                "page": "p.17"
+            },
+            {
+                "word": "read",
+                "phonetic": "/red/",
+                "meaning": "(read /riːd/ 的过去式)读",
+                "page": "p.17"
+            },
+            {
+                "word": "saw",
+                "phonetic": "/sɔː/",
+                "meaning": "(see 的过去式)看见",
+                "page": "p.17"
+            },
+            {
+                "word": "last",
+                "phonetic": "/lɑːst/",
+                "meaning": "最近的;上一个的",
+                "page": "p.17"
+            },
+            {
+                "word": "yesterday",
+                "phonetic": "/ˈjestədeɪ/",
+                "meaning": "昨天",
+                "page": "p.17"
+            },
+            {
+                "word": "before",
+                "phonetic": "/bɪˈfɔː(r)/",
+                "meaning": "在⋯⋯之前",
+                "page": "p.17"
+            },
+            {
+                "word": "drank",
+                "phonetic": "/dræŋk/",
+                "meaning": "(drink 的过去式)喝",
+                "page": "p.14"
+            },
+            {
+                "word": "show",
+                "phonetic": "/ʃəʊ/",
+                "meaning": "演出",
+                "page": "p.14"
+            },
+            {
+                "word": "magazine",
+                "phonetic": "/ˌmæɡəˈziːn/",
+                "meaning": "杂志",
+                "page": "p.16"
+            },
+            {
+                "word": "better",
+                "phonetic": "/ˈbetə(r)/",
+                "meaning": "(well 的比较级)更好的",
+                "page": "p.16"
+            },
+            {
+                "word": "faster",
+                "phonetic": "/ˈfɑːstə(r)/",
+                "meaning": "(fast 的比较级)更快的",
+                "page": "p.16"
+            },
+            {
+                "word": "hotel",
+                "phonetic": "/həʊˈtel/",
+                "meaning": "旅馆",
+                "page": "p.18"
+            },
+            {
+                "word": "fixed",
+                "phonetic": "/fɪkst/",
+                "meaning": "(fix /fɪks/ 的过去式)修理",
+                "page": "p.18"
+            },
+            {
+                "word": "broken",
+                "phonetic": "/ˈbrəʊkən/",
+                "meaning": "破损的",
+                "page": "p.18"
+            },
+            {
+                "word": "lamp",
+                "phonetic": "/læmp/",
+                "meaning": "台灯",
+                "page": "p.18"
+            },
+            {
+                "word": "loud",
+                "phonetic": "/laʊd/",
+                "meaning": "喧闹的;大声的",
+                "page": "p.18"
+            },
+            {
+                "word": "enjoy",
+                "phonetic": "/ɪnˈdʒɔɪ/",
+                "meaning": "享受⋯⋯乐趣;喜爱",
+                "page": "p.18"
+            },
+            {
+                "word": "stay",
+                "phonetic": "/steɪ/",
+                "meaning": "暂住;逗留",
+                "page": "p.18"
+            }
+        ],
+        "Unit 3": [
+            {
+                "word": "went",
+                "phonetic": "/went/",
+                "meaning": "(go 的过去式)去",
+                "page": "p.25"
+            },
+            {
+                "word": "camp",
+                "phonetic": "/kæmp/",
+                "meaning": "野营",
+                "page": "p.25"
+            },
+            {
+                "word": "went camping",
+                "phonetic": "",
+                "meaning": "(尤指在假日)野营",
+                "page": "p.25"
+            },
+            {
+                "word": "fish",
+                "phonetic": "/fɪʃ/",
+                "meaning": "钓鱼;捕鱼",
+                "page": "p.25"
+            },
+            {
+                "word": "went fishing",
+                "phonetic": "",
+                "meaning": "去钓鱼",
+                "page": "p.25"
+            },
+            {
+                "word": "rode",
+                "phonetic": "/rəʊd/",
+                "meaning": "(ride /raɪd/ 的过去式)骑(马;自行车)",
+                "page": "p.25"
+            },
+            {
+                "word": "hurt",
+                "phonetic": "/hɜːt/",
+                "meaning": "(hurt 的过去式)(使)受伤",
+                "page": "p.25"
+            },
+            {
+                "word": "ate",
+                "phonetic": "/eɪt/",
+                "meaning": "(eat 的过去式)吃",
+                "page": "p.27"
+            },
+            {
+                "word": "took",
+                "phonetic": "/tʊk/",
+                "meaning": "(take 的过去式)拍照",
+                "page": "p.27"
+            },
+            {
+                "word": "took pictures",
+                "phonetic": "",
+                "meaning": "照相",
+                "page": "p.27"
+            },
+            {
+                "word": "bought",
+                "phonetic": "/bɔːt/",
+                "meaning": "(buy 的过去式)买",
+                "page": "p.27"
+            },
+            {
+                "word": "gift",
+                "phonetic": "/ɡɪft/",
+                "meaning": "礼物",
+                "page": "p.27"
+            },
+            {
+                "word": "fell",
+                "phonetic": "/fel/",
+                "meaning": "(fall的过去式)摔倒",
+                "page": "p.24"
+            },
+            {
+                "word": "off",
+                "phonetic": "/ɒf/",
+                "meaning": "从(某处)落下",
+                "page": "p.24"
+            },
+            {
+                "word": "Labour Day",
+                "phonetic": "/ˈleɪbə(r) ˌdeɪ/",
+                "meaning": "劳动节",
+                "page": "p.24"
+            },
+            {
+                "word": "mule",
+                "phonetic": "/mjuːl/",
+                "meaning": "骡子",
+                "page": "p.24"
+            },
+            {
+                "word": "Turpan",
+                "phonetic": "/ˈtʊəˈpɑːn/",
+                "meaning": "吐鲁番",
+                "page": "p.24"
+            },
+            {
+                "word": "could",
+                "phonetic": "/kəd; kʊd/",
+                "meaning": "(can 的过去式)能",
+                "page": "p.24"
+            },
+            {
+                "word": "till",
+                "phonetic": "/tɪl/",
+                "meaning": "直到",
+                "page": "p.24"
+            },
+            {
+                "word": "beach",
+                "phonetic": "/biːtʃ/",
+                "meaning": "海滩;沙滩",
+                "page": "p.26"
+            },
+            {
+                "word": "basket",
+                "phonetic": "/ˈbɑːskɪt/",
+                "meaning": "篮;筐",
+                "page": "p.28"
+            },
+            {
+                "word": "part",
+                "phonetic": "/pɑːt/",
+                "meaning": "角色",
+                "page": "p.28"
+            },
+            {
+                "word": "licked",
+                "phonetic": "/lɪkt/",
+                "meaning": "(lick /lɪk/ 的过去式)舔",
+                "page": "p.28"
+            },
+            {
+                "word": "laughed",
+                "phonetic": "/lɑːft/",
+                "meaning": "(laugh /lɑːf/ 的过去式)笑",
+                "page": "p.28"
+            }
+        ],
+        "Unit 4": [
+            {
+                "word": "dining hall",
+                "phonetic": "/ˈdaɪnɪŋ ˌhɔːl/",
+                "meaning": "饭厅",
+                "page": "p.35"
+            },
+            {
+                "word": "grass",
+                "phonetic": "/ɡrɑːs/",
+                "meaning": "草坪",
+                "page": "p.35"
+            },
+            {
+                "word": "gym",
+                "phonetic": "/dʒɪm/",
+                "meaning": "体育馆",
+                "page": "p.35"
+            },
+            {
+                "word": "ago",
+                "phonetic": "/əˈɡəʊ/",
+                "meaning": "以前",
+                "page": "p.35"
+            },
+            {
+                "word": "cycling",
+                "phonetic": "/ˈsaɪklɪŋ/",
+                "meaning": "骑自行车运动(或活动)",
+                "page": "p.37"
+            },
+            {
+                "word": "go cycling",
+                "phonetic": "",
+                "meaning": "去骑自行车",
+                "page": "p.37"
+            },
+            {
+                "word": "ice-skate",
+                "phonetic": "/ˈaɪsskeɪt/",
+                "meaning": "滑冰",
+                "page": "p.37"
+            },
+            {
+                "word": "badminton",
+                "phonetic": "/ˈbædmɪntən/",
+                "meaning": "羽毛球运动",
+                "page": "p.37"
+            },
+            {
+                "word": "star",
+                "phonetic": "/stɑː(r)/",
+                "meaning": "星",
+                "page": "p.34"
+            },
+            {
+                "word": "easy",
+                "phonetic": "/ˈiːzi/",
+                "meaning": "容易的",
+                "page": "p.34"
+            },
+            {
+                "word": "look up",
+                "phonetic": "",
+                "meaning": "(在词典中或通过电脑)查阅",
+                "page": "p.34"
+            },
+            {
+                "word": "Internet",
+                "phonetic": "/ˈɪntənet/",
+                "meaning": "互联网",
+                "page": "p.34"
+            },
+            {
+                "word": "different",
+                "phonetic": "/ˈdɪfrənt/",
+                "meaning": "不同的",
+                "page": "p.36"
+            },
+            {
+                "word": "active",
+                "phonetic": "/ˈæktɪv/",
+                "meaning": "积极的;活跃的",
+                "page": "p.36"
+            },
+            {
+                "word": "race",
+                "phonetic": "/reɪs/",
+                "meaning": "赛跑",
+                "page": "p.38"
+            },
+            {
+                "word": "nothing",
+                "phonetic": "/ˈnʌθɪŋ/",
+                "meaning": "没有什么",
+                "page": "p.38"
+            },
+            {
+                "word": "thought",
+                "phonetic": "/θɔːt/",
+                "meaning": "(think 的过去式)想",
+                "page": "p.38"
+            },
+            {
+                "word": "felt",
+                "phonetic": "/felt/",
+                "meaning": "(feel 的过去式)感觉",
+                "page": "p.38"
+            },
+            {
+                "word": "cheetah",
+                "phonetic": "/ˈtʃiːtə/",
+                "meaning": "猎豹",
+                "page": "p.38"
+            },
+            {
+                "word": "trip",
+                "phonetic": "/trɪp/",
+                "meaning": "绊倒",
+                "page": "p.38"
+            },
+            {
+                "word": "woke",
+                "phonetic": "/wəʊk/",
+                "meaning": "(wake 的过去式)醒",
+                "page": "p.38"
+            },
+            {
+                "word": "dream",
+                "phonetic": "/driːm/",
+                "meaning": "梦",
+                "page": "p.38"
+            }
+        ]
+    }
+}

@@ -1,0 +1,492 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语三年级上册",
+        "approvalInfo": "教育部2012年审订",
+        "publisher": "人民教育出版社",
+        "order": 1,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2014年10月第1版",
+        "isbn": "978-7-107-29086-2",
+        "coreUnitCount": 6,
+        "fullModuleList": ["Unit1 Hello!", "Unit2 Colours", "Unit3 Look at me!", "Unit4 We love animals", "Unit5 Let's eat!", "Unit6 Happy birthday!"]
+    },
+    "unitVocabulary": {
+        "Unit1 Hello!": [
+            {
+                "word": "ruler",
+                "phonetic": "/ˈruːlə(r)/",
+                "meaning": "尺子",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "pencil",
+                "phonetic": "/ˈpensl/",
+                "meaning": "铅笔",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "eraser",
+                "phonetic": "/ɪˈreɪzə(r)/",
+                "meaning": "橡皮",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "crayon",
+                "phonetic": "/ˈkreɪən/",
+                "meaning": "蜡笔",
+                "page": 5,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "bag",
+                "phonetic": "/bæɡ/",
+                "meaning": "包",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "pen",
+                "phonetic": "/pen/",
+                "meaning": "钢笔",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "pencil box",
+                "phonetic": "/ˈpensl ˈbɒks/",
+                "meaning": "铅笔盒",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "book",
+                "phonetic": "/bʊk/",
+                "meaning": "书",
+                "page": 8,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "no",
+                "phonetic": "/nəʊ/",
+                "meaning": "不",
+                "page": 8,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "your",
+                "phonetic": "/jɔː(r)/",
+                "meaning": "你(们)的",
+                "page": 8,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit2 Colours": [
+            {
+                "word": "red",
+                "phonetic": "/red/",
+                "meaning": "红色;红色的",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "green",
+                "phonetic": "/ɡriːn/",
+                "meaning": "绿色;绿色的",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "yellow",
+                "phonetic": "/ˈjeləʊ/",
+                "meaning": "黄色;黄色的",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "blue",
+                "phonetic": "/bluː/",
+                "meaning": "蓝色;蓝色的",
+                "page": 15,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "black",
+                "phonetic": "/blæk/",
+                "meaning": "黑色;黑色的",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "brown",
+                "phonetic": "/braʊn/",
+                "meaning": "棕色;棕色的",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "white",
+                "phonetic": "/waɪt/",
+                "meaning": "白色;白色的",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "orange",
+                "phonetic": "/ˈɒrɪndʒ/",
+                "meaning": "橙色;橙色的",
+                "page": 18,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "OK",
+                "phonetic": "/əʊˈkeɪ/",
+                "meaning": "好;行",
+                "page": 18,
+                "requirement": "listen_speak"
+            },
+            {
+                "word": "mum",
+                "phonetic": "/mʌm/",
+                "meaning": "妈妈(美式英语:mom /mɑːm/)",
+                "page": 17,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit3 Look at me!": [
+            {
+                "word": "face",
+                "phonetic": "/feɪs/",
+                "meaning": "脸",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "ear",
+                "phonetic": "/ɪə(r)/",
+                "meaning": "耳朵",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "eye",
+                "phonetic": "/aɪ/",
+                "meaning": "眼睛",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "nose",
+                "phonetic": "/nəʊz/",
+                "meaning": "鼻子",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "mouth",
+                "phonetic": "/maʊθ/",
+                "meaning": "嘴",
+                "page": 25,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "arm",
+                "phonetic": "/ɑːm/",
+                "meaning": "胳膊",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "hand",
+                "phonetic": "/hænd/",
+                "meaning": "手",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "head",
+                "phonetic": "/hed/",
+                "meaning": "头",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "body",
+                "phonetic": "/ˈbɒdi/",
+                "meaning": "身体",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "leg",
+                "phonetic": "/leɡ/",
+                "meaning": "腿",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "foot",
+                "phonetic": "/fʊt/",
+                "meaning": "脚",
+                "page": 28,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "school",
+                "phonetic": "/skuːl/",
+                "meaning": "学校",
+                "page": 24,
+                "requirement": "listen_speak_read"
+            }
+        ],
+        "Unit4 We love animals": [
+            {
+                "word": "duck",
+                "phonetic": "/dʌk/",
+                "meaning": "鸭子",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "pig",
+                "phonetic": "/pɪɡ/",
+                "meaning": "猪",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "cat",
+                "phonetic": "/kæt/",
+                "meaning": "猫",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "bear",
+                "phonetic": "/beə(r)/",
+                "meaning": "熊",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "dog",
+                "phonetic": "/dɒɡ/",
+                "meaning": "狗",
+                "page": 39,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "elephant",
+                "phonetic": "/ˈelɪfənt/",
+                "meaning": "大象",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "monkey",
+                "phonetic": "/ˈmʌŋki/",
+                "meaning": "猴子",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "bird",
+                "phonetic": "/bɜːd/",
+                "meaning": "鸟",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "tiger",
+                "phonetic": "/ˈtaɪɡə(r)/",
+                "meaning": "老虎",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "panda",
+                "phonetic": "/ˈpændə/",
+                "meaning": "大熊猫",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "zoo",
+                "phonetic": "/zuː/",
+                "meaning": "动物园",
+                "page": 42,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "funny",
+                "phonetic": "/ˈfʌni/",
+                "meaning": "滑稽的;好笑的",
+                "page": 41,
+                "requirement": "listen_speak"
+            }
+        ],
+        "Unit5 Let's eat!": [
+            {
+                "word": "juice",
+                "phonetic": "/dʒuːs/",
+                "meaning": "果汁",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "egg",
+                "phonetic": "/eɡ/",
+                "meaning": "蛋",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "milk",
+                "phonetic": "/mɪlk/",
+                "meaning": "牛奶",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "bread",
+                "phonetic": "/bred/",
+                "meaning": "面包",
+                "page": 49,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "water",
+                "phonetic": "/ˈwɔːtə(r)/",
+                "meaning": "水",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "cake",
+                "phonetic": "/keɪk/",
+                "meaning": "蛋糕",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "fish",
+                "phonetic": "/fɪʃ/",
+                "meaning": "鱼肉;鱼",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "rice",
+                "phonetic": "/raɪs/",
+                "meaning": "米饭",
+                "page": 52,
+                "requirement": "listen_speak_read"
+            }
+        ],
+        "Unit6 Happy birthday!": [
+            {
+                "word": "one",
+                "phonetic": "/wʌn/",
+                "meaning": "一",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "two",
+                "phonetic": "/tuː/",
+                "meaning": "二",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "three",
+                "phonetic": "/θriː/",
+                "meaning": "三",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "four",
+                "phonetic": "/fɔː(r)/",
+                "meaning": "四",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "five",
+                "phonetic": "/faɪv/",
+                "meaning": "五",
+                "page": 59,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "six",
+                "phonetic": "/sɪks/",
+                "meaning": "六",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "seven",
+                "phonetic": "/ˈsevn/",
+                "meaning": "七",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "eight",
+                "phonetic": "/eɪt/",
+                "meaning": "八",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "nine",
+                "phonetic": "/naɪn/",
+                "meaning": "九",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "ten",
+                "phonetic": "/ten/",
+                "meaning": "十",
+                "page": 62,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "brother",
+                "phonetic": "/ˈbrʌðə(r)/",
+                "meaning": "兄;弟",
+                "page": 61,
+                "requirement": "listen_speak_read"
+            },
+            {
+                "word": "plate",
+                "phonetic": "/pleɪt/",
+                "meaning": "盘子",
+                "page": 58,
+                "requirement": "listen_speak_read"
+            }
+        ]
+    },
+    "commonExpressions": {
+        "Unit1": ["Hello, I'm Wu Binbin. 你好,我是吴斌斌。", "Hi, I'm Sarah. 你好,我是萨拉。", "I have a ruler / an eraser. 我有一把尺子/一块橡皮。", "What's your name? 你叫什么名字?", "My name's John. 我叫约翰。", "Goodbye! 再见!", "Bye, Miss White. 再见,怀特小姐。"],
+        "Unit2": [
+            "Mr Jones, this is Miss Green. 琼斯先生,这是格林小姐。",
+            "Good morning, Miss Green. 早上好,格林小姐。",
+            "I see red. 我看见红色。",
+            "Good afternoon, Wu Binbin. 下午好,吴斌斌。",
+            "Nice to meet you. 见到你很高兴。",
+            "Nice to meet you, too. 见到你也很高兴。",
+            "Colour it brown! 把它涂成棕色吧!"
+        ],
+        "Unit3": ["How are you? 你好吗?", "I'm fine, thank you. 我很好,谢谢你。", "Let's go to school! 我们一起上学吧!", "Look at me! 看我!", "Very well, thanks. 很好,谢谢。", "Let's make a puppet! (让)我们一起做个木偶吧!", "Great! 太棒了!"],
+        "Unit4": ["What's this? 这是什么?", "It's a duck. (它)是只鸭子。", "What's that? 那是什么?", "Cool! I like it. 酷!我喜欢它。"],
+        "Unit5": ["I'd like some juice, please. 请给我些果汁。", "Here you are. 给你。", "Have some bread. 吃点面包吧。", "I'm hungry! 我饿了!", "Can I have some water, please? 请给我些水好吗?", "You're welcome. 不用谢。"],
+        "Unit6": ["This one, please. 请给我这个。", "Sure. 好的。", "How many plates? (你要)几个盘子?", "Happy birthday! 生日快乐!", "How old are you? 你几岁(了)?", "I'm six years old. 我六岁(了)。"]
+    }
+}

@@ -1,0 +1,533 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语四年级上册",
+        "approvalInfo": "教育部审定2013",
+        "award": "全国优秀教材二等奖",
+        "publisher": "人民教育出版社",
+        "order": 3,
+        "compilationUnit": ["人民教育出版社课程教材研究所英语课程教材研究开发中心（中国）", "灵通教育有限公司（加拿大）"],
+        "chiefEditor": "吴欣、Larry Swartz、Beth Levy",
+        "firstEdition": "2013年5月第1版",
+        "isbn": "978-7-107-26354-5",
+        "coreUnitCount": 6,
+        "fullModuleList": ["Unit 1 My classroom", "Unit 2 My schoolbag", "Unit 3 My friends", "Recycle 1", "Unit 4 My home", "Unit 5 Dinner's ready", "Unit 6 Meet my family!", "Recycle 2"]
+    },
+    "unitVocabulary": {
+        "Unit 1": [
+            {
+                "word": "classroom",
+                "phonetic": "/ˈklɑːsruːm/",
+                "meaning": "教室",
+                "page": "p.5"
+            },
+            {
+                "word": "window",
+                "phonetic": "/ˈwɪndəʊ/",
+                "meaning": "窗户",
+                "page": "p.5"
+            },
+            {
+                "word": "blackboard",
+                "phonetic": "/ˈblækbɔːd/",
+                "meaning": "黑板",
+                "page": "p.5"
+            },
+            {
+                "word": "light",
+                "phonetic": "/laɪt/",
+                "meaning": "电灯",
+                "page": "p.5"
+            },
+            {
+                "word": "picture",
+                "phonetic": "/ˈpɪktʃə(r)/",
+                "meaning": "图画",
+                "page": "p.5"
+            },
+            {
+                "word": "door",
+                "phonetic": "/dɔː(r)/",
+                "meaning": "门",
+                "page": "p.5"
+            },
+            {
+                "word": "teacher's desk",
+                "phonetic": "",
+                "meaning": "讲台",
+                "page": "p.8"
+            },
+            {
+                "word": "computer",
+                "phonetic": "/kəmˈpjuːtə(r)/",
+                "meaning": "计算机",
+                "page": "p.8"
+            },
+            {
+                "word": "fan",
+                "phonetic": "/fæn/",
+                "meaning": "风扇",
+                "page": "p.8"
+            },
+            {
+                "word": "wall",
+                "phonetic": "/wɔːl/",
+                "meaning": "墙壁",
+                "page": "p.8"
+            },
+            {
+                "word": "floor",
+                "phonetic": "/flɔː(r)/",
+                "meaning": "地板",
+                "page": "p.8"
+            },
+            {
+                "word": "really",
+                "phonetic": "/ˈriːəli/",
+                "meaning": "(表示兴趣或惊讶)真的",
+                "page": "p.4"
+            },
+            {
+                "word": "near",
+                "phonetic": "/nɪə(r)/",
+                "meaning": "距离近",
+                "page": "p.4"
+            },
+            {
+                "word": "TV",
+                "phonetic": "/ˌtiːˈviː/",
+                "meaning": "电视",
+                "page": "p.5"
+            },
+            {
+                "word": "clean",
+                "phonetic": "/kliːn/",
+                "meaning": "打扫",
+                "page": "p.7"
+            },
+            {
+                "word": "help",
+                "phonetic": "/help/",
+                "meaning": "帮助",
+                "page": "p.7"
+            }
+        ],
+        "Unit 2": [
+            {
+                "word": "schoolbag",
+                "phonetic": "/ˈskuːlbæɡ/",
+                "meaning": "书包",
+                "page": "p.15"
+            },
+            {
+                "word": "maths book",
+                "phonetic": "/mæθs bʊk/",
+                "meaning": "数学书",
+                "page": "p.15"
+            },
+            {
+                "word": "English book",
+                "phonetic": "/ˈɪŋɡlɪʃ bʊk/",
+                "meaning": "英语书",
+                "page": "p.15"
+            },
+            {
+                "word": "Chinese book",
+                "phonetic": "/ˌtʃaɪˈniːz bʊk/",
+                "meaning": "语文书",
+                "page": "p.15"
+            },
+            {
+                "word": "storybook",
+                "phonetic": "/ˈstɔːribʊk/",
+                "meaning": "故事书",
+                "page": "p.15"
+            },
+            {
+                "word": "candy",
+                "phonetic": "/ˈkændi/",
+                "meaning": "糖果",
+                "page": "p.18"
+            },
+            {
+                "word": "notebook",
+                "phonetic": "/ˈnəʊtbʊk/",
+                "meaning": "笔记本",
+                "page": "p.18"
+            },
+            {
+                "word": "toy",
+                "phonetic": "/tɔɪ/",
+                "meaning": "玩具",
+                "page": "p.18"
+            },
+            {
+                "word": "key",
+                "phonetic": "/kiː/",
+                "meaning": "钥匙",
+                "page": "p.18"
+            },
+            {
+                "word": "wow",
+                "phonetic": "/waʊ/",
+                "meaning": "哇;呀",
+                "page": "p.14"
+            },
+            {
+                "word": "lost",
+                "phonetic": "/lɒst/",
+                "meaning": "丢失(lose的过去式形式)",
+                "page": "p.17"
+            },
+            {
+                "word": "so much",
+                "phonetic": "/səʊ mʌtʃ/",
+                "meaning": "非常地",
+                "page": "p.17"
+            },
+            {
+                "word": "cute",
+                "phonetic": "/kjuːt/",
+                "meaning": "可爱的",
+                "page": "p.19"
+            }
+        ],
+        "Unit 3": [
+            {
+                "word": "strong",
+                "phonetic": "/strɒŋ/",
+                "meaning": "强壮的",
+                "page": "p.25"
+            },
+            {
+                "word": "friendly",
+                "phonetic": "/ˈfrendli/",
+                "meaning": "友好的",
+                "page": "p.25"
+            },
+            {
+                "word": "quiet",
+                "phonetic": "/ˈkwaɪət/",
+                "meaning": "安静的",
+                "page": "p.25"
+            },
+            {
+                "word": "hair",
+                "phonetic": "/heə(r)/",
+                "meaning": "头发",
+                "page": "p.28"
+            },
+            {
+                "word": "shoe",
+                "phonetic": "/ʃuː/",
+                "meaning": "鞋",
+                "page": "p.28"
+            },
+            {
+                "word": "glasses",
+                "phonetic": "/ˈɡlɑːsɪz/",
+                "meaning": "眼镜",
+                "page": "p.28"
+            },
+            {
+                "word": "his",
+                "phonetic": "/hɪz/",
+                "meaning": "他的",
+                "page": "p.24"
+            },
+            {
+                "word": "or",
+                "phonetic": "/ɔː(r)/",
+                "meaning": "或者",
+                "page": "p.27"
+            },
+            {
+                "word": "right",
+                "phonetic": "/raɪt/",
+                "meaning": "正确的;对的",
+                "page": "p.27"
+            },
+            {
+                "word": "hat",
+                "phonetic": "/hæt/",
+                "meaning": "(常指带檐的)帽子",
+                "page": "p.29"
+            },
+            {
+                "word": "her",
+                "phonetic": "/hə(r); hɜː(r)/",
+                "meaning": "她的",
+                "page": "p.29"
+            }
+        ],
+        "Unit 4": [
+            {
+                "word": "bedroom",
+                "phonetic": "/ˈbedruːm/",
+                "meaning": "卧室",
+                "page": "p.39"
+            },
+            {
+                "word": "living room",
+                "phonetic": "/ˈlɪvɪŋ ruːm/",
+                "meaning": "客厅;起居室",
+                "page": "p.39"
+            },
+            {
+                "word": "study",
+                "phonetic": "/ˈstʌdi/",
+                "meaning": "书房",
+                "page": "p.39"
+            },
+            {
+                "word": "kitchen",
+                "phonetic": "/ˈkɪtʃɪn/",
+                "meaning": "厨房",
+                "page": "p.39"
+            },
+            {
+                "word": "bathroom",
+                "phonetic": "/ˈbɑːθruːm/",
+                "meaning": "浴室;洗手间",
+                "page": "p.39"
+            },
+            {
+                "word": "bed",
+                "phonetic": "/bed/",
+                "meaning": "床",
+                "page": "p.42"
+            },
+            {
+                "word": "phone",
+                "phonetic": "/fəʊn/",
+                "meaning": "电话",
+                "page": "p.42"
+            },
+            {
+                "word": "table",
+                "phonetic": "/ˈteɪbl/",
+                "meaning": "桌子",
+                "page": "p.42"
+            },
+            {
+                "word": "sofa",
+                "phonetic": "/ˈsəʊfə/",
+                "meaning": "长沙发",
+                "page": "p.42"
+            },
+            {
+                "word": "fridge",
+                "phonetic": "/frɪdʒ/",
+                "meaning": "冰箱",
+                "page": "p.42"
+            },
+            {
+                "word": "find",
+                "phonetic": "/faɪnd/",
+                "meaning": "找到",
+                "page": "p.43"
+            },
+            {
+                "word": "them",
+                "phonetic": "/ðəm/",
+                "meaning": "他(她、它)们",
+                "page": "p.43"
+            }
+        ],
+        "Unit 5": [
+            {
+                "word": "beef",
+                "phonetic": "/biːf/",
+                "meaning": "牛肉",
+                "page": "p.49"
+            },
+            {
+                "word": "chicken",
+                "phonetic": "/ˈtʃɪkɪn/",
+                "meaning": "鸡肉",
+                "page": "p.49"
+            },
+            {
+                "word": "noodles",
+                "phonetic": "/ˈnuːdlz/",
+                "meaning": "面条",
+                "page": "p.49"
+            },
+            {
+                "word": "soup",
+                "phonetic": "/suːp/",
+                "meaning": "汤",
+                "page": "p.49"
+            },
+            {
+                "word": "vegetable",
+                "phonetic": "/ˈvedʒtəbl/",
+                "meaning": "蔬菜",
+                "page": "p.49"
+            },
+            {
+                "word": "chopsticks",
+                "phonetic": "/ˈtʃɒpstɪks/",
+                "meaning": "筷子",
+                "page": "p.52"
+            },
+            {
+                "word": "bowl",
+                "phonetic": "/bəʊl/",
+                "meaning": "碗",
+                "page": "p.52"
+            },
+            {
+                "word": "fork",
+                "phonetic": "/fɔːk/",
+                "meaning": "餐叉",
+                "page": "p.52"
+            },
+            {
+                "word": "knife",
+                "phonetic": "/naɪf/",
+                "meaning": "刀",
+                "page": "p.52"
+            },
+            {
+                "word": "spoon",
+                "phonetic": "/spuːn/",
+                "meaning": "勺",
+                "page": "p.52"
+            },
+            {
+                "word": "dinner",
+                "phonetic": "/ˈdɪnə(r)/",
+                "meaning": "(中午或晚上吃的)正餐",
+                "page": "p.48"
+            },
+            {
+                "word": "ready",
+                "phonetic": "/ˈredi/",
+                "meaning": "准备好",
+                "page": "p.48"
+            },
+            {
+                "word": "help yourself",
+                "phonetic": "/help jɔːˈself/",
+                "meaning": "为(自己)取用",
+                "page": "p.51"
+            },
+            {
+                "word": "pass",
+                "phonetic": "/pɑːs/",
+                "meaning": "给;递",
+                "page": "p.52"
+            },
+            {
+                "word": "try",
+                "phonetic": "/traɪ/",
+                "meaning": "试;尝试",
+                "page": "p.53"
+            }
+        ],
+        "Unit 6": [
+            {
+                "word": "parents",
+                "phonetic": "/ˈpeərənts/",
+                "meaning": "父母",
+                "page": "p.59"
+            },
+            {
+                "word": "cousin",
+                "phonetic": "/ˈkʌzn/",
+                "meaning": "同辈表亲(或堂亲)",
+                "page": "p.59"
+            },
+            {
+                "word": "uncle",
+                "phonetic": "/ˈʌŋkl/",
+                "meaning": "舅父;叔父;伯父;姑父;姨夫",
+                "page": "p.59"
+            },
+            {
+                "word": "aunt",
+                "phonetic": "/ɑːnt/",
+                "meaning": "姑母;姨母",
+                "page": "p.59"
+            },
+            {
+                "word": "baby brother",
+                "phonetic": "/ˈbeɪbi ˈbrʌðə(r)/",
+                "meaning": "婴儿小弟弟",
+                "page": "p.59"
+            },
+            {
+                "word": "doctor",
+                "phonetic": "/ˈdɒktə(r)/",
+                "meaning": "医生",
+                "page": "p.62"
+            },
+            {
+                "word": "cook",
+                "phonetic": "/kʊk/",
+                "meaning": "厨师",
+                "page": "p.62"
+            },
+            {
+                "word": "driver",
+                "phonetic": "/ˈdraɪvə(r)/",
+                "meaning": "司机",
+                "page": "p.62"
+            },
+            {
+                "word": "farmer",
+                "phonetic": "/ˈfɑːmə(r)/",
+                "meaning": "农民",
+                "page": "p.62"
+            },
+            {
+                "word": "nurse",
+                "phonetic": "/nɜːs/",
+                "meaning": "护士",
+                "page": "p.62"
+            },
+            {
+                "word": "people",
+                "phonetic": "/ˈpiːpl/",
+                "meaning": "人们",
+                "page": "p.58"
+            },
+            {
+                "word": "but",
+                "phonetic": "/bʌt/",
+                "meaning": "但是",
+                "page": "p.58"
+            },
+            {
+                "word": "little",
+                "phonetic": "/ˈlɪtl/",
+                "meaning": "小的",
+                "page": "p.58"
+            },
+            {
+                "word": "puppy",
+                "phonetic": "/ˈpʌpi/",
+                "meaning": "小狗",
+                "page": "p.58"
+            },
+            {
+                "word": "football player",
+                "phonetic": "/ˈfʊtbɔːl ˈpleɪə(r)/",
+                "meaning": "足球运动员",
+                "page": "p.61"
+            },
+            {
+                "word": "job",
+                "phonetic": "/dʒɒb/",
+                "meaning": "工作",
+                "page": "p.62"
+            },
+            {
+                "word": "basketball",
+                "phonetic": "/ˈbɑːskɪtbɔːl/",
+                "meaning": "篮球",
+                "page": "p.63"
+            }
+        ]
+    }
+}

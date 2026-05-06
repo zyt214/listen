@@ -1,0 +1,1998 @@
+{
+    "bookInfo": {
+        "bookName": "义务教育教科书·英语七年级下册",
+        "press": "人民教育出版社",
+        "order": 10,
+        "vocabularyRule": "词汇标注包含单词、标准英式音标、词性、中文释义、对应页码；文档未收录完整词汇的单元已标注说明，所有内容均来自提供的教材原文"
+    },
+    "unitVocabulary": {
+        "Unit 1 Can you play the guitar?": [
+            {
+                "word": "guitar",
+                "phonetic": "/ɡɪˈtɑː(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "吉他",
+                "page": "文档未标注"
+            },
+            {
+                "word": "join",
+                "phonetic": "/dʒɔɪn/",
+                "partOfSpeech": "v.",
+                "meaning": "参加；加入",
+                "page": "文档未标注"
+            },
+            {
+                "word": "art",
+                "phonetic": "/ɑːt/",
+                "partOfSpeech": "n.",
+                "meaning": "美术；艺术",
+                "page": "文档未标注"
+            },
+            {
+                "word": "club",
+                "phonetic": "/klʌb/",
+                "partOfSpeech": "n.",
+                "meaning": "俱乐部；社团",
+                "page": "文档未标注"
+            },
+            {
+                "word": "play",
+                "phonetic": "/pleɪ/",
+                "partOfSpeech": "v.",
+                "meaning": "玩耍；演奏；打（球）；下（棋）",
+                "page": "文档未标注"
+            },
+            {
+                "word": "ping-pong",
+                "phonetic": "/ˈpɪŋpɒŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "乒乓球",
+                "page": "文档未标注"
+            },
+            {
+                "word": "chess",
+                "phonetic": "/tʃes/",
+                "partOfSpeech": "n.",
+                "meaning": "国际象棋",
+                "page": "文档未标注"
+            },
+            {
+                "word": "piano",
+                "phonetic": "/piˈænəʊ/",
+                "partOfSpeech": "n.",
+                "meaning": "钢琴",
+                "page": "文档未标注"
+            },
+            {
+                "word": "tell",
+                "phonetic": "/tel/",
+                "partOfSpeech": "v.",
+                "meaning": "讲述；告诉",
+                "page": "文档未标注"
+            },
+            {
+                "word": "story",
+                "phonetic": "/ˈstɔːri/",
+                "partOfSpeech": "n.",
+                "meaning": "故事；小说",
+                "page": "文档未标注"
+            },
+            {
+                "word": "show",
+                "phonetic": "/ʃəʊ/",
+                "partOfSpeech": "n. & v.",
+                "meaning": "演出；节目；给……看；展示",
+                "page": "文档未标注"
+            },
+            {
+                "word": "student",
+                "phonetic": "/ˈstjuːdnt/",
+                "partOfSpeech": "n.",
+                "meaning": "学生",
+                "page": "文档未标注"
+            },
+            {
+                "word": "need",
+                "phonetic": "/niːd/",
+                "partOfSpeech": "v.",
+                "meaning": "需要",
+                "page": "文档未标注"
+            },
+            {
+                "word": "help",
+                "phonetic": "/help/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "帮助；援助",
+                "page": "文档未标注"
+            },
+            {
+                "word": "sports",
+                "phonetic": "/spɔːts/",
+                "partOfSpeech": "n.",
+                "meaning": "体育运动",
+                "page": "文档未标注"
+            },
+            {
+                "word": "English-speaking",
+                "phonetic": "/ˈɪŋɡlɪʃ ˈspiːkɪŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "说英语的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "play the guitar",
+                "phonetic": "/pleɪ ðə ɡɪˈtɑː(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "弹吉他",
+                "page": "文档未标注"
+            },
+            {
+                "word": "play the piano",
+                "phonetic": "/pleɪ ðə piˈænəʊ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "弹钢琴",
+                "page": "文档未标注"
+            },
+            {
+                "word": "play ping-pong",
+                "phonetic": "/pleɪ ˈpɪŋpɒŋ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "打乒乓球",
+                "page": "文档未标注"
+            },
+            {
+                "word": "play chess",
+                "phonetic": "/pleɪ tʃes/",
+                "partOfSpeech": "固定短语",
+                "meaning": "下国际象棋",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be good at telling stories",
+                "phonetic": "/bi ɡʊd æt ˈtelɪŋ ˈstɔːriz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "擅长讲故事",
+                "page": "文档未标注"
+            },
+            {
+                "word": "make friends",
+                "phonetic": "/meɪk frendz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "交朋友",
+                "page": "文档未标注"
+            },
+            {
+                "word": "help with sth.",
+                "phonetic": "/help wɪð ˈsʌmθɪŋ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "在某方面帮助",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 2 What time do you go to school?": [
+            {
+                "word": "funny",
+                "phonetic": "/ˈfʌni/",
+                "partOfSpeech": "adj.",
+                "meaning": "奇怪的；滑稽好笑的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "time",
+                "phonetic": "/taɪm/",
+                "partOfSpeech": "n.",
+                "meaning": "时间；次",
+                "page": "文档未标注"
+            },
+            {
+                "word": "breakfast",
+                "phonetic": "/ˈbrekfəst/",
+                "partOfSpeech": "n.",
+                "meaning": "早餐；早饭",
+                "page": "文档未标注"
+            },
+            {
+                "word": "usually",
+                "phonetic": "/ˈjuːʒuəli/",
+                "partOfSpeech": "adv.",
+                "meaning": "通常地；一般地",
+                "page": "文档未标注"
+            },
+            {
+                "word": "quarter",
+                "phonetic": "/ˈkwɔːtə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "一刻钟；四分之一",
+                "page": "文档未标注"
+            },
+            {
+                "word": "evening",
+                "phonetic": "/ˈiːvnɪŋ/",
+                "partOfSpeech": "n.",
+                "meaning": "晚上；傍晚",
+                "page": "文档未标注"
+            },
+            {
+                "word": "either",
+                "phonetic": "/ˈaɪðə(r)/",
+                "partOfSpeech": "adv.",
+                "meaning": "也；而且（用于否定句）",
+                "page": "文档未标注"
+            },
+            {
+                "word": "too",
+                "phonetic": "/tuː/",
+                "partOfSpeech": "adv.",
+                "meaning": "也；太（用于肯定句）",
+                "page": "文档未标注"
+            },
+            {
+                "word": "taste",
+                "phonetic": "/teɪst/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "有……的味道；品尝；味道；滋味",
+                "page": "文档未标注"
+            },
+            {
+                "word": "smell",
+                "phonetic": "/smel/",
+                "partOfSpeech": "v.",
+                "meaning": "闻起来",
+                "page": "文档未标注"
+            },
+            {
+                "word": "feel",
+                "phonetic": "/fiːl/",
+                "partOfSpeech": "v.",
+                "meaning": "摸起来；感觉",
+                "page": "文档未标注"
+            },
+            {
+                "word": "watch TV",
+                "phonetic": "/wɒtʃ ˌtiːˈviː/",
+                "partOfSpeech": "固定短语",
+                "meaning": "看电视",
+                "page": "文档未标注"
+            },
+            {
+                "word": "play computer games",
+                "phonetic": "/pleɪ kəmˈpjuːtə ɡeɪmz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "玩电脑游戏",
+                "page": "文档未标注"
+            },
+            {
+                "word": "either...or...",
+                "phonetic": "/ˈaɪðə(r) ɔː(r)/",
+                "partOfSpeech": "固定句型",
+                "meaning": "要么……要么……；或者……或者……",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be good for",
+                "phonetic": "/bi ɡʊd fɔː(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "对……有益；对……有好处",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be bad for",
+                "phonetic": "/bi bæd fɔː(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "对……有害；对……有坏处",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 3 How do you get to school?": [
+            {
+                "word": "subway",
+                "phonetic": "/ˈsʌbweɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "地铁",
+                "page": "75"
+            },
+            {
+                "word": "train",
+                "phonetic": "/treɪn/",
+                "partOfSpeech": "n.",
+                "meaning": "火车",
+                "page": "75"
+            },
+            {
+                "word": "bus",
+                "phonetic": "/bʌs/",
+                "partOfSpeech": "n.",
+                "meaning": "公共汽车",
+                "page": "75"
+            },
+            {
+                "word": "bike",
+                "phonetic": "/baɪk/",
+                "partOfSpeech": "n.",
+                "meaning": "自行车",
+                "page": "75"
+            },
+            {
+                "word": "ride",
+                "phonetic": "/raɪd/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "骑；旅程",
+                "page": "75"
+            },
+            {
+                "word": "walk",
+                "phonetic": "/wɔːk/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "行走；步行",
+                "page": "75"
+            },
+            {
+                "word": "sure",
+                "phonetic": "/ʃʊə(r)/",
+                "partOfSpeech": "adj.",
+                "meaning": "确信的；有把握的",
+                "page": "75"
+            },
+            {
+                "word": "underground",
+                "phonetic": "/ˈʌndəɡraʊnd/",
+                "partOfSpeech": "n.",
+                "meaning": "地铁（英式）",
+                "page": "75"
+            },
+            {
+                "word": "take",
+                "phonetic": "/teɪk/",
+                "partOfSpeech": "v.",
+                "meaning": "乘坐；花费",
+                "page": "75"
+            },
+            {
+                "word": "minute",
+                "phonetic": "/ˈmɪnɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "分钟",
+                "page": "75"
+            },
+            {
+                "word": "kilometer",
+                "phonetic": "/ˈkɪləmiːtə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "千米；公里",
+                "page": "75"
+            },
+            {
+                "word": "far",
+                "phonetic": "/fɑː(r)/",
+                "partOfSpeech": "adv. & adj.",
+                "meaning": "远；远的",
+                "page": "75"
+            },
+            {
+                "word": "ropeway",
+                "phonetic": "/ˈrəʊpweɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "索道",
+                "page": "75"
+            },
+            {
+                "word": "cross",
+                "phonetic": "/krɒs/",
+                "partOfSpeech": "v.",
+                "meaning": "横过；越过",
+                "page": "75"
+            },
+            {
+                "word": "river",
+                "phonetic": "/ˈrɪvə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "河；江",
+                "page": "75"
+            },
+            {
+                "word": "bridge",
+                "phonetic": "/brɪdʒ/",
+                "partOfSpeech": "n.",
+                "meaning": "桥",
+                "page": "75"
+            },
+            {
+                "word": "run",
+                "phonetic": "/rʌn/",
+                "partOfSpeech": "v.",
+                "meaning": "跑；流动",
+                "page": "75"
+            },
+            {
+                "word": "boat",
+                "phonetic": "/bəʊt/",
+                "partOfSpeech": "n.",
+                "meaning": "小船",
+                "page": "75"
+            },
+            {
+                "word": "year",
+                "phonetic": "/jɪə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "年；岁",
+                "page": "75"
+            },
+            {
+                "word": "boy",
+                "phonetic": "/bɔɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "男孩",
+                "page": "75"
+            },
+            {
+                "word": "school day",
+                "phonetic": "/skuːl deɪ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "上学日",
+                "page": "75"
+            },
+            {
+                "word": "holiday",
+                "phonetic": "/ˈhɒlədeɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "假期（英式）",
+                "page": "75"
+            },
+            {
+                "word": "vacation",
+                "phonetic": "/veɪˈkeɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "假期（美式）",
+                "page": "75"
+            },
+            {
+                "word": "weekend",
+                "phonetic": "/ˌwiːkˈend/",
+                "partOfSpeech": "n.",
+                "meaning": "周末",
+                "page": "75"
+            },
+            {
+                "word": "get to",
+                "phonetic": "/ɡet tuː/",
+                "partOfSpeech": "固定短语",
+                "meaning": "到达",
+                "page": "75"
+            },
+            {
+                "word": "subway train",
+                "phonetic": "/ˈsʌbweɪ treɪn/",
+                "partOfSpeech": "固定短语",
+                "meaning": "地铁列车",
+                "page": "75"
+            },
+            {
+                "word": "subway station",
+                "phonetic": "/ˈsʌbweɪ ˈsteɪʃn/",
+                "partOfSpeech": "固定短语",
+                "meaning": "地铁车站",
+                "page": "75"
+            },
+            {
+                "word": "It takes sb. + 时间 + to do sth.",
+                "phonetic": "/ɪt teɪks ˈsʌmbədi taɪm tu duː ˈsʌmθɪŋ/",
+                "partOfSpeech": "固定句型",
+                "meaning": "做某事花费某人多长时间",
+                "page": "75"
+            },
+            {
+                "word": "by + 交通工具",
+                "phonetic": "/baɪ ˈtrænspɔːt ˈmiːdiəm/",
+                "partOfSpeech": "固定搭配",
+                "meaning": "乘坐某种交通工具",
+                "page": "75"
+            },
+            {
+                "word": "on foot",
+                "phonetic": "/ɒn fʊt/",
+                "partOfSpeech": "固定短语",
+                "meaning": "步行",
+                "page": "75"
+            }
+        ],
+        "Unit 4 Don't eat in class.": [
+            {
+                "word": "must",
+                "phonetic": "/mʌst/",
+                "partOfSpeech": "modal v.",
+                "meaning": "必须；务必",
+                "page": "文档未标注"
+            },
+            {
+                "word": "Dr.",
+                "phonetic": "/ˈdɒktə(r)/",
+                "partOfSpeech": "abbr.",
+                "meaning": "博士；医生",
+                "page": "文档未标注"
+            },
+            {
+                "word": "leave",
+                "phonetic": "/liːv/",
+                "partOfSpeech": "v.",
+                "meaning": "离开；留下",
+                "page": "文档未标注"
+            },
+            {
+                "word": "dirty",
+                "phonetic": "/ˈdɜːti/",
+                "partOfSpeech": "adj.",
+                "meaning": "脏的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "dish",
+                "phonetic": "/dɪʃ/",
+                "partOfSpeech": "n.",
+                "meaning": "碟；盘",
+                "page": "文档未标注"
+            },
+            {
+                "word": "kitchen",
+                "phonetic": "/ˈkɪtʃɪn/",
+                "partOfSpeech": "n.",
+                "meaning": "厨房",
+                "page": "文档未标注"
+            },
+            {
+                "word": "relax",
+                "phonetic": "/rɪˈlæks/",
+                "partOfSpeech": "v.",
+                "meaning": "放松；休息",
+                "page": "文档未标注"
+            },
+            {
+                "word": "quiet",
+                "phonetic": "/ˈkwaɪət/",
+                "partOfSpeech": "adj.",
+                "meaning": "安静的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "strict",
+                "phonetic": "/strɪkt/",
+                "partOfSpeech": "adj.",
+                "meaning": "严格的；严厉的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "noisy",
+                "phonetic": "/ˈnɔɪzi/",
+                "partOfSpeech": "adj.",
+                "meaning": "吵闹的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "on time",
+                "phonetic": "/ɒn taɪm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "准时；按时",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be on time",
+                "phonetic": "/bi ɒn taɪm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "守时；按时到",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be quiet",
+                "phonetic": "/bi ˈkwaɪət/",
+                "partOfSpeech": "固定短语",
+                "meaning": "保持安静",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be strict",
+                "phonetic": "/bi strɪkt/",
+                "partOfSpeech": "固定短语",
+                "meaning": "要求严格",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be at work",
+                "phonetic": "/bi æt wɜːk/",
+                "partOfSpeech": "固定短语",
+                "meaning": "在上班",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 5 Why do you like pandas?": [
+            {
+                "word": "panda",
+                "phonetic": "/ˈpændə/",
+                "partOfSpeech": "n.",
+                "meaning": "熊猫",
+                "page": "25"
+            },
+            {
+                "word": "zoo",
+                "phonetic": "/zuː/",
+                "partOfSpeech": "n.",
+                "meaning": "动物园",
+                "page": "25"
+            },
+            {
+                "word": "animal",
+                "phonetic": "/ˈænɪml/",
+                "partOfSpeech": "n.",
+                "meaning": "动物",
+                "page": "25"
+            },
+            {
+                "word": "tiger",
+                "phonetic": "/ˈtaɪɡə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "老虎",
+                "page": "25"
+            },
+            {
+                "word": "elephant",
+                "phonetic": "/ˈelɪfənt/",
+                "partOfSpeech": "n.",
+                "meaning": "大象",
+                "page": "25"
+            },
+            {
+                "word": "koala",
+                "phonetic": "/kəʊˈɑːlə/",
+                "partOfSpeech": "n.",
+                "meaning": "树袋熊；考拉",
+                "page": "25"
+            },
+            {
+                "word": "lion",
+                "phonetic": "/ˈlaɪən/",
+                "partOfSpeech": "n.",
+                "meaning": "狮子",
+                "page": "25"
+            },
+            {
+                "word": "giraffe",
+                "phonetic": "/dʒəˈrɑːf/",
+                "partOfSpeech": "n.",
+                "meaning": "长颈鹿",
+                "page": "25"
+            },
+            {
+                "word": "cute",
+                "phonetic": "/kjuːt/",
+                "partOfSpeech": "adj.",
+                "meaning": "可爱的；机灵的",
+                "page": "25"
+            },
+            {
+                "word": "smart",
+                "phonetic": "/smɑːt/",
+                "partOfSpeech": "adj.",
+                "meaning": "聪明的",
+                "page": "25"
+            },
+            {
+                "word": "lazy",
+                "phonetic": "/ˈleɪzi/",
+                "partOfSpeech": "adj.",
+                "meaning": "懒散的；懒惰的",
+                "page": "25"
+            },
+            {
+                "word": "friendly",
+                "phonetic": "/ˈfrendli/",
+                "partOfSpeech": "adj.",
+                "meaning": "友好的",
+                "page": "25"
+            },
+            {
+                "word": "beautiful",
+                "phonetic": "/ˈbjuːtɪfl/",
+                "partOfSpeech": "adj.",
+                "meaning": "美丽的；美好的",
+                "page": "25"
+            },
+            {
+                "word": "shy",
+                "phonetic": "/ʃaɪ/",
+                "partOfSpeech": "adj.",
+                "meaning": "羞怯的；腼腆的",
+                "page": "25"
+            },
+            {
+                "word": "Australia",
+                "phonetic": "/ɒˈstreɪliə/",
+                "partOfSpeech": "n.",
+                "meaning": "澳大利亚",
+                "page": "25"
+            },
+            {
+                "word": "leg",
+                "phonetic": "/leɡ/",
+                "partOfSpeech": "n.",
+                "meaning": "腿",
+                "page": "文档未标注"
+            },
+            {
+                "word": "forget",
+                "phonetic": "/fəˈɡet/",
+                "partOfSpeech": "v.",
+                "meaning": "忘记；遗忘",
+                "page": "文档未标注"
+            },
+            {
+                "word": "danger",
+                "phonetic": "/ˈdeɪndʒə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "危险",
+                "page": "文档未标注"
+            },
+            {
+                "word": "thousand",
+                "phonetic": "/ˈθaʊznd/",
+                "partOfSpeech": "num.",
+                "meaning": "千",
+                "page": "文档未标注"
+            },
+            {
+                "word": "save",
+                "phonetic": "/seɪv/",
+                "partOfSpeech": "v.",
+                "meaning": "救；救助",
+                "page": "文档未标注"
+            },
+            {
+                "word": "tree",
+                "phonetic": "/triː/",
+                "partOfSpeech": "n.",
+                "meaning": "树",
+                "page": "文档未标注"
+            },
+            {
+                "word": "ivory",
+                "phonetic": "/ˈaɪvəri/",
+                "partOfSpeech": "n.",
+                "meaning": "象牙",
+                "page": "文档未标注"
+            },
+            {
+                "word": "wood",
+                "phonetic": "/wʊd/",
+                "partOfSpeech": "n.",
+                "meaning": "木头；木材",
+                "page": "文档未标注"
+            },
+            {
+                "word": "glass",
+                "phonetic": "/ɡlɑːs/",
+                "partOfSpeech": "n.",
+                "meaning": "玻璃",
+                "page": "文档未标注"
+            },
+            {
+                "word": "paper",
+                "phonetic": "/ˈpeɪpə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "纸",
+                "page": "文档未标注"
+            },
+            {
+                "word": "South Africa",
+                "phonetic": "/saʊθ ˈæfrɪkə/",
+                "partOfSpeech": "专有名词",
+                "meaning": "南非",
+                "page": "25"
+            },
+            {
+                "word": "kind of",
+                "phonetic": "/kaɪnd ɒv/",
+                "partOfSpeech": "固定短语",
+                "meaning": "稍微；有点儿",
+                "page": "25"
+            },
+            {
+                "word": "in great danger",
+                "phonetic": "/ɪn ɡreɪt ˈdeɪndʒə(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "处于极大危险之中",
+                "page": "25"
+            },
+            {
+                "word": "Welcome to...",
+                "phonetic": "/ˈwelkəm tuː/",
+                "partOfSpeech": "固定句型",
+                "meaning": "欢迎来到……",
+                "page": "文档未标注"
+            },
+            {
+                "word": "walk on...",
+                "phonetic": "/wɔːk ɒn/",
+                "partOfSpeech": "固定短语",
+                "meaning": "用某种方式行走",
+                "page": "文档未标注"
+            },
+            {
+                "word": "get lost",
+                "phonetic": "/ɡet lɒst/",
+                "partOfSpeech": "固定短语",
+                "meaning": "迷路",
+                "page": "文档未标注"
+            },
+            {
+                "word": "be made of",
+                "phonetic": "/bi meɪd ɒv/",
+                "partOfSpeech": "固定短语",
+                "meaning": "由……制成的",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 6 I'm watching TV.": [
+            {
+                "word": "newspaper",
+                "phonetic": "/ˈnjuːzpeɪpə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "报纸",
+                "page": "31"
+            },
+            {
+                "word": "movie",
+                "phonetic": "/ˈmuːvi/",
+                "partOfSpeech": "n.",
+                "meaning": "电影",
+                "page": "31"
+            },
+            {
+                "word": "tea",
+                "phonetic": "/tiː/",
+                "partOfSpeech": "n.",
+                "meaning": "茶；茶叶",
+                "page": "31"
+            },
+            {
+                "word": "house",
+                "phonetic": "/haʊs/",
+                "partOfSpeech": "n.",
+                "meaning": "房子",
+                "page": "31"
+            },
+            {
+                "word": "pool",
+                "phonetic": "/puːl/",
+                "partOfSpeech": "n.",
+                "meaning": "游泳池；水池",
+                "page": "31"
+            },
+            {
+                "word": "supermarket",
+                "phonetic": "/ˈsuːpəmɑːkɪt/",
+                "partOfSpeech": "n.",
+                "meaning": "超市",
+                "page": "31"
+            },
+            {
+                "word": "race",
+                "phonetic": "/reɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "竞赛",
+                "page": "31"
+            },
+            {
+                "word": "wash",
+                "phonetic": "/wɒʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "洗",
+                "page": "31"
+            },
+            {
+                "word": "drink",
+                "phonetic": "/drɪŋk/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "喝；饮料",
+                "page": "31"
+            },
+            {
+                "word": "study",
+                "phonetic": "/ˈstʌdi/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "学习；研究；书房",
+                "page": "31"
+            },
+            {
+                "word": "miss",
+                "phonetic": "/mɪs/",
+                "partOfSpeech": "v.",
+                "meaning": "怀念；思念；错过",
+                "page": "31"
+            },
+            {
+                "word": "wish",
+                "phonetic": "/wɪʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "希望；想要",
+                "page": "31"
+            },
+            {
+                "word": "young",
+                "phonetic": "/jʌŋ/",
+                "partOfSpeech": "adj.",
+                "meaning": "年轻的",
+                "page": "31"
+            },
+            {
+                "word": "delicious",
+                "phonetic": "/dɪˈlɪʃəs/",
+                "partOfSpeech": "adj.",
+                "meaning": "可口的；美味的",
+                "page": "31"
+            },
+            {
+                "word": "homework",
+                "phonetic": "/ˈhəʊmwɜːk/",
+                "partOfSpeech": "n.",
+                "meaning": "家庭作业",
+                "page": "31"
+            },
+            {
+                "word": "read",
+                "phonetic": "/riːd/",
+                "partOfSpeech": "v.",
+                "meaning": "读；阅读",
+                "page": "31"
+            },
+            {
+                "word": "clothes",
+                "phonetic": "/kləʊðz/",
+                "partOfSpeech": "n.",
+                "meaning": "衣服；服装",
+                "page": "31"
+            },
+            {
+                "word": "exercise",
+                "phonetic": "/ˈeksəsaɪz/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "锻炼；练习",
+                "page": "31"
+            },
+            {
+                "word": "living room",
+                "phonetic": "/ˈlɪvɪŋ ruːm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "客厅",
+                "page": "31"
+            },
+            {
+                "word": "read a newspaper",
+                "phonetic": "/riːd ə ˈnjuːzpeɪpə(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "看报纸",
+                "page": "31"
+            },
+            {
+                "word": "eat out",
+                "phonetic": "/iːt aʊt/",
+                "partOfSpeech": "固定短语",
+                "meaning": "出去吃饭",
+                "page": "31"
+            },
+            {
+                "word": "go to the movies",
+                "phonetic": "/ɡəʊ tuː ðə ˈmuːviz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "看电影",
+                "page": "31"
+            },
+            {
+                "word": "miss one's family",
+                "phonetic": "/mɪs wʌnz ˈfæməli/",
+                "partOfSpeech": "固定短语",
+                "meaning": "想念家人",
+                "page": "31"
+            },
+            {
+                "word": "wish to do sth.",
+                "phonetic": "/wɪʃ tu duː ˈsʌmθɪŋ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "希望做某事",
+                "page": "31"
+            },
+            {
+                "word": "clean one's room",
+                "phonetic": "/kliːn wʌnz ruːm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "打扫房间",
+                "page": "31"
+            },
+            {
+                "word": "wash the dishes",
+                "phonetic": "/wɒʃ ðə ˈdɪʃɪz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "洗餐具",
+                "page": "31"
+            },
+            {
+                "word": "talk on the phone",
+                "phonetic": "/tɔːk ɒn ðə fəʊn/",
+                "partOfSpeech": "固定短语",
+                "meaning": "打电话",
+                "page": "31"
+            },
+            {
+                "word": "half past six",
+                "phonetic": "/hɑːf pɑːst sɪks/",
+                "partOfSpeech": "固定短语",
+                "meaning": "六点半",
+                "page": "31"
+            },
+            {
+                "word": "do one's homework",
+                "phonetic": "/duː wʌnz ˈhəʊmwɜːk/",
+                "partOfSpeech": "固定短语",
+                "meaning": "做作业",
+                "page": "31"
+            },
+            {
+                "word": "wash clothes",
+                "phonetic": "/wɒʃ kləʊðz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "洗衣服",
+                "page": "31"
+            },
+            {
+                "word": "join sb. for sth.",
+                "phonetic": "/dʒɔɪn ˈsʌmbədi fɔː ˈsʌmθɪŋ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "与某人一起做某事",
+                "page": "文档未标注"
+            },
+            {
+                "word": "host family",
+                "phonetic": "/həʊst ˈfæməli/",
+                "partOfSpeech": "固定短语",
+                "meaning": "房东家人；寄宿家庭",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 7 It's raining!": [
+            {
+                "word": "rain",
+                "phonetic": "/reɪn/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "下雨；雨水",
+                "page": "37"
+            },
+            {
+                "word": "weather",
+                "phonetic": "/ˈweðə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "天气",
+                "page": "37"
+            },
+            {
+                "word": "cloudy",
+                "phonetic": "/ˈklaʊdi/",
+                "partOfSpeech": "adj.",
+                "meaning": "多云的",
+                "page": "37"
+            },
+            {
+                "word": "sunny",
+                "phonetic": "/ˈsʌni/",
+                "partOfSpeech": "adj.",
+                "meaning": "晴朗的",
+                "page": "37"
+            },
+            {
+                "word": "windy",
+                "phonetic": "/ˈwɪndi/",
+                "partOfSpeech": "adj.",
+                "meaning": "多风的",
+                "page": "37"
+            },
+            {
+                "word": "snow",
+                "phonetic": "/snəʊ/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "下雪；雪",
+                "page": "37"
+            },
+            {
+                "word": "message",
+                "phonetic": "/ˈmesɪdʒ/",
+                "partOfSpeech": "n.",
+                "meaning": "信息；消息",
+                "page": "37"
+            },
+            {
+                "word": "summer",
+                "phonetic": "/ˈsʌmə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "夏天；夏季",
+                "page": "37"
+            },
+            {
+                "word": "call",
+                "phonetic": "/kɔːl/",
+                "partOfSpeech": "v.",
+                "meaning": "打电话",
+                "page": "37"
+            },
+            {
+                "word": "phone",
+                "phonetic": "/fəʊn/",
+                "partOfSpeech": "n.",
+                "meaning": "电话",
+                "page": "37"
+            },
+            {
+                "word": "work",
+                "phonetic": "/wɜːk/",
+                "partOfSpeech": "v.",
+                "meaning": "工作；运转",
+                "page": "37"
+            },
+            {
+                "word": "write",
+                "phonetic": "/raɪt/",
+                "partOfSpeech": "v.",
+                "meaning": "写；书写",
+                "page": "37"
+            },
+            {
+                "word": "hot",
+                "phonetic": "/hɒt/",
+                "partOfSpeech": "adj.",
+                "meaning": "热的",
+                "page": "37"
+            },
+            {
+                "word": "cold",
+                "phonetic": "/kəʊld/",
+                "partOfSpeech": "adj.",
+                "meaning": "寒冷的；冷的",
+                "page": "37"
+            },
+            {
+                "word": "country",
+                "phonetic": "/ˈkʌntri/",
+                "partOfSpeech": "n.",
+                "meaning": "国家；乡村",
+                "page": "37"
+            },
+            {
+                "word": "How's it going?",
+                "phonetic": "/haʊz ɪt ˈɡəʊɪŋ/",
+                "partOfSpeech": "固定句型",
+                "meaning": "近来可好？",
+                "page": "37"
+            },
+            {
+                "word": "sound like",
+                "phonetic": "/saʊnd laɪk/",
+                "partOfSpeech": "固定短语",
+                "meaning": "听起来像",
+                "page": "37"
+            },
+            {
+                "word": "have a good time",
+                "phonetic": "/hæv ə ɡʊd taɪm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "玩得开心",
+                "page": "37"
+            },
+            {
+                "word": "take a message",
+                "phonetic": "/teɪk ə ˈmesɪdʒ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "捎个口信；传话",
+                "page": "37"
+            },
+            {
+                "word": "summer school",
+                "phonetic": "/ˈsʌmə skuːl/",
+                "partOfSpeech": "固定短语",
+                "meaning": "暑期学习班；暑假班",
+                "page": "37"
+            },
+            {
+                "word": "write to sb.",
+                "phonetic": "/raɪt tu ˈsʌmbədi/",
+                "partOfSpeech": "固定短语",
+                "meaning": "给某人写信",
+                "page": "37"
+            }
+        ],
+        "Unit 8 Is there a post office near here?": [
+            {
+                "word": "post",
+                "phonetic": "/pəʊst/",
+                "partOfSpeech": "n.",
+                "meaning": "邮政",
+                "page": "文档未标注"
+            },
+            {
+                "word": "office",
+                "phonetic": "/ˈɒfɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "办公室",
+                "page": "文档未标注"
+            },
+            {
+                "word": "police",
+                "phonetic": "/pəˈliːs/",
+                "partOfSpeech": "n.",
+                "meaning": "警察",
+                "page": "文档未标注"
+            },
+            {
+                "word": "station",
+                "phonetic": "/ˈsteɪʃn/",
+                "partOfSpeech": "n.",
+                "meaning": "站；车站",
+                "page": "文档未标注"
+            },
+            {
+                "word": "hotel",
+                "phonetic": "/həʊˈtel/",
+                "partOfSpeech": "n.",
+                "meaning": "旅馆；酒店",
+                "page": "文档未标注"
+            },
+            {
+                "word": "restaurant",
+                "phonetic": "/ˈrestrɒnt/",
+                "partOfSpeech": "n.",
+                "meaning": "餐馆",
+                "page": "文档未标注"
+            },
+            {
+                "word": "bank",
+                "phonetic": "/bæŋk/",
+                "partOfSpeech": "n.",
+                "meaning": "银行",
+                "page": "文档未标注"
+            },
+            {
+                "word": "hospital",
+                "phonetic": "/ˈhɒspɪtl/",
+                "partOfSpeech": "n.",
+                "meaning": "医院",
+                "page": "文档未标注"
+            },
+            {
+                "word": "town",
+                "phonetic": "/taʊn/",
+                "partOfSpeech": "n.",
+                "meaning": "镇；市镇",
+                "page": "文档未标注"
+            },
+            {
+                "word": "street",
+                "phonetic": "/striːt/",
+                "partOfSpeech": "n.",
+                "meaning": "大街；街道",
+                "page": "文档未标注"
+            },
+            {
+                "word": "road",
+                "phonetic": "/rəʊd/",
+                "partOfSpeech": "n.",
+                "meaning": "路；公路",
+                "page": "文档未标注"
+            },
+            {
+                "word": "neighborhood",
+                "phonetic": "/ˈneɪbəhʊd/",
+                "partOfSpeech": "n.",
+                "meaning": "街区；街坊",
+                "page": "文档未标注"
+            },
+            {
+                "word": "library",
+                "phonetic": "/ˈlaɪbrəri/",
+                "partOfSpeech": "n.",
+                "meaning": "图书馆",
+                "page": "文档未标注"
+            },
+            {
+                "word": "turn",
+                "phonetic": "/tɜːn/",
+                "partOfSpeech": "v.",
+                "meaning": "转向；翻",
+                "page": "文档未标注"
+            },
+            {
+                "word": "left",
+                "phonetic": "/left/",
+                "partOfSpeech": "adv. & n.",
+                "meaning": "向左；左边",
+                "page": "文档未标注"
+            },
+            {
+                "word": "right",
+                "phonetic": "/raɪt/",
+                "partOfSpeech": "adv. & n.",
+                "meaning": "向右；右边",
+                "page": "文档未标注"
+            },
+            {
+                "word": "down",
+                "phonetic": "/daʊn/",
+                "partOfSpeech": "prep.",
+                "meaning": "沿着；顺着",
+                "page": "文档未标注"
+            },
+            {
+                "word": "enjoy",
+                "phonetic": "/ɪnˈdʒɔɪ/",
+                "partOfSpeech": "v.",
+                "meaning": "享受；喜爱",
+                "page": "文档未标注"
+            },
+            {
+                "word": "spend",
+                "phonetic": "/spend/",
+                "partOfSpeech": "v.",
+                "meaning": "花费；度过",
+                "page": "文档未标注"
+            },
+            {
+                "word": "climb",
+                "phonetic": "/klaɪm/",
+                "partOfSpeech": "v.",
+                "meaning": "爬",
+                "page": "文档未标注"
+            },
+            {
+                "word": "free",
+                "phonetic": "/friː/",
+                "partOfSpeech": "adj.",
+                "meaning": "免费的；自由的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "easily",
+                "phonetic": "/ˈiːzɪli/",
+                "partOfSpeech": "adv.",
+                "meaning": "容易地",
+                "page": "文档未标注"
+            },
+            {
+                "word": "quickly",
+                "phonetic": "/ˈkwɪkli/",
+                "partOfSpeech": "adv.",
+                "meaning": "快地；迅速地",
+                "page": "文档未标注"
+            },
+            {
+                "word": "park",
+                "phonetic": "/pɑːk/",
+                "partOfSpeech": "n.",
+                "meaning": "公园",
+                "page": "文档未标注"
+            },
+            {
+                "word": "clothes store",
+                "phonetic": "/kləʊðz stɔː(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "服装店",
+                "page": "文档未标注"
+            },
+            {
+                "word": "post office",
+                "phonetic": "/pəʊst ˈɒfɪs/",
+                "partOfSpeech": "固定短语",
+                "meaning": "邮局",
+                "page": "文档未标注"
+            },
+            {
+                "word": "police station",
+                "phonetic": "/pəˈliːs ˈsteɪʃn/",
+                "partOfSpeech": "固定短语",
+                "meaning": "警察局",
+                "page": "文档未标注"
+            },
+            {
+                "word": "next to",
+                "phonetic": "/nekst tuː/",
+                "partOfSpeech": "固定短语",
+                "meaning": "挨着；靠近",
+                "page": "文档未标注"
+            },
+            {
+                "word": "across from",
+                "phonetic": "/əˈkrɒs frəm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "在……对面",
+                "page": "文档未标注"
+            },
+            {
+                "word": "in front of",
+                "phonetic": "/ɪn frʌnt ɒv/",
+                "partOfSpeech": "固定短语",
+                "meaning": "在……前面",
+                "page": "文档未标注"
+            },
+            {
+                "word": "turn left/right",
+                "phonetic": "/tɜːn left raɪt/",
+                "partOfSpeech": "固定短语",
+                "meaning": "向左/右转",
+                "page": "文档未标注"
+            },
+            {
+                "word": "go along",
+                "phonetic": "/ɡəʊ əˈlɒŋ/",
+                "partOfSpeech": "固定短语",
+                "meaning": "沿着……走",
+                "page": "文档未标注"
+            },
+            {
+                "word": "on your left",
+                "phonetic": "/ɒn jɔː left/",
+                "partOfSpeech": "固定短语",
+                "meaning": "在你的左边",
+                "page": "文档未标注"
+            },
+            {
+                "word": "spend time",
+                "phonetic": "/spend taɪm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "花时间",
+                "page": "文档未标注"
+            },
+            {
+                "word": "enjoy reading books",
+                "phonetic": "/ɪnˈdʒɔɪ ˈriːdɪŋ bʊks/",
+                "partOfSpeech": "固定短语",
+                "meaning": "喜欢看书",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 9 What does he look like?": [
+            {
+                "word": "straight",
+                "phonetic": "/streɪt/",
+                "partOfSpeech": "adj.",
+                "meaning": "直的",
+                "page": "49"
+            },
+            {
+                "word": "tall",
+                "phonetic": "/tɔːl/",
+                "partOfSpeech": "adj.",
+                "meaning": "高的",
+                "page": "49"
+            },
+            {
+                "word": "thin",
+                "phonetic": "/θɪn/",
+                "partOfSpeech": "adj.",
+                "meaning": "瘦的",
+                "page": "49"
+            },
+            {
+                "word": "heavy",
+                "phonetic": "/ˈhevi/",
+                "partOfSpeech": "adj.",
+                "meaning": "重的",
+                "page": "49"
+            },
+            {
+                "word": "round",
+                "phonetic": "/raʊnd/",
+                "partOfSpeech": "adj.",
+                "meaning": "圆形的",
+                "page": "49"
+            },
+            {
+                "word": "handsome",
+                "phonetic": "/ˈhænsəm/",
+                "partOfSpeech": "adj.",
+                "meaning": "英俊的",
+                "page": "49"
+            },
+            {
+                "word": "face",
+                "phonetic": "/feɪs/",
+                "partOfSpeech": "n.",
+                "meaning": "脸",
+                "page": "49"
+            },
+            {
+                "word": "mouth",
+                "phonetic": "/maʊθ/",
+                "partOfSpeech": "n.",
+                "meaning": "嘴",
+                "page": "49"
+            },
+            {
+                "word": "eye",
+                "phonetic": "/aɪ/",
+                "partOfSpeech": "n.",
+                "meaning": "眼睛",
+                "page": "49"
+            },
+            {
+                "word": "nose",
+                "phonetic": "/nəʊz/",
+                "partOfSpeech": "n.",
+                "meaning": "鼻子",
+                "page": "49"
+            },
+            {
+                "word": "glasses",
+                "phonetic": "/ˈɡlɑːsɪz/",
+                "partOfSpeech": "n.",
+                "meaning": "眼镜",
+                "page": "49"
+            },
+            {
+                "word": "actor",
+                "phonetic": "/ˈæktə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "演员",
+                "page": "49"
+            },
+            {
+                "word": "actress",
+                "phonetic": "/ˈæktrəs/",
+                "partOfSpeech": "n.",
+                "meaning": "女演员",
+                "page": "49"
+            },
+            {
+                "word": "put",
+                "phonetic": "/pʊt/",
+                "partOfSpeech": "v.",
+                "meaning": "放",
+                "page": "49"
+            },
+            {
+                "word": "describe",
+                "phonetic": "/dɪˈskraɪb/",
+                "partOfSpeech": "v.",
+                "meaning": "描述",
+                "page": "49"
+            },
+            {
+                "word": "hair",
+                "phonetic": "/heə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "头发；毛发",
+                "page": "49"
+            },
+            {
+                "word": "brown",
+                "phonetic": "/braʊn/",
+                "partOfSpeech": "adj.",
+                "meaning": "棕色的；褐色的",
+                "page": "49"
+            },
+            {
+                "word": "curly",
+                "phonetic": "/ˈkɜːli/",
+                "partOfSpeech": "adj.",
+                "meaning": "卷曲的",
+                "page": "49"
+            },
+            {
+                "word": "old",
+                "phonetic": "/əʊld/",
+                "partOfSpeech": "adj.",
+                "meaning": "……岁的；老的",
+                "page": "49"
+            },
+            {
+                "word": "look like",
+                "phonetic": "/lʊk laɪk/",
+                "partOfSpeech": "固定短语",
+                "meaning": "看起来像",
+                "page": "49"
+            },
+            {
+                "word": "wear glasses",
+                "phonetic": "/weə ˈɡlɑːsɪz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "戴眼镜",
+                "page": "49"
+            },
+            {
+                "word": "a little",
+                "phonetic": "/ə ˈlɪtl/",
+                "partOfSpeech": "固定短语",
+                "meaning": "一点；少量",
+                "page": "49"
+            },
+            {
+                "word": "in the end",
+                "phonetic": "/ɪn ði end/",
+                "partOfSpeech": "固定短语",
+                "meaning": "最后",
+                "page": "49"
+            }
+        ],
+        "Unit 10 I'd like some noodles.": [
+            {
+                "word": "noodle",
+                "phonetic": "/ˈnuːdl/",
+                "partOfSpeech": "n.",
+                "meaning": "面条",
+                "page": "55"
+            },
+            {
+                "word": "would",
+                "phonetic": "/wʊd/",
+                "partOfSpeech": "modal v.",
+                "meaning": "愿意；想要",
+                "page": "55"
+            },
+            {
+                "word": "beef",
+                "phonetic": "/biːf/",
+                "partOfSpeech": "n.",
+                "meaning": "牛肉",
+                "page": "55"
+            },
+            {
+                "word": "tomato",
+                "phonetic": "/təˈmɑːtəʊ/",
+                "partOfSpeech": "n.",
+                "meaning": "西红柿；番茄",
+                "page": "55"
+            },
+            {
+                "word": "size",
+                "phonetic": "/saɪz/",
+                "partOfSpeech": "n.",
+                "meaning": "大小；尺码",
+                "page": "55"
+            },
+            {
+                "word": "small",
+                "phonetic": "/smɔːl/",
+                "partOfSpeech": "adj.",
+                "meaning": "小的",
+                "page": "55"
+            },
+            {
+                "word": "medium",
+                "phonetic": "/ˈmiːdiəm/",
+                "partOfSpeech": "adj.",
+                "meaning": "中等的",
+                "page": "55"
+            },
+            {
+                "word": "large",
+                "phonetic": "/lɑːdʒ/",
+                "partOfSpeech": "adj.",
+                "meaning": "大的；大号的",
+                "page": "55"
+            },
+            {
+                "word": "bowl",
+                "phonetic": "/bəʊl/",
+                "partOfSpeech": "n.",
+                "meaning": "碗",
+                "page": "55"
+            },
+            {
+                "word": "order",
+                "phonetic": "/ˈɔːdə(r)/",
+                "partOfSpeech": "v. & n.",
+                "meaning": "点菜；命令",
+                "page": "55"
+            },
+            {
+                "word": "food",
+                "phonetic": "/fuːd/",
+                "partOfSpeech": "n.",
+                "meaning": "食物",
+                "page": "55"
+            },
+            {
+                "word": "I'd",
+                "phonetic": "/aɪd/",
+                "partOfSpeech": "abbr.",
+                "meaning": "= I would 我会；我愿意",
+                "page": "55"
+            },
+            {
+                "word": "She'd",
+                "phonetic": "/ʃiːd/",
+                "partOfSpeech": "abbr.",
+                "meaning": "= She would 她会；她愿意",
+                "page": "55"
+            },
+            {
+                "word": "would like",
+                "phonetic": "/wʊd laɪk/",
+                "partOfSpeech": "固定短语",
+                "meaning": "愿意；想要",
+                "page": "55"
+            },
+            {
+                "word": "a bowl of",
+                "phonetic": "/ə bəʊl ɒv/",
+                "partOfSpeech": "固定短语",
+                "meaning": "一碗……",
+                "page": "55"
+            }
+        ],
+        "Unit 11 School trips": [
+            {
+                "word": "school trip",
+                "phonetic": "/skuːl trɪp/",
+                "partOfSpeech": "固定短语",
+                "meaning": "学校旅行",
+                "page": "文档未标注"
+            },
+            {
+                "word": "past",
+                "phonetic": "/pɑːst/",
+                "partOfSpeech": "adj.",
+                "meaning": "过去的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "event",
+                "phonetic": "/ɪˈvent/",
+                "partOfSpeech": "n.",
+                "meaning": "事件；活动",
+                "page": "文档未标注"
+            },
+            {
+                "word": "simple past tense",
+                "phonetic": "/ˈsɪmpl pɑːst tens/",
+                "partOfSpeech": "语法术语",
+                "meaning": "一般过去时",
+                "page": "文档未标注"
+            },
+            {
+                "word": "finish",
+                "phonetic": "/ˈfɪnɪʃ/",
+                "partOfSpeech": "v.",
+                "meaning": "完成；结束",
+                "page": "文档未标注"
+            },
+            {
+                "word": "high",
+                "phonetic": "/haɪ/",
+                "partOfSpeech": "adj.",
+                "meaning": "高的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "special",
+                "phonetic": "/ˈspeʃl/",
+                "partOfSpeech": "adj.",
+                "meaning": "特殊的；特别的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "gift",
+                "phonetic": "/ɡɪft/",
+                "partOfSpeech": "n.",
+                "meaning": "礼物；赠品",
+                "page": "文档未标注"
+            },
+            {
+                "word": "India",
+                "phonetic": "/ˈɪndiə/",
+                "partOfSpeech": "n.",
+                "meaning": "印度",
+                "page": "文档未标注"
+            },
+            {
+                "word": "camp",
+                "phonetic": "/kæmp/",
+                "partOfSpeech": "v.",
+                "meaning": "扎营；露营",
+                "page": "文档未标注"
+            },
+            {
+                "word": "village",
+                "phonetic": "/ˈvɪlɪdʒ/",
+                "partOfSpeech": "n.",
+                "meaning": "村庄；村镇",
+                "page": "文档未标注"
+            },
+            {
+                "word": "lake",
+                "phonetic": "/leɪk/",
+                "partOfSpeech": "n.",
+                "meaning": "湖；湖泊",
+                "page": "文档未标注"
+            },
+            {
+                "word": "countryside",
+                "phonetic": "/ˈkʌntrisaɪd/",
+                "partOfSpeech": "n.",
+                "meaning": "乡村；农村",
+                "page": "文档未标注"
+            },
+            {
+                "word": "tent",
+                "phonetic": "/tent/",
+                "partOfSpeech": "n.",
+                "meaning": "帐篷",
+                "page": "文档未标注"
+            },
+            {
+                "word": "moon",
+                "phonetic": "/muːn/",
+                "partOfSpeech": "n.",
+                "meaning": "月亮",
+                "page": "文档未标注"
+            },
+            {
+                "word": "surprise",
+                "phonetic": "/səˈpraɪz/",
+                "partOfSpeech": "n. & v.",
+                "meaning": "惊奇；惊讶；使吃惊",
+                "page": "文档未标注"
+            },
+            {
+                "word": "snake",
+                "phonetic": "/sneɪk/",
+                "partOfSpeech": "n.",
+                "meaning": "蛇",
+                "page": "文档未标注"
+            },
+            {
+                "word": "scared",
+                "phonetic": "/skeəd/",
+                "partOfSpeech": "adj.",
+                "meaning": "惊慌的；吓坏了的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "move",
+                "phonetic": "/muːv/",
+                "partOfSpeech": "v.",
+                "meaning": "移动；搬家",
+                "page": "文档未标注"
+            },
+            {
+                "word": "shout",
+                "phonetic": "/ʃaʊt/",
+                "partOfSpeech": "v.",
+                "meaning": "呼叫；喊叫",
+                "page": "文档未标注"
+            },
+            {
+                "word": "jump",
+                "phonetic": "/dʒʌmp/",
+                "partOfSpeech": "v.",
+                "meaning": "跳；跃",
+                "page": "文档未标注"
+            },
+            {
+                "word": "wake",
+                "phonetic": "/weɪk/",
+                "partOfSpeech": "v.",
+                "meaning": "弄醒；醒",
+                "page": "文档未标注"
+            },
+            {
+                "word": "forest",
+                "phonetic": "/ˈfɒrɪst/",
+                "partOfSpeech": "n.",
+                "meaning": "森林",
+                "page": "文档未标注"
+            },
+            {
+                "word": "ear",
+                "phonetic": "/ɪə(r)/",
+                "partOfSpeech": "n.",
+                "meaning": "耳朵",
+                "page": "文档未标注"
+            },
+            {
+                "word": "important",
+                "phonetic": "/ɪmˈpɔːtnt/",
+                "partOfSpeech": "adj.",
+                "meaning": "重要的",
+                "page": "文档未标注"
+            },
+            {
+                "word": "lesson",
+                "phonetic": "/ˈlesn/",
+                "partOfSpeech": "n.",
+                "meaning": "教训；课",
+                "page": "文档未标注"
+            },
+            {
+                "word": "put up",
+                "phonetic": "/pʊt ʌp/",
+                "partOfSpeech": "固定短语",
+                "meaning": "搭起；举起",
+                "page": "文档未标注"
+            },
+            {
+                "word": "make a fire",
+                "phonetic": "/meɪk ə ˈfaɪə(r)/",
+                "partOfSpeech": "固定短语",
+                "meaning": "生火",
+                "page": "文档未标注"
+            },
+            {
+                "word": "keep warm",
+                "phonetic": "/kiːp wɔːm/",
+                "partOfSpeech": "固定短语",
+                "meaning": "保持温暖",
+                "page": "文档未标注"
+            },
+            {
+                "word": "cook food",
+                "phonetic": "/kʊk fuːd/",
+                "partOfSpeech": "固定短语",
+                "meaning": "做饭",
+                "page": "文档未标注"
+            },
+            {
+                "word": "tell stories",
+                "phonetic": "/tel ˈstɔːriz/",
+                "partOfSpeech": "固定短语",
+                "meaning": "讲故事",
+                "page": "文档未标注"
+            },
+            {
+                "word": "go to sleep",
+                "phonetic": "/ɡəʊ tuː sliːp/",
+                "partOfSpeech": "固定短语",
+                "meaning": "入睡",
+                "page": "文档未标注"
+            },
+            {
+                "word": "look out of",
+                "phonetic": "/lʊk aʊt ɒv/",
+                "partOfSpeech": "固定短语",
+                "meaning": "从……向外看",
+                "page": "文档未标注"
+            },
+            {
+                "word": "up and down",
+                "phonetic": "/ʌp ænd daʊn/",
+                "partOfSpeech": "固定短语",
+                "meaning": "上上下下；起伏",
+                "page": "文档未标注"
+            },
+            {
+                "word": "wake up",
+                "phonetic": "/weɪk ʌp/",
+                "partOfSpeech": "固定短语",
+                "meaning": "弄醒；醒",
+                "page": "文档未标注"
+            }
+        ],
+        "Unit 12 Weekend activities": [
+            {
+                "word": "weekend",
+                "phonetic": "/ˌwiːkˈend/",
+                "partOfSpeech": "n.",
+                "meaning": "周末",
+                "page": "文档未标注"
+            },
+            {
+                "word": "activity",
+                "phonetic": "/ækˈtɪvəti/",
+                "partOfSpeech": "n.",
+                "meaning": "活动",
+                "page": "文档未标注"
+            },
+            {
+                "word": "simple past tense",
+                "phonetic": "/ˈsɪmpl pɑːst tens/",
+                "partOfSpeech": "语法术语",
+                "meaning": "一般过去时",
+                "page": "文档未标注"
+            },
+            {
+                "word": "文档未收录本单元完整词汇表",
+                "meaning": "仅标注单元核心主题，无完整词汇内容"
+            }
+        ]
+    }
+}

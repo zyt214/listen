@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<!-- 阴影层 -->
+<path d="M4 20H14C14.5304 20 15.0391 19.7893 15.4142 19.4142C15.7893 19.0391 16 18.5304 16 18V7C16 6.46957 15.7893 5.96086 15.4142 5.58579C15.0391 5.21071 14.5304 5 14 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V18C3 18.5304 3.21071 19.0391 3.58579 19.4142C3.96086 19.7893 4.46957 20 5 20H4Z" stroke="black" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 20H14C14.5304 20 15.0391 19.7893 15.4142 19.4142C15.7893 19.0391 16 18.5304 16 18V7C16 6.46957 15.7893 5.96086 15.4142 5.58579C15.0391 5.21071 14.5304 5 14 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V18C3 18.5304 3.21071 19.0391 3.58579 19.4142C3.96086 19.7893 4.46957 20 5 20H4Z" stroke="#08021E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 9H12M6 12H10M6 15H13" stroke="#08021E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 4L20 6L15 11L13 11L13 9L18 4Z" stroke="#C346FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12L13 13" stroke="#C346FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
