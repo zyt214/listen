@@ -1,53 +1,84 @@
 import { defineStore } from 'pinia'
+import api from '../utils/api'
 
 interface User {
+    id: number
+    phone: string
     username: string
-    token: string
+    role: string
+    status: number
+    lastLoginAt?: string
+    createdAt?: string
+    updatedAt?: string
+}
+
+interface AuthPayload {
+    phone: string
+    password: string
+    username?: string
 }
 
 export const useAuthStore = defineStore('auth', {
     state: () => ({
         user: null as User | null,
-        isAuthenticated: false
+        accessToken: '',
+        isAuthenticated: false,
+        hasCheckedSession: false
     }),
-    
+
     getters: {
         getUser(): User | null {
             return this.user
         },
         getToken(): string | null {
-            return this.user?.token || null
+            return this.accessToken || null
         },
         getIsAuthenticated(): boolean {
             return this.isAuthenticated
         }
     },
-    
+
     actions: {
-        login(user: User) {
-            this.user = user
+        setSession(payload: { user: User; accessToken: string }) {
+            this.user = payload.user
+            this.accessToken = payload.accessToken
             this.isAuthenticated = true
-            // 保存到本地存储
-            localStorage.setItem('user', JSON.stringify(user))
+            this.hasCheckedSession = true
         },
-        logout() {
+        async login(payload: AuthPayload) {
+            const response = await api.post('/auth/login', payload)
+            this.setSession(response.data.data)
+        },
+        async register(payload: AuthPayload) {
+            const response = await api.post('/auth/register', payload)
+            this.setSession(response.data.data)
+        },
+        clearSession() {
             this.user = null
+            this.accessToken = ''
             this.isAuthenticated = false
-            // 从本地存储中删除
-            localStorage.removeItem('user')
         },
-        checkAuth() {
-            // 从本地存储中恢复登录状态
-            const savedUser = localStorage.getItem('user')
-            if (savedUser) {
-                try {
-                    const user = JSON.parse(savedUser)
-                    this.user = user
-                    this.isAuthenticated = true
-                } catch (error) {
-                    console.error('Failed to parse user from localStorage:', error)
-                    this.logout()
-                }
+        async logout() {
+            try {
+                await api.post('/auth/logout')
+            } finally {
+                this.clearSession()
+                this.hasCheckedSession = true
+            }
+        },
+        async checkAuth() {
+            if (this.hasCheckedSession) {
+                return this.isAuthenticated
+            }
+
+            try {
+                const response = await api.post('/auth/refresh')
+                this.setSession(response.data.data)
+                return true
+            } catch (error) {
+                this.clearSession()
+                this.hasCheckedSession = true
+                return false
             }
         }
     }

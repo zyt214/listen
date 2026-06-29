@@ -11,9 +11,9 @@ import ExamPage from '../components/ExamPage.vue'
 import ExamResult from '../components/ExamResult.vue'
 import ExamRecords from '../components/ExamRecords.vue'
 import LoginPage from '../pages/LoginPage.vue'
+import RegisterPage from '../pages/RegisterPage.vue'
 import PhotoCorrectionPage from '../components/PhotoCorrectionPage.vue'
 import OCRResultPage from '../components/OCRResultPage.vue'
-import { requireAuth } from '../utils/auth'
 import { useAuthStore } from '../stores/auth'
 
 const routes = [
@@ -21,6 +21,11 @@ const routes = [
         path: '/login',
         name: 'Login',
         component: LoginPage
+    },
+    {
+        path: '/register',
+        name: 'Register',
+        component: RegisterPage
     },
     {
         path: '/',
@@ -169,15 +174,17 @@ const router = createRouter({
 })
 
 // 路由守卫
-router.beforeEach((to, from) => {
+router.beforeEach(async (to) => {
     // 初始化 auth store
     const authStore = useAuthStore()
-    authStore.checkAuth()
+    await authStore.checkAuth()
 
     // 检查页面是否需要登录
     if (to.meta.requiresAuth && !authStore.getIsAuthenticated) {
         // 未登录，跳转到登录页面
         return '/login'
+    } else if ((to.path === '/login' || to.path === '/register') && authStore.getIsAuthenticated) {
+        return '/'
     } else {
         // 已登录或页面不需要登录
         return true

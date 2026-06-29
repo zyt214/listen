@@ -1,9 +1,13 @@
 import axios from 'axios'
+import { useAuthStore } from '../stores/auth'
+
+let refreshPromise: Promise<string | null> | null = null
 
 // 创建axios实例
 const api = axios.create({
     baseURL: '/api',
     timeout: 10000,
+    withCredentials: true,
     headers: {
         'Content-Type': 'application/json'
     }
@@ -15,8 +19,9 @@ api.interceptors.request.use(
         // 在发送请求之前做些什么
         console.log(`发送请求: ${config.method?.toUpperCase()} ${config.url}`)
 
-        // 添加认证token（如果有的话）
-        const token = localStorage.getItem('token')
+        // 添加认证 token（如果有的话）
+        const authStore = useAuthStore()
+        const token = authStore.getToken
         if (token) {
             config.headers.Authorization = `Bearer ${token}`
         }
@@ -37,7 +42,7 @@ api.interceptors.response.use(
         console.log(`响应成功: ${response.status} ${response.config.url}`)
         return response
     },
-    (error) => {
+    async (error) => {
         // 对响应错误做点什么
         console.error('响应错误:', error)
 
@@ -46,7 +51,32 @@ api.interceptors.response.use(
             switch (error.response.status) {
                 case 401:
                     console.error('未授权，请重新登录')
-                    // 可以在这里跳转到登录页面
+                    if (!error.config?._retry && !String(error.config?.url || '').startsWith('/auth/')) {
+                        error.config._retry = true
+                        const authStore = useAuthStore()
+
+                        refreshPromise =
+                            refreshPromise ||
+                            api
+                                .post('/auth/refresh')
+                                .then((response) => {
+                                    authStore.setSession(response.data.data)
+                                    return response.data.data.accessToken
+                                })
+                                .catch(() => {
+                                    authStore.clearSession()
+                                    return null
+                                })
+                                .finally(() => {
+                                    refreshPromise = null
+                                })
+
+                        const token = await refreshPromise
+                        if (token) {
+                            error.config.headers.Authorization = `Bearer ${token}`
+                            return api(error.config)
+                        }
+                    }
                     break
                 case 403:
                     console.error('禁止访问')

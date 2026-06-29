@@ -1,46 +1,61 @@
 <template>
-    <div class="login-page">
-        <!-- 背景装饰圆 -->
+    <div class="register-page">
         <div class="bg-circle bg-circle-1"></div>
         <div class="bg-circle bg-circle-2"></div>
 
-        <div class="login-box">
-            <!-- Logo 区 -->
-            <div class="login-header">
+        <div class="register-box">
+            <div class="register-header">
                 <div class="logo-wrap">
                     <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                        <rect width="48" height="48" rx="14" fill="url(#lg)" />
+                        <rect width="48" height="48" rx="14" fill="url(#register-lg)" />
                         <path d="M14 24a10 10 0 0 1 20 0" stroke="#fff" stroke-width="3" stroke-linecap="round" />
                         <circle cx="24" cy="34" r="3" fill="#fff" />
                         <defs>
-                            <linearGradient id="lg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                            <linearGradient id="register-lg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
                                 <stop stop-color="#7b68ff" />
                                 <stop offset="1" stop-color="#3370ff" />
                             </linearGradient>
                         </defs>
                     </svg>
                 </div>
-                <h1 class="login-title">听写天天练</h1>
-                <p class="login-subtitle">开始你的听写之旅</p>
+                <h1 class="register-title">创建账号</h1>
+                <p class="register-subtitle">开始使用听写天天练</p>
             </div>
 
-            <!-- 表单 -->
-            <form @submit.prevent="handleLogin" class="login-form">
+            <form @submit.prevent="handleRegister" class="register-form">
                 <div class="form-group">
-                    <label>手机号</label>
-                    <div class="input-wrap" :class="{ 'has-error': usernameError }">
+                    <label>昵称</label>
+                    <div class="input-wrap" :class="{ 'has-error': nicknameError }">
                         <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.9 19.79 19.79 0 0 1 1.61 3.27 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.49 5.49l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 15.5v1.42z" />
+                            <path d="M20 21a8 8 0 0 0-16 0" />
+                            <circle cx="12" cy="7" r="4" />
                         </svg>
                         <a-input
-                            v-model:value="username"
-                            placeholder="请输入手机号"
-                            :status="usernameError ? 'error' : ''"
+                            v-model:value="nickname"
+                            placeholder="请输入昵称"
+                            :status="nicknameError ? 'error' : ''"
                             :bordered="false"
                             class="bare-input"
                         />
                     </div>
-                    <div v-if="usernameError" class="error-msg">{{ usernameError }}</div>
+                    <div v-if="nicknameError" class="error-msg">{{ nicknameError }}</div>
+                </div>
+
+                <div class="form-group">
+                    <label>手机号</label>
+                    <div class="input-wrap" :class="{ 'has-error': phoneError }">
+                        <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.9 19.79 19.79 0 0 1 1.61 3.27 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.49 5.49l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 15.5v1.42z" />
+                        </svg>
+                        <a-input
+                            v-model:value="phone"
+                            placeholder="请输入手机号"
+                            :status="phoneError ? 'error' : ''"
+                            :bordered="false"
+                            class="bare-input"
+                        />
+                    </div>
+                    <div v-if="phoneError" class="error-msg">{{ phoneError }}</div>
                 </div>
 
                 <div class="form-group">
@@ -52,7 +67,7 @@
                         </svg>
                         <a-input-password
                             v-model:value="password"
-                            placeholder="请输入密码"
+                            placeholder="至少 8 位密码"
                             :status="passwordError ? 'error' : ''"
                             :bordered="false"
                             class="bare-input"
@@ -61,16 +76,33 @@
                     <div v-if="passwordError" class="error-msg">{{ passwordError }}</div>
                 </div>
 
-                <button type="submit" class="login-btn" :disabled="loading">
-                    <span v-if="!loading">登 录</span>
+                <div class="form-group">
+                    <label>确认密码</label>
+                    <div class="input-wrap" :class="{ 'has-error': confirmPasswordError }">
+                        <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                        <a-input-password
+                            v-model:value="confirmPassword"
+                            placeholder="请再次输入密码"
+                            :status="confirmPasswordError ? 'error' : ''"
+                            :bordered="false"
+                            class="bare-input"
+                        />
+                    </div>
+                    <div v-if="confirmPasswordError" class="error-msg">{{ confirmPasswordError }}</div>
+                </div>
+
+                <button type="submit" class="register-btn" :disabled="loading">
+                    <span v-if="!loading">注 册</span>
                     <span v-else class="loading-dots">
                         <span></span><span></span><span></span>
                     </span>
                 </button>
 
                 <div class="auth-switch">
-                    <span>还没有账号？</span>
-                    <router-link to="/register">立即注册</router-link>
+                    <span>已有账号？</span>
+                    <router-link to="/login">去登录</router-link>
                 </div>
             </form>
         </div>
@@ -86,39 +118,72 @@ import { useAuthStore } from '../stores/auth'
 const router = useRouter()
 const authStore = useAuthStore()
 
-const username = ref('')
+const nickname = ref('')
+const phone = ref('')
 const password = ref('')
+const confirmPassword = ref('')
 const loading = ref(false)
-const usernameError = ref('')
+const nicknameError = ref('')
+const phoneError = ref('')
 const passwordError = ref('')
+const confirmPasswordError = ref('')
 
-const handleLogin = async () => {
+const validateForm = () => {
     let isValid = true
-    if (!/^1[3-9]\d{9}$/.test(username.value.trim())) {
-        usernameError.value = '请输入正确的手机号'
+    const trimmedNickname = nickname.value.trim()
+    const trimmedPhone = phone.value.trim()
+
+    if (trimmedNickname.length < 2) {
+        nicknameError.value = '昵称至少 2 个字符'
         isValid = false
     } else {
-        usernameError.value = ''
+        nicknameError.value = ''
     }
+
+    if (!/^1[3-9]\d{9}$/.test(trimmedPhone)) {
+        phoneError.value = '请输入正确的手机号'
+        isValid = false
+    } else {
+        phoneError.value = ''
+    }
+
     if (password.value.length < 8) {
         passwordError.value = '密码至少 8 位'
         isValid = false
     } else {
         passwordError.value = ''
     }
-    if (!isValid) return
+
+    if (confirmPassword.value !== password.value) {
+        confirmPasswordError.value = '两次输入的密码不一致'
+        isValid = false
+    } else {
+        confirmPasswordError.value = ''
+    }
+
+    return isValid
+}
+
+const getErrorMessage = (error: unknown) => {
+    const responseMessage = (error as { response?: { data?: { message?: string } } })?.response?.data?.message
+    return responseMessage || '注册失败，请稍后重试'
+}
+
+const handleRegister = async () => {
+    if (!validateForm()) return
 
     loading.value = true
     try {
-        await authStore.login({
-            phone: username.value.trim(),
+        await authStore.register({
+            username: nickname.value.trim(),
+            phone: phone.value.trim(),
             password: password.value
         })
-        message.success('登录成功')
+        message.success('注册成功')
         router.push('/')
     } catch (error) {
-        message.error('登录失败，请稍后重试')
-        console.error('登录错误:', error)
+        message.error(getErrorMessage(error))
+        console.error('注册错误:', error)
     } finally {
         loading.value = false
     }
@@ -130,7 +195,7 @@ const handleLogin = async () => {
     box-sizing: border-box;
 }
 
-.login-page {
+.register-page {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -141,7 +206,6 @@ const handleLogin = async () => {
     overflow: hidden;
 }
 
-/* 背景装饰圆 */
 .bg-circle {
     position: fixed;
     border-radius: 50%;
@@ -166,24 +230,22 @@ const handleLogin = async () => {
     left: -80px;
 }
 
-/* 登录卡片 */
-.login-box {
+.register-box {
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(20px);
     border-radius: 28px;
-    padding: 40px 32px 36px;
+    padding: 36px 32px 32px;
     box-shadow: 0 8px 40px rgba(102, 126, 234, 0.13), 0 2px 8px rgba(0, 0, 0, 0.06);
     border: 1px solid rgba(102, 126, 234, 0.12);
 }
 
-/* 头部 */
-.login-header {
+.register-header {
     text-align: center;
-    margin-bottom: 36px;
+    margin-bottom: 28px;
 }
 
 .logo-wrap {
@@ -193,25 +255,24 @@ const handleLogin = async () => {
     margin-bottom: 14px;
 }
 
-.login-title {
+.register-title {
     font-size: 26px;
     font-weight: 700;
     color: #1e293b;
     margin: 0 0 6px;
-    letter-spacing: -0.4px;
+    letter-spacing: 0;
 }
 
-.login-subtitle {
+.register-subtitle {
     font-size: 14px;
     color: #94a3b8;
     margin: 0;
 }
 
-/* 表单 */
-.login-form {
+.register-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 }
 
 .form-group {
@@ -273,9 +334,8 @@ const handleLogin = async () => {
     padding-left: 4px;
 }
 
-/* 登录按钮 */
-.login-btn {
-    margin-top: 8px;
+.register-btn {
+    margin-top: 4px;
     height: 52px;
     border-radius: 80px;
     border: none;
@@ -291,17 +351,17 @@ const handleLogin = async () => {
     justify-content: center;
 }
 
-.login-btn:hover:not(:disabled) {
+.register-btn:hover:not(:disabled) {
     opacity: 0.9;
     transform: translateY(-1px);
     box-shadow: 0 8px 26px rgba(123, 104, 255, 0.45);
 }
 
-.login-btn:active:not(:disabled) {
+.register-btn:active:not(:disabled) {
     transform: scale(0.98);
 }
 
-.login-btn:disabled {
+.register-btn:disabled {
     opacity: 0.65;
     cursor: not-allowed;
 }
@@ -324,7 +384,6 @@ const handleLogin = async () => {
     color: #7b68ff;
 }
 
-/* 加载动画 */
 .loading-dots {
     display: flex;
     gap: 5px;
@@ -339,15 +398,25 @@ const handleLogin = async () => {
     animation: dot-bounce 0.8s ease-in-out infinite;
 }
 
-.loading-dots span:nth-child(2) { animation-delay: 0.15s; }
-.loading-dots span:nth-child(3) { animation-delay: 0.3s; }
-
-@keyframes dot-bounce {
-    0%, 100% { transform: translateY(0); opacity: 0.6; }
-    50% { transform: translateY(-5px); opacity: 1; }
+.loading-dots span:nth-child(2) {
+    animation-delay: 0.15s;
 }
 
-/* Ant Design 输入框覆盖 */
+.loading-dots span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes dot-bounce {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(-5px);
+        opacity: 1;
+    }
+}
+
 :deep(.ant-input) {
     background: transparent !important;
     font-size: 15px;
@@ -363,5 +432,18 @@ const handleLogin = async () => {
 
 :deep(.ant-input-password) {
     background: transparent !important;
+}
+
+@media (max-width: 480px) {
+    .register-page {
+        padding: 18px;
+        align-items: flex-start;
+    }
+
+    .register-box {
+        margin-top: 18px;
+        padding: 30px 22px 28px;
+        border-radius: 24px;
+    }
 }
 </style>
