@@ -63,7 +63,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
 import { showConfirm } from '../utils/confirm'
@@ -84,8 +84,8 @@ const confirmDelete = (id: string) => {
         content: '确定要删除这条错题记录吗？',
         okText: '删除',
         cancelText: '取消',
-        onOk() {
-            errorBookStore.deleteRecord(id)
+        async onOk() {
+            await errorBookStore.deleteRecord(id)
             message.success('已删除')
         }
     })
@@ -97,8 +97,8 @@ const confirmClearAll = () => {
         content: '确定要清空所有错题记录吗？此操作不可恢复。',
         okText: '清空',
         cancelText: '取消',
-        onOk() {
-            errorBookStore.clearAll()
+        async onOk() {
+            await errorBookStore.clearAll()
             message.success('已清空')
         }
     })
@@ -123,6 +123,10 @@ const redoDictation = (record: ErrorBookRecord) => {
     }
     router.push('/dictation')
 }
+
+onMounted(() => {
+    errorBookStore.loadRecords()
+})
 </script>
 
 <style scoped>

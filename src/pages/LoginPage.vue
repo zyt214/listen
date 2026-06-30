@@ -117,7 +117,6 @@ const handleLogin = async () => {
         message.success('登录成功')
         router.push('/')
     } catch (error) {
-        message.error('登录失败，请稍后重试')
         console.error('登录错误:', error)
     } finally {
         loading.value = false

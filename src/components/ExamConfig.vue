@@ -120,7 +120,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useDictationStore } from '../stores/dictation'
 import { message } from 'ant-design-vue'
-import { textbookAPI } from '../utils/api'
+import { studyAPI, textbookAPI } from '../utils/api'
 import { showConfirm } from '../utils/confirm'
 import BottomNav from './BottomNav.vue'
 
@@ -197,15 +197,14 @@ const goBack = () => {
     router.back()
 }
 
-const checkExamName = () => {
+const checkExamName = async () => {
     const name = examName.value.trim()
     if (!name) {
         nameError.value = '考试名称不能为空'
         return
     }
-    const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-    const isDuplicate = examHistory.some((exam: any) => exam.name === name)
-    if (isDuplicate) {
+    const response = await studyAPI.checkExamName(name)
+    if (response.data.data?.exists) {
         nameError.value = '考试名称已存在，请使用其他名称'
     } else {
         nameError.value = ''
@@ -287,34 +286,29 @@ const createExam = async () => {
         const examWords = shuffleArray(allWords.value).slice(0, wordCount.value)
         dictationStore.setTextbook(textbookInfo.textbook)
         dictationStore.setWords(examWords)
-        const examRecord = {
-            id: Date.now(),
+        const response = await studyAPI.createExamRecord({
             name: examName.value.trim(),
             textbookName: textbookInfo.textbook.bookName,
             wordCount: examWords.length,
-            date: new Date().toISOString().split('T')[0],
             words: examWords
-        }
-        const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-        examHistory.push(examRecord)
-        localStorage.setItem('examHistory', JSON.stringify(examHistory))
-        loadExamRecords()
+        })
+        const examRecord = response.data.data
+        await loadExamRecords()
         router.push({
             path: '/exam/result',
             query: { examId: examRecord.id.toString() }
         })
     } catch (error) {
         console.error('创建考试失败:', error)
-        message.error('创建考试失败，请重试')
     } finally {
         isCreating.value = false
     }
 }
 
-const loadExamRecords = () => {
+const loadExamRecords = async () => {
     try {
-        const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-        examRecords.value = examHistory
+        const response = await studyAPI.getExamRecords({ page: 1, pageSize: 50 })
+        examRecords.value = response.data.data || []
     } catch (error) {
         console.error('加载考试记录失败:', error)
         examRecords.value = []
@@ -334,16 +328,13 @@ const deleteExamRecord = (id: number) => {
         content: '确定要删除这条试卷记录吗？',
         okText: '确定',
         cancelText: '取消',
-        onOk() {
+        async onOk() {
             try {
-                const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-                const updatedHistory = examHistory.filter((record: any) => record.id !== id)
-                localStorage.setItem('examHistory', JSON.stringify(updatedHistory))
-                loadExamRecords()
+                await studyAPI.deleteExamRecord(id)
+                await loadExamRecords()
                 message.success('删除成功')
             } catch (error) {
                 console.error('删除考试记录失败:', error)
-                message.error('删除失败，请重试')
             }
         }
     })
@@ -369,7 +360,7 @@ const loadTextbooks = async () => {
 
 onMounted(async () => {
     await loadTextbooks()
-    loadExamRecords()
+    await loadExamRecords()
 })
 </script>
 

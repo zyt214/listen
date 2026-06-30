@@ -95,6 +95,7 @@ import { LeftOutlined } from '@ant-design/icons-vue'
 import { message } from 'ant-design-vue'
 import { generatePDF, ExamRecord } from '../utils/pdfExport'
 import { showConfirm } from '../utils/confirm'
+import { studyAPI } from '../utils/api'
 
 const router = useRouter()
 const examRecords = ref<ExamRecord[]>([])
@@ -109,7 +110,7 @@ const createNewExam = () => {
 
 const viewExamDetail = (record: ExamRecord) => {
     // 跳转到考试结果页面，并传递记录ID
-    router.push(`/exam/result?id=${record.id}`)
+    router.push(`/exam/result?examId=${record.id}`)
 }
 
 const deleteExamRecord = (id: number) => {
@@ -118,16 +119,13 @@ const deleteExamRecord = (id: number) => {
         content: '确定要删除这条试卷记录吗？',
         okText: '确定',
         cancelText: '取消',
-        onOk() {
+        async onOk() {
             try {
-                const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-                const updatedRecords = examHistory.filter((record: ExamRecord) => record.id !== id)
-                localStorage.setItem('examHistory', JSON.stringify(updatedRecords))
-                loadExamRecords()
+                await studyAPI.deleteExamRecord(id)
+                await loadExamRecords()
                 message.success('删除成功')
             } catch (error) {
                 console.error('删除试卷记录失败:', error)
-                message.error('删除失败，请重试')
             }
         }
     })
@@ -137,19 +135,18 @@ const exportPDF = (record: ExamRecord) => {
     generatePDF(record)
 }
 
-const loadExamRecords = () => {
+const loadExamRecords = async () => {
     try {
-        const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-        // 按时间倒序排序，最新的在前面
-        examRecords.value = examHistory.sort((a: ExamRecord, b: ExamRecord) => b.id - a.id)
+        const response = await studyAPI.getExamRecords({ page: 1, pageSize: 100 })
+        examRecords.value = response.data.data || []
     } catch (error) {
         console.error('加载试卷记录失败:', error)
         examRecords.value = []
     }
 }
 
-onMounted(() => {
-    loadExamRecords()
+onMounted(async () => {
+    await loadExamRecords()
 })
 </script>
 

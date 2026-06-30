@@ -48,31 +48,6 @@ const saveToLocalLibrary = (wordList: Word[]) => {
     localStorage.setItem('wordLibrary', JSON.stringify(library))
 }
 
-// 从本地存储加载错误单词
-const loadErrorBook = (): Word[] => {
-    const savedErrorBook = localStorage.getItem('errorBook')
-    return savedErrorBook ? JSON.parse(savedErrorBook) : []
-}
-
-// 添加到错题本
-const addToErrorBook = (word: Word) => {
-    const errorBook = loadErrorBook()
-    const exists = errorBook.some((item: Word) => item.english === word.english)
-    if (!exists) {
-        errorBook.push(word)
-        localStorage.setItem('errorBook', JSON.stringify(errorBook))
-    }
-    return errorBook
-}
-
-// 标记已掌握
-const markAsMastered = (index: number): Word[] => {
-    const errorBook = loadErrorBook()
-    errorBook.splice(index, 1)
-    localStorage.setItem('errorBook', JSON.stringify(errorBook))
-    return errorBook
-}
-
 // 打乱数组
 const shuffleArray = <T>(array: T[]): T[] => {
     const newArray = [...array]
@@ -138,9 +113,6 @@ const playAudio = (text: string) => {
 // 导出函数供其他组件使用
 defineExpose({
     saveToLocalLibrary,
-    loadErrorBook,
-    addToErrorBook,
-    markAsMastered,
     shuffleArray,
     playAudio
 })

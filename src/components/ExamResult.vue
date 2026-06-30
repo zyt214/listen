@@ -68,6 +68,7 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useDictationStore } from '../stores/dictation'
 import { generatePDF, ExamRecord } from '../utils/pdfExport'
+import { studyAPI } from '../utils/api'
 
 interface ExamInfo {
     id: number
@@ -112,34 +113,26 @@ const startExam = () => {
     router.push('/dictation')
 }
 
-const loadExamInfo = () => {
+const loadExamInfo = async () => {
     try {
-        const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
         const urlParams = new URLSearchParams(window.location.search)
-        const examId = urlParams.get('examId')
+        const examId = urlParams.get('examId') || urlParams.get('id')
 
         if (examId) {
-            const examRecord = examHistory.find((exam: ExamInfo) => exam.id === parseInt(examId))
-            if (examRecord) {
-                examInfo.value = examRecord
-                return
-            }
+            const response = await studyAPI.getExamRecord(examId)
+            examInfo.value = response.data.data
+            return
         }
 
-        if (examHistory.length > 0) {
-            const latestExam = examHistory[examHistory.length - 1]
-            examInfo.value = latestExam
-        } else {
-            const currentWords = dictationStore.currentWords
-            if (currentWords.length > 0) {
-                examInfo.value = {
-                    id: Date.now(),
-                    name: '未命名考试',
-                    textbookName: dictationStore.currentTextbook?.bookName || '未知教材',
-                    date: new Date().toISOString().split('T')[0],
-                    wordCount: currentWords.length,
-                    words: currentWords
-                }
+        const currentWords = dictationStore.currentWords
+        if (currentWords.length > 0) {
+            examInfo.value = {
+                id: Date.now(),
+                name: '未命名考试',
+                textbookName: dictationStore.currentTextbook?.bookName || '未知教材',
+                date: new Date().toISOString().split('T')[0],
+                wordCount: currentWords.length,
+                words: currentWords
             }
         }
     } catch (error) {
@@ -151,8 +144,8 @@ const exportPDF = async () => {
     await generatePDF(examInfo.value as ExamRecord)
 }
 
-onMounted(() => {
-    loadExamInfo()
+onMounted(async () => {
+    await loadExamInfo()
 })
 </script>
 

@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
+import { studyAPI } from '../utils/api'
 
 interface ErrorWord {
     english: string
@@ -23,55 +24,45 @@ export interface ErrorBookRecord {
 
 export const useErrorBookStore = defineStore('errorBook', () => {
     const records = ref<ErrorBookRecord[]>([])
+    const loading = ref(false)
 
-    const loadFromStorage = () => {
+    const loadRecords = async () => {
+        loading.value = true
         try {
-            const stored = localStorage.getItem('errorBookRecords')
-            if (stored) {
-                records.value = JSON.parse(stored)
-            }
+            const response = await studyAPI.getErrorBookRecords()
+            records.value = response.data.data || []
         } catch (error) {
             console.error('加载错题本记录失败:', error)
             records.value = []
+        } finally {
+            loading.value = false
         }
     }
 
-    const saveToStorage = () => {
-        try {
-            localStorage.setItem('errorBookRecords', JSON.stringify(records.value))
-        } catch (error) {
-            console.error('保存错题本记录失败:', error)
-        }
-    }
-
-    const addRecord = (record: Omit<ErrorBookRecord, 'id' | 'date'>) => {
-        const newRecord: ErrorBookRecord = {
+    const addRecord = async (record: Omit<ErrorBookRecord, 'id' | 'date'>) => {
+        const response = await studyAPI.createErrorBookRecord({
             ...record,
-            id: Date.now().toString(),
-            date: new Date().toLocaleDateString('zh-CN')
-        }
+            sourceType: 'photo_correction'
+        })
+        const newRecord = response.data.data
         records.value.unshift(newRecord)
-        saveToStorage()
         return newRecord.id
     }
 
-    const deleteRecord = (id: string) => {
-        const index = records.value.findIndex((r) => r.id === id)
-        if (index !== -1) {
-            records.value.splice(index, 1)
-            saveToStorage()
-        }
+    const deleteRecord = async (id: string) => {
+        await studyAPI.deleteErrorBookRecord(id)
+        records.value = records.value.filter((record) => record.id !== id)
     }
 
-    const clearAll = () => {
+    const clearAll = async () => {
+        await studyAPI.clearErrorBookRecords()
         records.value = []
-        saveToStorage()
     }
-
-    loadFromStorage()
 
     return {
         records,
+        loading,
+        loadRecords,
         addRecord,
         deleteRecord,
         clearAll

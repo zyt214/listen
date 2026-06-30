@@ -164,11 +164,6 @@ const validateForm = () => {
     return isValid
 }
 
-const getErrorMessage = (error: unknown) => {
-    const responseMessage = (error as { response?: { data?: { message?: string } } })?.response?.data?.message
-    return responseMessage || '注册失败，请稍后重试'
-}
-
 const handleRegister = async () => {
     if (!validateForm()) return
 
@@ -182,7 +177,6 @@ const handleRegister = async () => {
         message.success('注册成功')
         router.push('/')
     } catch (error) {
-        message.error(getErrorMessage(error))
         console.error('注册错误:', error)
     } finally {
         loading.value = false

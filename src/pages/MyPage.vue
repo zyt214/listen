@@ -60,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
 import { useAuthStore } from '../stores/auth'
@@ -73,6 +73,10 @@ const authStore = useAuthStore()
 const errorBookStore = useErrorBookStore()
 
 const errorBookCount = computed(() => errorBookStore.records.length)
+
+onMounted(() => {
+    errorBookStore.loadRecords()
+})
 
 const userInitial = computed(() => {
     const username = authStore.user?.username || '用户'

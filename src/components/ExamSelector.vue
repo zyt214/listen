@@ -78,6 +78,7 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
 import { useDictationStore } from '../stores/dictation'
+import { studyAPI } from '../utils/api'
 
 interface Textbook {
     bookName: string
@@ -114,24 +115,24 @@ const selectTextbook = async (grade: string, textbook: Textbook) => {
         dictationStore.setWords(examWords)
 
         // 记录考试信息
-        const examRecord = {
-            id: Date.now(),
+        const response = await studyAPI.createExamRecord({
+            name: `${textbook.bookName}-${new Date().toISOString().slice(0, 19).replace('T', ' ')}`,
             textbookName: textbook.bookName,
-            date: new Date().toISOString().split('T')[0],
             wordCount: examWords.length,
             words: examWords
-        }
-
-        // 保存到本地存储
-        const examHistory = JSON.parse(localStorage.getItem('examHistory') || '[]')
-        examHistory.push(examRecord)
-        localStorage.setItem('examHistory', JSON.stringify(examHistory))
+        })
+        const examRecord = response.data.data
 
         // 跳转到考试页面
-        router.push('/exam/page')
+        router.push({
+            path: '/exam/result',
+            query: { examId: String(examRecord.id) }
+        })
     } catch (error) {
         console.error('加载教材数据失败:', error)
-        message.error('加载教材数据失败，请重试')
+        if (!(error as any).response) {
+            message.error('加载教材数据失败，请重试')
+        }
     }
 }
 

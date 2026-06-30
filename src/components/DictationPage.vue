@@ -273,6 +273,8 @@ const startDictation = () => {
                 unit: dictationStore.currentUnit,
                 wordCount: dictationStore.currentWords.length,
                 words: dictationStore.currentWords
+            }).catch((error) => {
+                console.error('保存听写记录失败:', error)
             })
         }
         currentWord.value = dictationManager.getCurrentWord() || ''

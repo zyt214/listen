@@ -116,7 +116,6 @@ const loadMaterialRecords = async () => {
         }
     } catch (error) {
         console.error('加载听写库记录失败:', error)
-        message.error('加载听写库失败，请重试')
         materialRecords.value = []
     } finally {
         isLoading.value = false
@@ -163,7 +162,6 @@ const startDictationFromMaterial = async (record: any) => {
         router.push('/dictation')
     } catch (error) {
         console.error('开始听写失败:', error)
-        message.error('加载单词列表失败，请重试')
     }
 }
 
@@ -187,7 +185,6 @@ const deleteMaterialRecord = (id: number) => {
                 }
             } catch (error) {
                 console.error('删除素材记录失败:', error)
-                message.error('删除失败，请重试')
             }
         }
     })

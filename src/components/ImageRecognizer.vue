@@ -91,7 +91,7 @@ import { useRouter } from 'vue-router'
 import { LeftOutlined } from '@ant-design/icons-vue'
 import { message, Button } from 'ant-design-vue'
 import { useDictationStore } from '../stores/dictation'
-import { ocrAPI } from '../utils/api'
+import { integrationAPI, ocrAPI } from '../utils/api'
 
 interface Word {
     english: string
@@ -218,33 +218,9 @@ const translateWords = async (words: string[]): Promise<Word[]> => {
  * @returns {Promise<string>} 识别到的纯文本
  */
 const ocrSpaceApi = async (base64Image, language = 'eng') => {
-    const API_KEY = 'K86075366888957'
-    const API_URL = 'https://api.ocr.space/parse/image'
-
-    // 处理base64，去掉前缀
-    const base64Data = base64Image.replace(/^data:image\/[a-z]+;base64,/, '')
-
-    const formData = new FormData()
-    formData.append('apikey', API_KEY)
-    formData.append('language', language)
-    formData.append('base64Image', `data:image/png;base64,${base64Data}`)
-    formData.append('isOverlayRequired', false) // 不需要文字坐标
-    formData.append('scale', true) // 自动缩放提升识别率
-    formData.append('OCREngine', 2) // 引擎2对小字体/表格识别更优
-
     try {
-        const response = await fetch(API_URL, {
-            method: 'POST',
-            body: formData
-        })
-        const result = await response.json()
-
-        if (result.OCRExitCode !== 1) {
-            throw result.ErrorMessage || '识别失败'
-        }
-
-        // 拼接识别到的所有文本
-        return result.ParsedResults[0]?.TextOverlay?.Lines?.map((item) => item.LineText) || []
+        const response = await integrationAPI.recognizeImage({ base64Image, language })
+        return response.data.data.lines || []
     } catch (error) {
         console.error('OCR识别失败:', error)
         throw error || '识别失败'
@@ -347,11 +323,6 @@ const startRecognition = async () => {
     }
 }
 
-// MiniMax TTS API配置
-const MINIMAX_API_KEY =
-    'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJHcm91cE5hbWUiOiLljJfkuqzniLHmmK_mnKrmnaXnp5HmioDmnInpmZDlhazlj7giLCJVc2VyTmFtZSI6InVnIiwiQWNjb3VudCI6InVnQDE5Mjc5NzEwNDg0ODYwODQ2NzAiLCJTdWJqZWN0SUQiOiIxOTI1MTIzMjAzMTY5MDAxNTMzIiwiUGhvbmUiOiIiLCJHcm91cElEIjoiMTkyNzk3MTA0ODQ4NjA4NDY3MCIsIlBhZ2VOYW1lIjoiIiwiTWFpbCI6IiIsIkNyZWF0ZVRpbWUiOiIyMDI1LTA2LTA2IDEwOjA4OjMwIiwiVG9rZW5UeXBlIjoxLCJpc3MiOiJtaW5pbWF4In0.pcGSRM7Fe-yWUteZh6XMps0gSrfmi_XkXSxzevfN2jBE2jIwWfg0dO4LxTntswOFsYODVlksTRm8-XH1nSv3xburoJEDJGZCqjNPCKxKz5AngoLGS39q8hlkKfxVWWVqJO-19iS9P3jEOAJof9XFlULPdDUtADPLxCimcjahQqoc1D3XTAO1g8hf5VLuJsys-q4dvKtvolqg54Zd5gy5AoakJlXR0BZIY377PSBLAyAhMcdRflq2Vexj2X_5oHB5dt2xX9_VmRQkkdk64MRSkv-8N-Hm68FAyYRItqf2UwKUgncmkk0JbUs-Nau8rsy4yFsrFNCrtZ9X__5YtXJt-g'
-const MINIMAX_API_URL = 'https://api.minimaxi.com/v1/t2a_v2'
-
 // 合成语音函数（参考dictationUtils.ts实现）
 const synthesizeSpeech = async (text: string, lang: string): Promise<string | null> => {
     const maxRetries = 3
@@ -359,73 +330,10 @@ const synthesizeSpeech = async (text: string, lang: string): Promise<string | nu
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
-            const model = 'speech-2.8-hd'
-
-            const response = await fetch(MINIMAX_API_URL, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    Authorization: `Bearer ${MINIMAX_API_KEY}`
-                },
-                body: JSON.stringify({
-                    model: model,
-                    text: text,
-                    stream: false,
-                    voice_setting: {
-                        voice_id: 'xinyuyanjiang20250625'
-                    },
-                    audio_setting: {
-                        sample_rate: 32000,
-                        format: 'mp3',
-                        speed: 1.2
-                    },
-                    output_format: 'url'
-                })
-            })
-
-            if (!response.ok) {
-                const errorData = await response.json().catch(() => ({}))
-                console.error('MiniMax API error:', response.status, errorData)
-
-                // 检查是否是速率限制错误
-                if (response.status === 429 || (errorData.status_msg && errorData.status_msg.includes('rate limit'))) {
-                    if (attempt < maxRetries) {
-                        console.warn(`Rate limit exceeded, retrying in ${retryDelay}ms...`)
-                        await new Promise((resolve) => setTimeout(resolve, retryDelay))
-                        continue
-                    } else {
-                        message.error('API 速率限制，请稍后再试')
-                        return null
-                    }
-                }
-
-                message.error(`语音合成失败: ${response.status}`)
-                return null
-            }
-
-            const data = await response.json()
-
-            if (data.base_resp && data.base_resp.status_code !== 0) {
-                console.error('MiniMax API error:', data.base_resp.status_msg)
-
-                // 检查是否是速率限制错误
-                if (data.base_resp.status_msg && data.base_resp.status_msg.includes('rate limit')) {
-                    if (attempt < maxRetries) {
-                        console.warn(`Rate limit exceeded, retrying in ${retryDelay}ms...`)
-                        await new Promise((resolve) => setTimeout(resolve, retryDelay))
-                        continue
-                    } else {
-                        message.error('API 速率限制，请稍后再试')
-                        return null
-                    }
-                }
-
-                message.error(`语音合成失败: ${data.base_resp.status_msg}`)
-                return null
-            }
-
-            if (data.data && data.data.audio) {
-                return data.data.audio.replace(/`/g, '')
+            const response = await integrationAPI.synthesizeSpeech({ text, lang })
+            const data = response.data?.data
+            if (data?.audio) {
+                return data.audio
             }
 
             console.error('No audio URL in response')
@@ -532,7 +440,9 @@ const saveToLibrary = async () => {
         router.push('/material')
     } catch (error) {
         console.error('保存失败:', error)
-        message.error(`保存失败: ${error.message || '请重试'}`)
+        if (!(error as any).response) {
+            message.error(`保存失败: ${(error as Error).message || '请重试'}`)
+        }
     } finally {
         isSaving.value = false
     }

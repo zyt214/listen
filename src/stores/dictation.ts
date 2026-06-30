@@ -1,16 +1,21 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
+import { studyAPI } from '../utils/api'
 
 interface Word {
     english: string
     chinese: string
+    audio_en?: string | null
+    audio_zh?: string | null
+    [key: string]: any
 }
 
 interface Textbook {
     bookName: string
-    press: string
-    standard: string
-    description: string
+    press?: string
+    standard?: string
+    description?: string
+    [key: string]: any
 }
 
 interface Unit {
@@ -20,6 +25,7 @@ interface Unit {
 interface DictationRecord {
     id: string
     date: string
+    createTime?: string
     textbook: string
     unit: string
     wordCount: number
@@ -35,20 +41,10 @@ export const useDictationStore = defineStore('dictation', () => {
     const currentWords = ref<Word[]>([])
     const units = ref<Unit>({})
     const dictationRecords = ref<DictationRecord[]>([])
+    const recordsLoading = ref(false)
 
-    // 最大记录数
-    const MAX_RECORDS = 3
-
-    // 初始化时从 localStorage 加载记录和当前状态
-    const loadFromStorage = () => {
+    const loadStateFromStorage = () => {
         try {
-            // 加载听写记录
-            const storedRecords = localStorage.getItem('dictationRecords')
-            if (storedRecords) {
-                dictationRecords.value = JSON.parse(storedRecords)
-            }
-
-            // 加载当前听写状态
             const storedState = localStorage.getItem('dictationState')
             if (storedState) {
                 const state = JSON.parse(storedState)
@@ -59,8 +55,7 @@ export const useDictationStore = defineStore('dictation', () => {
                 units.value = state.units || {}
             }
         } catch (error) {
-            console.error('加载听写数据失败:', error)
-            dictationRecords.value = []
+            console.error('加载听写状态失败:', error)
             currentGrade.value = ''
             currentTextbook.value = null
             currentUnit.value = ''
@@ -69,16 +64,24 @@ export const useDictationStore = defineStore('dictation', () => {
         }
     }
 
-    // 保存记录到 localStorage
-    const saveRecords = () => {
+    const loadRecords = async () => {
+        recordsLoading.value = true
         try {
-            localStorage.setItem('dictationRecords', JSON.stringify(dictationRecords.value))
+            const response = await studyAPI.getDictationRecords({ page: 1, pageSize: 3 })
+            dictationRecords.value = response.data.data || []
         } catch (error) {
-            console.error('保存听写记录失败:', error)
+            console.error('加载听写记录失败:', error)
+            dictationRecords.value = []
+        } finally {
+            recordsLoading.value = false
         }
     }
 
-    // 保存当前状态到 localStorage
+    // 兼容旧调用名：现在只恢复当前听写状态，历史记录走 MySQL。
+    const loadFromStorage = () => {
+        loadStateFromStorage()
+    }
+
     const saveState = () => {
         try {
             const state = {
@@ -94,41 +97,30 @@ export const useDictationStore = defineStore('dictation', () => {
         }
     }
 
-    // 添加听写记录（使用 LRU 算法）
-    const addDictationRecord = (record: Omit<DictationRecord, 'id' | 'date'>) => {
-        const newRecord: DictationRecord = {
+    const addDictationRecord = async (record: Omit<DictationRecord, 'id' | 'date' | 'createTime'>) => {
+        const response = await studyAPI.createDictationRecord({
             ...record,
-            id: Date.now().toString(),
-            date: new Date().toISOString().split('T')[0]
-        }
-
-        // 检查是否已存在相同的记录（基于教材和单元）
-        const existingIndex = dictationRecords.value.findIndex((r) => r.textbook === record.textbook && r.unit === record.unit)
-
-        if (existingIndex !== -1) {
-            // 如果存在，先移除旧记录
-            dictationRecords.value.splice(existingIndex, 1)
-        }
-
-        // 添加新记录到开头（最新的记录在最前面）
-        dictationRecords.value.unshift(newRecord)
-
-        // 如果超过最大记录数，删除最旧的记录
-        if (dictationRecords.value.length > MAX_RECORDS) {
-            dictationRecords.value = dictationRecords.value.slice(0, MAX_RECORDS)
-        }
-
-        // 保存到 localStorage
-        saveRecords()
+            textbookName: record.textbook,
+            unitName: record.unit,
+            correctCount: record.correctCount || 0,
+            words: record.words.map((word) => ({
+                word: word.word || word.english,
+                meaning: word.meaning || word.chinese,
+                audio_en: word.audio_en || '',
+                audio_zh: word.audio_zh || '',
+                isCorrect: false
+            }))
+        })
+        const newRecord = response.data.data
+        dictationRecords.value = [newRecord, ...dictationRecords.value.filter((item) => item.id !== newRecord.id)].slice(0, 3)
+        return newRecord
     }
 
-    // 清除所有听写记录
-    const clearDictationRecords = () => {
+    const clearDictationRecords = async () => {
+        await studyAPI.clearDictationRecords()
         dictationRecords.value = []
-        saveRecords()
     }
 
-    // 获取最近的听写记录
     const recentRecords = computed(() => {
         return dictationRecords.value
     })
@@ -167,8 +159,7 @@ export const useDictationStore = defineStore('dictation', () => {
         saveState()
     }
 
-    // 初始化加载记录和状态
-    loadFromStorage()
+    loadStateFromStorage()
 
     return {
         currentGrade,
@@ -177,6 +168,7 @@ export const useDictationStore = defineStore('dictation', () => {
         currentWords,
         units,
         dictationRecords,
+        recordsLoading,
         recentRecords,
         setGrade,
         setTextbook,
@@ -186,6 +178,7 @@ export const useDictationStore = defineStore('dictation', () => {
         clearDictation,
         addDictationRecord,
         clearDictationRecords,
+        loadRecords,
         loadFromStorage
     }
 })

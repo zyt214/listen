@@ -170,6 +170,7 @@ import { useDictationStore } from '../stores/dictation'
 import { useErrorBookStore } from '../stores/errorBook'
 import { message } from 'ant-design-vue'
 import { CameraOutlined } from '@ant-design/icons-vue'
+import { integrationAPI } from '../utils/api'
 
 const router = useRouter()
 const dictationStore = useDictationStore()
@@ -250,32 +251,11 @@ const parseWordListText = (rawText: string[]) => {
 
 const performOCR = async () => {
     try {
-        const API_KEY = 'K86075366888957' // 免费API密钥，可以替换为您的密钥
-
-        // 将base64图像转换为blob
-        const base64Data = capturedPhoto.value.replace(/^data:image\/[a-z]+;base64,/, '')
-
-        const formData = new FormData()
-        formData.append('apikey', API_KEY)
-        formData.append('language', 'eng') // 识别英文
-        formData.append('base64Image', `data:image/png;base64,${base64Data}`)
-        formData.append('isOverlayRequired', false) // 不需要文字坐标
-        formData.append('scale', true) // 自动缩放提升识别率
-        formData.append('OCREngine', 2) // 引擎2对小字体/表格识别更优
-
-        const ocrResponse = await fetch('/ocr/parse/image', {
-            method: 'POST',
-            body: formData
+        const response = await integrationAPI.recognizeImage({
+            base64Image: capturedPhoto.value,
+            language: 'eng'
         })
-
-        const result = await ocrResponse.json()
-
-        if (result.IsErroredOnProcessing) {
-            throw new Error(result.ErrorMessage || 'OCR识别失败')
-        }
-
-        // 提取识别到的单词
-        const parsedText = result.ParsedResults[0]?.TextOverlay?.Lines?.map((item) => item.LineText) || []
+        const parsedText = response.data.data.lines || []
         recognizedWords.value = parseWordListText(parsedText)
 
         // 比较听写内容和识别结果
@@ -308,7 +288,7 @@ const compareWords = () => {
 
 // 加入错题本
 type WordComparison = { dictationWord: string; recognizedWord: string; isCorrect: boolean }
-const addToErrorBook = () => {
+const addToErrorBook = async () => {
     if (addingToErrorBook.value) return
     addingToErrorBook.value = true
     try {
@@ -325,7 +305,7 @@ const addToErrorBook = () => {
                     audio_zh: storeWord?.audio_zh || ''
                 }
             })
-        errorBookStore.addRecord({
+        await errorBookStore.addRecord({
             textbook: dictationStore.currentTextbook?.bookName || '未知教材',
             unit: dictationStore.currentUnit || '未知单元',
             totalWords: wordComparisons.value.length,
@@ -335,6 +315,8 @@ const addToErrorBook = () => {
         })
         message.success(`已添加 ${wrongWords.length} 个错题到错题本`)
         router.push('/errorBook')
+    } catch (error) {
+        console.error('添加错题本失败:', error)
     } finally {
         addingToErrorBook.value = false
     }

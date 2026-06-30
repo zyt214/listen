@@ -154,7 +154,7 @@ import { useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
 import { LoadingOutlined, CheckCircleOutlined, CloseCircleOutlined, ScanOutlined, EditOutlined, DeleteOutlined, SaveOutlined, CameraOutlined, HomeOutlined } from '@ant-design/icons-vue'
 import { useDictationStore } from '../stores/dictation'
-import { ocrAPI } from '../utils/api'
+import { integrationAPI, ocrAPI } from '../utils/api'
 
 interface Word {
     english: string
@@ -223,26 +223,9 @@ const translateWords = async (words: string[]): Promise<Word[]> => {
 }
 
 const ocrSpaceApi = async (base64Image: string, language = 'eng') => {
-    const API_KEY = 'K86075366888957'
-    const base64Data = base64Image.replace(/^data:image\/[^;]+;base64,/, '')
-
-    const formData = new FormData()
-    formData.append('apikey', API_KEY)
-    formData.append('language', language)
-    formData.append('base64Image', `data:image/png;base64,${base64Data}`)
-    formData.append('isOverlayRequired', 'false')
-    formData.append('scale', 'true')
-    formData.append('OCREngine', '2')
-
     try {
-        const response = await fetch('/ocr/parse/image', { method: 'POST', body: formData })
-        const result = await response.json()
-
-        if (result.OCRExitCode !== 1) {
-            throw result.ErrorMessage || '识别失败'
-        }
-
-        return result.ParsedResults[0]?.TextOverlay?.Lines?.map((item: any) => item.LineText) || []
+        const response = await integrationAPI.recognizeImage({ base64Image, language })
+        return response.data.data.lines || []
     } catch (error) {
         throw error || '识别失败'
     }
@@ -410,7 +393,9 @@ const saveToLibrary = async () => {
         router.push('/material')
     } catch (error) {
         console.error('保存失败:', error)
-        message.error(`保存失败: ${error.message || '请重试'}`)
+        if (!(error as any).response) {
+            message.error(`保存失败: ${(error as Error).message || '请重试'}`)
+        }
     } finally {
         isSaving.value = false
     }

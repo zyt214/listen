@@ -127,7 +127,7 @@
                     <div v-else v-for="item in recentItems" :key="item.id" class="recent-item">
                         <div class="recent-info">
                             <h3 class="recent-title">{{ item.textbook }} - {{ item.unit }}</h3>
-                            <p class="recent-meta">{{ item.date }} · {{ item.wordCount }}个词</p>
+                            <p class="recent-meta">{{ formatCreateTime(item.createTime) }} · {{ item.wordCount }}个词</p>
                         </div>
                         <a-button type="primary" class="recent-btn" @click="continueDictation(item)">继续听写</a-button>
                     </div>
@@ -141,9 +141,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
+import { storeToRefs } from 'pinia'
 import { useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
+import dayjs from 'dayjs'
 import { useDictationStore } from '../stores/dictation'
 import { useAuthStore } from '../stores/auth'
 import { useErrorBookStore } from '../stores/errorBook'
@@ -154,11 +156,20 @@ const router = useRouter()
 const dictationStore = useDictationStore()
 const authStore = useAuthStore()
 const errorBookStore = useErrorBookStore()
+const { recentRecords: recentItems } = storeToRefs(dictationStore)
 
 const errorBookCount = computed(() => errorBookStore.records.length)
 
-// 使用听写记录的数据
-const recentItems = dictationStore.recentRecords
+onMounted(async () => {
+    await Promise.all([dictationStore.loadRecords(), errorBookStore.loadRecords()])
+})
+
+const formatCreateTime = (createTime?: string) => {
+    if (!createTime) return '未知时间'
+
+    const time = dayjs(createTime)
+    return time.isValid() ? time.format('YYYY-MM-DD HH:mm') : createTime
+}
 
 // 继续学习功能
 const continueDictation = (record: any) => {
