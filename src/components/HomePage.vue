@@ -82,7 +82,7 @@
                             <path d="M9 18l6-6-6-6" />
                         </svg>
                     </div>
-                    <div class="quick-item ai-story" @click="router.push('/ai-story')">
+                    <!-- <div class="quick-item ai-story" @click="router.push('/ai-story')">
                         <div class="quick-icon-wrap">
                             <img src="@/assets/img/svg/icon1.png" style="height: auto !important" alt="" />
                         </div>
@@ -93,7 +93,7 @@
                         <svg class="quick-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                             <path d="M9 18l6-6-6-6" />
                         </svg>
-                    </div>
+                    </div> -->
                     <div class="quick-item radio" @click="router.push('/radio')">
                         <div class="quick-icon-wrap">
                             <img src="@/assets/img/svg/icon2.svg" alt="radio.svg" />

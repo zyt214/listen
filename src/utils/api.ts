@@ -259,6 +259,10 @@ export const studyAPI = {
     deleteDictationRecord: (id: number | string) => api.delete(`/study/dictation-records/${id}`),
     clearDictationRecords: () => api.delete('/study/dictation-records'),
 
+    upsertVocabularySource: (data: any) => api.post('/study/vocabulary/sources', data),
+    getVocabularyProgress: (params: { sourceType: string; sourceId: string }) => api.get('/study/vocabulary/progress', { params }),
+    updateVocabularyProgress: (data: any) => api.post('/study/vocabulary/words/progress', data),
+
     createErrorBookRecord: (data: any) => api.post('/study/error-book-records', data),
     getErrorBookRecords: () => api.get('/study/error-book-records'),
     deleteErrorBookRecord: (id: number | string) => api.delete(`/study/error-book-records/${id}`),
